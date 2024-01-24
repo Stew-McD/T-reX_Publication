@@ -2,7 +2,7 @@ PWD /home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /home/stew/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT main.tex
+INPUT /home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/elsarticle/elsarticle.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/elsarticle/elsarticle.cls

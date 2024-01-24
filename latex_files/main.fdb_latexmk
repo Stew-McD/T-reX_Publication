@@ -1,14 +1,15 @@
 # Fdb version 4
-["bibtex main"] 1706107697 "main.aux" "main.bbl" "main" 1706107698 0
+["bibtex main"] 1706107697 "main.aux" "main.bbl" "main" 1706110439 0
   "./references.bib" 1706105625 29236 374d72f06f0ed7a7381c5bb124141208 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/elsarticle/elsarticle-harv.bst" 1606256092 30002 8c0c5833f37bea3ec214cf315a72975d ""
-  "main.aux" 1706107698 16403 645e2ff34b46cd999eace58867f01ce5 "pdflatex"
+  "main.aux" 1706110439 16403 645e2ff34b46cd999eace58867f01ce5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1706107697 "main.tex" "main.pdf" "main" 1706107698 0
+["pdflatex"] 1706110437 "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex" "main.pdf" "main" 1706110439 0
   "/home/stew/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700391700 8015625 a5a0154258173577727e1739f831665d ""
+  "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex" 1706104865 9456 227205794634520ad199e150daab2168 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1490131464 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490131464 2933 9ad527ce78d7c5fa0a642dead095f172 ""
@@ -229,13 +230,13 @@
   "figures/top-processes.png" 1706107213 86911 1b52653028f9c06297de76f789e8e9bd ""
   "figures/total_waste.png" 1706105776 89584 a5b0eec53bdfc59492b46126719d89c4 ""
   "introduction.tex" 1706096268 10486 3b4695f2f2fce5124f46cc61ccaeff23 ""
-  "main.aux" 1706107698 16403 645e2ff34b46cd999eace58867f01ce5 "pdflatex"
+  "main.aux" 1706110439 16403 645e2ff34b46cd999eace58867f01ce5 "pdflatex"
   "main.bbl" 1706107697 23064 23c06cfb42d4639993f1ae658cfd981a "bibtex main"
-  "main.out" 1706107698 5937 2fcf3c21f830f5e54727a0eea30dba7b "pdflatex"
-  "main.spl" 1706107697 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.out" 1706110439 5937 2fcf3c21f830f5e54727a0eea30dba7b "pdflatex"
+  "main.spl" 1706110437 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1706104865 9456 227205794634520ad199e150daab2168 ""
   "methodology.tex" 1706104944 12710 305cf0fcd634f09e45ec4144c81df9bc ""
-  "results.tex" 1706107685 13424 acbe3ec172245cd790859a251b8dae3e ""
+  "results.tex" 1706110437 13424 3e455131d8353c775b19bb387b90bf86 ""
   (generated)
   "main.aux"
   "main.log"
