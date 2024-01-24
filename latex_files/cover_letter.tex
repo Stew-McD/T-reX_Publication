@@ -1,0 +1,86 @@
+\documentclass[10pt]{letter}
+\usepackage[letterpaper,margin=2.2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\usepackage{graphicx}
+\usepackage{scrlayer}
+\usepackage{microtype}
+
+\DeclareNewLayer[
+  foreground,
+  textarea,
+  contents={\includegraphics[width=0.5\textwidth]{logos.png}}
+]{letterimage}
+\AddLayersToPageStyle{empty}{letterimage}
+
+
+\address{Stewart Charles McDowall\\
+Leiden University\\
+Institute of Environmental Sciences (CML)\\
+s.c.mcdowall@cml.leidenuniv.nl\\
+P.O. Box 9518, 2300 RA Leiden\\
+The Netherlands}
+
+\begin{document}
+\thispagestyle{empty}
+\begin{letter}{Editors\\\textit{Resources, Conservation and Recycling}\\Elsevier}
+
+\opening{Dear Editors,}
+
+We are pleased to submit our original research article titled ``WasteAndMaterialFootprint: A Python Package to Quantify Supply Chain Flows of Waste and Material in LCA Databases'' for consideration by \textit{Resources, Conservation and Recycling}. This manuscript details the development and application of an innovative tool designed to improve the quantification of waste and material flows within Life Cycle Assessment (LCA) databases, an essential aspect of progressing towards sustainable resource management and circular economy objectives.
+
+Our submission provides a comprehensive description of the tool, which integrates seamlessly with the Brightway2 framework to offer a user-friendly and adaptable solution for LCA practitioners. By automating data analysis and aggregation processes, our tool expedites the identification of environmental hotspots within supply chains, thus facilitating more informed decision-making.
+
+We believe our manuscript is an excellent fit for \textit{Resources, Conservation and Recycling} due to its potential contribution to advancing resource conservation and recycling methodologies. The case study presented, focusing on battery supply chains, underlines the tool's practical utility and potential impact on sustainable resource management practices.
+
+The manuscript complies with the journal's requirements for an original research article, having a word count of [Insert Word Count], including [Insert Number of Figures] figures and [Insert Number of Tables] tables.
+
+We have no conflicts of interest to declare and have ensured that this work is original, has not been published previously, and is not under consideration by any other publication. All authors have agreed to this submission and are collectively responsible for its content. 
+
+\vspace{1em}
+
+We suggest the following reviewers for their expertise relevant to our manuscript's focus:
+
+\begin{enumerate}
+    \item {Reviewer 1 Name, Affiliation, Email Address}
+    \item {Reviewer 2 Name, Affiliation, Email Address}
+    \item {Reviewer 3 Name, Affiliation, Email Address}
+\end{enumerate}
+\vspace{1em}
+
+Thank you for considering our manuscript for publication. We look forward to the opportunity to contribute to \textit{Resources, Conservation and Recycling} and eagerly await your response.
+
+\vspace{1em}
+
+\closing{Sincerely,}
+% Signature block with names in a row using dummy images for alignment
+\begin{center}
+    \begin{minipage}[t]{0.25\textwidth}
+      \centering
+      \vspace{-2cm}
+      \includegraphics[height=2cm]{signature_scm.png}\\ % Replace with your actual signature file name.
+      Stewart Charles McDowall\\
+    %   \textbf{Corresponding author}
+    \end{minipage}%
+    \begin{minipage}[t]{0.25\textwidth}
+      \centering
+      \vspace{-2cm}
+      \includegraphics[height=2cm]{dummy_signature.png}\\ % Invisible dummy image
+      Elizabeth Lanphere
+    \end{minipage}%
+    \begin{minipage}[t]{0.25\textwidth}
+      \centering
+      \vspace{-2cm}
+      \includegraphics[height=2cm]{dummy_signature.png}\\ % Invisible dummy image
+      Stefano Cucurachi
+    \end{minipage}%
+    \begin{minipage}[t]{0.25\textwidth}
+      \centering
+      \vspace{-2cm}
+      \includegraphics[height=2cm]{dummy_signature.png}\\ % Invisible dummy image
+      Carlos Felipe Rocha Blanco
+    \end{minipage}
+  \end{center}
+  
+\end{letter}
+\end{document}

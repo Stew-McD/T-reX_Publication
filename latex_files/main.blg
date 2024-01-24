@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: elsarticle-harv.bst
+Database file #1: references.bib
+Warning--entry type for "mcdowall2023wmfpipy" isn't style-file defined
+--line 398 of file references.bib
+Warning--entry type for "mcdowall2023wmfzenodo" isn't style-file defined
+--line 405 of file references.bib
+Warning--entry type for "mcdowall2024wmfgithub" isn't style-file defined
+--line 413 of file references.bib
+Warning--entry type for "mutel2016brightway2analyzer" isn't style-file defined
+--line 432 of file references.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty chapter and pages in berry2023crm
+Warning--empty pages in berry2023crm
+Warning--missing institution in eu2022ecodesign
+Warning--empty booktitle in hauschild2003edip
+Warning--empty pages in hauschild2003edip
+Warning--empty journal in laurent2012carbonfootprint
+Warning--missing institution in foen2021ecofactors
+You've used 49 entries,
+            2990 wiz_defined-function locations,
+            868 strings with 16866 characters,
+and the built_in function-call counts, 28841 in all, are:
+= -- 2102
+> -- 1410
+< -- 23
++ -- 563
+- -- 492
+* -- 3048
+:= -- 4460
+add.period$ -- 149
+call.type$ -- 49
+change.case$ -- 397
+chr.to.int$ -- 47
+cite$ -- 56
+duplicate$ -- 2183
+empty$ -- 1918
+format.name$ -- 621
+if$ -- 5218
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 404
+newline$ -- 262
+num.names$ -- 196
+pop$ -- 912
+preamble$ -- 1
+purify$ -- 347
+quote$ -- 0
+skip$ -- 713
+stack$ -- 0
+substring$ -- 596
+swap$ -- 1397
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 435
+warning$ -- 7
+while$ -- 148
+width$ -- 0
+write$ -- 683
+(There were 11 warnings)

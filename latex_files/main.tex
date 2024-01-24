@@ -1,0 +1,201 @@
+%% Use the option review to obtain double line spacing
+%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times,authoryear]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,authoryear]{elsarticle}
+\documentclass[final,5p,authoryear]{elsarticle}
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls. If you prefer to use the old commands
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+\usepackage{lineno}
+\usepackage{booktabs}
+% ---------------------------------------------------------------------
+%             FOR DRAFTING / REVIEW (DELETE BEFORE SUBMISSION)
+% ---------------------------------------------------------------------
+\usepackage{caption}
+\usepackage[T1]{fontenc}
+\usepackage[british]{babel}
+\usepackage{microtype}
+\usepackage[tt=false]{libertine}
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{33,150,209}
+\definecolor{red}{RGB}{255,0,0}
+\usepackage{xurl}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{lineno}
+\setlength{\linenumbersep}{5pt}
+% Save the old \texttt command
+\let\oldtexttt\texttt
+% Redefine the \UrlFont to use a smaller typewriter font
+\renewcommand{\UrlFont}{\ttfamily\small}
+% Redefine the \texttt command to use a smaller font size and allow line breaks
+\renewcommand{\texttt}[1]{{\ttfamily\small\nolinkurl{#1}}}
+
+\usepackage{tcolorbox}
+\newcommand{\cbox}[1]{
+    \begin{tcolorbox}[hbox, colback=red!5!white, colframe=red!65!black, boxrule=0.25pt, boxsep=2pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+        \small\sffamily #1
+    \end{tcolorbox}
+}
+
+% ------------------------------------------------------
+
+\journal{Resources, Conservation and Recycling}
+
+\begin{document}
+
+
+\linenumbers
+
+    % SPOTLIGHTS (5 bullet points, max 120 characters each)
+    {\Large Spotlights}
+    \vspace{1em}
+    \begin{description}[style=nextline]
+        \item[Bullet 1: Critical context and background information on the problem addressed] Understanding waste and material flows is essential for developing the circular economy and supply chain resilience
+        \item[Bullet 2: A brief overview of the key finding of the study (or findings if necessary)] A program was developed to quantify waste and material footprints of activities in life cycle assessment (LCA) databases
+        \item[Bullet 3: The most radical, creative, disruptive or innovative aspect of the manuscript] Built to complement the Brightway LCA framework and ActivityBrowser, the tool is flexible and easy to use.
+        \item[Bullet 4: The significance of the results to the environment, economics or society] The tool can be used to identify pre-consumer waste and material hotspots that are often hidden in supply chains.
+        \item[Bullet 5: Future vision or the most important implications for continued research] Improved data availability and quality would enable more detailed and accurate waste and material footprinting.
+    \end{description}
+
+    \newpage
+    % %% GRAPHICAL ABSTRACT
+    % \begin{graphicalabstract}
+    %     %\includegraphics{grabs}
+    % \end{graphicalabstract}
+
+    %% RESEARCH HIGHLIGHTS (3-5 bullet points, max 85 characters each)
+    \begin{highlights}
+        \item WasteAndMaterialFootprint, a new tool for quantifying waste and material flows in LCA.
+        \item Assesses supply risks by calculating demand for critical materials.
+        \item Simplifies quantification of user-specified waste and material categories.
+        \item Rapidly identifies waste and material demand hotspots.
+        \item Presents a case study of the battery supply chain.
+    \end{highlights}
+
+
+\begin{frontmatter}
+
+    \title{WasteAndMaterialFootprint: A python package to quantify supply chain flows of waste and material in LCA databases}
+    \author[1]{Stewart Charles McDowall\corref{cor1}}
+    \ead{s.c.mcdowall@cml.leidenuniv.nl}
+    \author[1]{Elizabeth Lanphere}
+    \author[1]{Stefano Cucurachi}
+    \author[1]{Carlos Felipe Blanco}
+
+    \cortext[cor1]{Corresponding author:}
+
+    \affiliation[1]{
+        organization={Institute of Environmental Sciences (CML), Leiden University},
+        addressline={P.O. Box 9518},
+        city={Leiden},
+        postcode={2300 RA},
+        state={South Holland},
+        country={The Netherlands}}
+
+    \begin{abstract}
+        The `circular economy' is a concept focused on the prevention of waste and the reuse of resources. Thus, identifying and quantifying waste and material flows are of fundamental importance. Life Cycle Assessment (LCA) is powerful for this end, given its capacity to pinpoint hotspots of environmental impact throughout the life cycle of products and services, those where the implementation of circular principles could be most effective.
+
+        Introducing WasteAndMaterialFootprint, a Python tool extending the Brightway framework for flexible, user-defined quantification of supply-chain demands in current and future scenarios. This tool streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
+
+        A case study on battery supply chains demonstrates the tool's utility. WasteAndMaterialFootprint quantifies and compares demands and potential environmental impacts, aiding sustainable decision-making. It contributes to a more sustainable, circular economy by providing detailed material usage and waste generation analysis.
+
+    \end{abstract}
+
+
+    % KEYWORDS (max 6)
+    \begin{keyword}
+        circular economy \sep waste \sep material \sep life cycle assessment \sep critical raw material \sep supply chain
+    \end{keyword}
+
+\end{frontmatter}
+
+%% main text
+\section{Introduction}
+\label{sec:introduction}
+\input{introduction.tex}
+
+\section{Methodology}
+\label{sec:methodology}
+\input{methodology.tex}
+
+\section{Results}
+\label{sec:results}
+\input{results.tex}
+
+
+\section{Discussion}
+\label{sec:discussion}
+\input{discussion.tex}
+\cbox{Section word count: aim for 400?}
+\begin{itemize}
+    \item Summary of the results, 1 par
+    \item -----------------------------
+    \item Advantages of the WMF tool, 1 par
+    \item -----------------------------
+    \item Limitations, 1 par
+    \item -----------------------------
+    \item Future possibilities, 1 par
+\end{itemize}
+
+\section{Conclusions}
+\cbox{Section word count: aim for 150?}
+
+
+
+This paper extends the state of knowledge by exploring the relationship between various waste aggregation methods and environmental damage indicators, contributing to a deeper understanding of life cycle waste inventories and their association with supply-chain risk and potential environmental damage.
+
+\label{sec:conclusions}
+
+% Back matter
+\section*{Data availability} 
+All data used in this analysis are publicly available online under the noted sources. The WasteAndMaterialFootprint tool is installable via the Python Package Index (PyPI) and is available at \url{https://pypi.org/project/WasteAndMaterialFootprint}.
+The full source code for the WasteAndMaterialFootprint tool is available at \url{https://www.github.com/Stew-McD/WasteAndMaterialFootprint}.
+A user guide and comprehensive documentation are available at \url{https://wasteandmaterialfootprint.readthedocs.io}.
+
+\section*{CRediT authorship contribution statement}
+\cbox{Co-authors, please check this and change as necessary.}
+\textbf{Stewart Charles McDowall:} Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing - original draft, Writing - review \& editing, Visualization.
+\textbf{Elizabeth Lanphere:} Conceptualization, Methodology, Software, Validation, Writing - review \& editing.
+\textbf{Stefano Cucurachi:} Conceptualization, Writing - review \& editing, Supervision, Project administration, Funding acquisition.
+\textbf{Carlos Felipe Blanco:} Conceptualization, Writing - review \& editing, Supervision, Project administration, Funding acquisition.
+
+\subsection*{Alternative CRediT statement}
+
+\includegraphics[width=\columnwidth, height=7cm, keepaspectratio]{credit.pdf}
+
+\section*{Declaration of competing interest}
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+\section*{Acknowledgements}
+\cbox{Should I put FutuRaMa here?}
+
+    Part of this research project was financially supported by the European Union's Horizon 2020 research and innovation programme under the grant agreement No. 101058522 (project FutuRaM --- futuram.eu). The authors would like to thank the reviewers for their valuable comments and suggestions.
+
+\section*{Supplementary material}
+    The supplementary material contains the following:
+    \begin{enumerate}
+        \item List of waste and material categories
+        \item Example output of the WasteAndMaterialFootprint tool
+        \item Extended results of the case study
+    \end{enumerate}
+
+\bibliographystyle{elsarticle-harv}
+\bibliography{references.bib}
+    
+% \appendix
+
+
+% \section{Example output}
+% \label{app:example_output}
+
+\end{document}
