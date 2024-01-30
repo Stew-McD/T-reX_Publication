@@ -4,13 +4,15 @@ The top-level auxiliary file: main.aux
 The style file: elsarticle-harv.bst
 Database file #1: references.bib
 Warning--entry type for "mcdowall2023wmfpipy" isn't style-file defined
---line 398 of file references.bib
-Warning--entry type for "mcdowall2023wmfzenodo" isn't style-file defined
---line 405 of file references.bib
-Warning--entry type for "mcdowall2024wmfgithub" isn't style-file defined
 --line 413 of file references.bib
+Warning--entry type for "mcdowall2023wmfzenodo" isn't style-file defined
+--line 420 of file references.bib
+Warning--entry type for "mcdowall2024wmfgithub" isn't style-file defined
+--line 428 of file references.bib
 Warning--entry type for "mutel2016brightway2analyzer" isn't style-file defined
---line 432 of file references.bib
+--line 447 of file references.bib
+Warning--entry type for "sacchi2023premisedocs" isn't style-file defined
+--line 560 of file references.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty chapter and pages in berry2023crm
 Warning--empty pages in berry2023crm
@@ -21,37 +23,37 @@ Warning--empty journal in laurent2012carbonfootprint
 Warning--missing institution in foen2021ecofactors
 You've used 49 entries,
             2990 wiz_defined-function locations,
-            868 strings with 16866 characters,
-and the built_in function-call counts, 28841 in all, are:
-= -- 2102
-> -- 1410
-< -- 23
-+ -- 563
-- -- 492
-* -- 3048
-:= -- 4460
+            868 strings with 16575 characters,
+and the built_in function-call counts, 28011 in all, are:
+= -- 2068
+> -- 1306
+< -- 22
++ -- 524
+- -- 453
+* -- 2909
+:= -- 4335
 add.period$ -- 149
 call.type$ -- 49
-change.case$ -- 397
+change.case$ -- 384
 chr.to.int$ -- 47
 cite$ -- 56
-duplicate$ -- 2183
-empty$ -- 1918
-format.name$ -- 621
-if$ -- 5218
+duplicate$ -- 2152
+empty$ -- 1897
+format.name$ -- 580
+if$ -- 5083
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 404
+missing$ -- 390
 newline$ -- 262
 num.names$ -- 196
-pop$ -- 912
+pop$ -- 899
 preamble$ -- 1
-purify$ -- 347
+purify$ -- 334
 quote$ -- 0
-skip$ -- 713
+skip$ -- 711
 stack$ -- 0
-substring$ -- 596
-swap$ -- 1397
+substring$ -- 587
+swap$ -- 1341
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
@@ -59,5 +61,5 @@ type$ -- 435
 warning$ -- 7
 while$ -- 148
 width$ -- 0
-write$ -- 683
-(There were 11 warnings)
+write$ -- 682
+(There were 12 warnings)

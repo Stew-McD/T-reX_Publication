@@ -8,7 +8,7 @@
 %% \documentclass[final,3p,times,authoryear]{elsarticle}
 %% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
 %% \documentclass[final,5p,times,authoryear]{elsarticle}
-\documentclass[final,5p,authoryear]{elsarticle}
+\documentclass[review,3p,authoryear]{elsarticle}
 %% For including figures, graphicx.sty has been loaded in
 %% elsarticle.cls. If you prefer to use the old commands
 \usepackage{amssymb}
@@ -32,6 +32,7 @@
 \usepackage{pdfpages}
 \usepackage{enumitem}
 \usepackage{lineno}
+\usepackage{float}
 \setlength{\linenumbersep}{5pt}
 % Save the old \texttt command
 \let\oldtexttt\texttt
@@ -103,6 +104,8 @@
         country={The Netherlands}}
 
     \begin{abstract}
+        \cbox{Abstract word count: 150, Limit: 150}
+        
         The `circular economy' is a concept focused on the prevention of waste and the reuse of resources. Thus, identifying and quantifying waste and material flows are of fundamental importance. Life Cycle Assessment (LCA) is powerful for this end, given its capacity to pinpoint hotspots of environmental impact throughout the life cycle of products and services, those where the implementation of circular principles could be most effective.
 
         Introducing WasteAndMaterialFootprint, a Python tool extending the Brightway framework for flexible, user-defined quantification of supply-chain demands in current and future scenarios. This tool streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
@@ -118,43 +121,41 @@
     \end{keyword}
 
 \end{frontmatter}
+\cbox{Total word count: ~6000, Limit: 5000 (can be easily condensed)}
 
 %% main text
 \section{Introduction}
 \label{sec:introduction}
+\cbox{Section word count: 1650}
+\cbox{Needs work to make it flow better, also shortened}
 \input{introduction.tex}
 
 \section{Methodology}
 \label{sec:methodology}
+\cbox{Section word count: 2000}
 \input{methodology.tex}
 
 \section{Results}
+\cbox{Section word count: 1400}
 \label{sec:results}
 \input{results.tex}
-
 
 \section{Discussion}
 \label{sec:discussion}
 \input{discussion.tex}
 \cbox{Section word count: aim for 400?}
-\begin{itemize}
-    \item Summary of the results, 1 par
-    \item -----------------------------
-    \item Advantages of the WMF tool, 1 par
-    \item -----------------------------
-    \item Limitations, 1 par
-    \item -----------------------------
-    \item Future possibilities, 1 par
-\end{itemize}
 
 \section{Conclusions}
-\cbox{Section word count: aim for 150?}
+\label{sec:conclusions}
+\cbox{Section word count: 250}
+We have written the WasteAndMaterialFootprint (WMF) tool, an extension to the brightway2 LCA framework that enables the user to calculate the waste and material footprints of a product or service in an LCA database. It explodes the database, identifies upstream waste and material exchanges, edits them and writes matching custom WMF methods. These exchanges become pseudo-biosphere flows and thus, the footprint can be calculated as with the existing LCIA methods. The WMF tool can be easily customised by the user to calculate the footprints of other supply-chain flows such as water, gas, and critical raw materials.
 
+Given that both waste generation and material demand are often strongly associated with the environmental impacts of an activity, it is important that they are included in the LCA. While there are numerous examples of existing and proposed methods that attempt to provide endpoint LCIA scores through convoluted formulae or subjective weighting, there is little consensus on their application and their complexity and lack of transparency can make them difficult to use and interpret.
 
+The WMF tool, in contrast, gives LCA practitioners a simple, flexible, and transparent way to calculate the supply chain waste and material footprints, delivering results in standard units as direct aggregations of the relevant demand inventories. 
 
 This paper extends the state of knowledge by exploring the relationship between various waste aggregation methods and environmental damage indicators, contributing to a deeper understanding of life cycle waste inventories and their association with supply-chain risk and potential environmental damage.
 
-\label{sec:conclusions}
 
 % Back matter
 \section*{Data availability} 
@@ -177,8 +178,6 @@ A user guide and comprehensive documentation are available at \url{https://waste
 The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
 
 \section*{Acknowledgements}
-\cbox{Should I put FutuRaMa here?}
-
     Part of this research project was financially supported by the European Union's Horizon 2020 research and innovation programme under the grant agreement No. 101058522 (project FutuRaM --- futuram.eu). The authors would like to thank the reviewers for their valuable comments and suggestions.
 
 \section*{Supplementary material}

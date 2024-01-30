@@ -103,6 +103,18 @@
 \newblock \bibinfo{title}{Doka lca | publications}.
 \newblock \bibinfo{howpublished}{\url{https://www.doka.ch/publications.htm}}.
 \newblock \bibinfo{note}{(Accessed on 01/24/2024)}.
+%Type = Article
+\bibitem[{Dziejarski et~al.(2023)Dziejarski, Krzyżyńska and
+  Andersson}]{dziejarski2023ccs}
+\bibinfo{author}{Dziejarski, B.}, \bibinfo{author}{Krzyżyńska, R.},
+  \bibinfo{author}{Andersson, K.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Current status of carbon capture, utilization, and
+  storage technologies in the global economy: A survey of technical
+  assessment}.
+\newblock \bibinfo{journal}{Fuel} \bibinfo{volume}{342},
+  \bibinfo{pages}{127776}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.fuel.2023.127776},
+  \DOIprefix\doi{10.1016/j.fuel.2023.127776}.
 %Type = Misc
 \bibitem[{{Ellen MacArthur Foundation}(2015)}]{ellenmacarthur2015ce}
 \bibinfo{author}{{Ellen MacArthur Foundation}}, \bibinfo{year}{2015}.
@@ -332,16 +344,6 @@
 \newblock \bibinfo{journal}{MRS Bulletin} \URLprefix
   \url{https://doi.org/10.1557/mrs.2012.57}.
 %Type = Article
-\bibitem[{Ridoutt and Pfister(2013)}]{ridoutt2013footprints}
-\bibinfo{author}{Ridoutt, B.G.}, \bibinfo{author}{Pfister, S.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{Towards an integrated family of footprint
-  indicators}.
-\newblock \bibinfo{journal}{Journal of Industrial Ecology}
-  \bibinfo{volume}{17}, \bibinfo{pages}{337–339}.
-\newblock \URLprefix \url{http://dx.doi.org/10.1111/jiec.12026},
-  \DOIprefix\doi{10.1111/jiec.12026}.
-%Type = Article
 \bibitem[{Sacchi et~al.(2022)Sacchi, Terlouw, Siala, Dirnaichner, Bauer, Cox,
   Mutel, Daioglou and Luderer}]{sacchi2022premise}
 \bibinfo{author}{Sacchi, R.}, \bibinfo{author}{Terlouw, T.},
@@ -354,6 +356,16 @@
   assessment using integrated assessment models}.
 \newblock \bibinfo{journal}{Renewable and Sustainable Energy Reviews}
   \URLprefix \url{http://dx.doi.org/10.1016/j.rser.2022.112311}.
+%Type = Misc
+\bibitem[{Sacchi et~al.(2023)Sacchi, Terlouw, Siala, Dirnaichner, Bauer, Cox,
+  Mutel, Daioglou and Luderer}]{sacchi2023premisedocs}
+\bibinfo{author}{Sacchi, R.}, \bibinfo{author}{Terlouw, T.},
+  \bibinfo{author}{Siala, K.}, \bibinfo{author}{Dirnaichner, A.},
+  \bibinfo{author}{Bauer, C.}, \bibinfo{author}{Cox, B.},
+  \bibinfo{author}{Mutel, C.}, \bibinfo{author}{Daioglou, V.},
+  \bibinfo{author}{Luderer, G.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{{premise | Documentation}}.
+\newblock \URLprefix \url{https://premise.readthedocs.io/}.
 %Type = Article
 \bibitem[{Salviulo et~al.(2021)Salviulo, Lavagnolo, Dabal\`{a}, Bernardo
   et~al.}]{salviulo2021supplychain}
@@ -407,27 +419,6 @@
 \newblock \bibinfo{type}{Technical Report}.
 \newblock \URLprefix
   \url{https://www.bafu.admin.ch/bafu/en/home/topics/economy-consumption/economy-and-consumption-publications/publications-economy-and-consumption/eco-factors-switzerland.html}.
-%Type = Article
-\bibitem[{Vanham et~al.(2019)Vanham, Leip, Galli, Kastner, Bruckner, Uwizeye,
-  van Dijk, Ercin, Dalin, Brandão, Bastianoni, Fang, Leach, Chapagain, Van~der
-  Velde, Sala, Pant, Mancini, Monforti-Ferrario, Carmona-Garcia, Marques, Weiss
-  and Hoekstra}]{vanham2019footprints}
-\bibinfo{author}{Vanham, D.}, \bibinfo{author}{Leip, A.},
-  \bibinfo{author}{Galli, A.}, \bibinfo{author}{Kastner, T.},
-  \bibinfo{author}{Bruckner, M.}, \bibinfo{author}{Uwizeye, A.},
-  \bibinfo{author}{van Dijk, K.}, \bibinfo{author}{Ercin, E.},
-  \bibinfo{author}{Dalin, C.}, \bibinfo{author}{Brandão, M.},
-  \bibinfo{author}{Bastianoni, S.}, \bibinfo{author}{Fang, K.},
-  \bibinfo{author}{Leach, A.}, \bibinfo{author}{Chapagain, A.},
-  \bibinfo{author}{Van~der Velde, M.}, \bibinfo{author}{Sala, S.},
-  \bibinfo{author}{Pant, R.}, \bibinfo{author}{Mancini, L.},
-  \bibinfo{author}{Monforti-Ferrario, F.}, \bibinfo{author}{Carmona-Garcia,
-  G.}, \bibinfo{author}{Marques, A.}, \bibinfo{author}{Weiss, F.},
-  \bibinfo{author}{Hoekstra, A.Y.}, \bibinfo{year}{2019}.
-\newblock \bibinfo{title}{Environmental footprint family to address local to
-  planetary sustainability and deliver on the sdgs}.
-\newblock \bibinfo{journal}{Science of The Total Environment} \URLprefix
-  \url{http://dx.doi.org/10.1016/j.scitotenv.2019.133642}.
 %Type = Article
 \bibitem[{Wernet et~al.(2016)Wernet, Bauer, Steubing, Reinhard, Moreno-Ruiz and
   Weidema}]{ecoinvent2016version3}
