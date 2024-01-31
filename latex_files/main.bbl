@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{50}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -143,6 +143,21 @@
 \newblock \bibinfo{type}{Technical Report}.
 \newblock \URLprefix
   \url{{https://environment.ec.europa.eu/publications/proposal-ecodesign-sustainable-products-regulation_en}}.
+%Type = Article
+\bibitem[{FitzGerald et~al.(2023)FitzGerald, Bourgault, Vadenbo, Sonderegger,
+  Symeonidis, Fazio, Mutel, M{\"u}ller, Dellenbach, Stoikou
+  et~al.}]{fitzgerald2023ecoinventdocumentation}
+\bibinfo{author}{FitzGerald, D.}, \bibinfo{author}{Bourgault, G.},
+  \bibinfo{author}{Vadenbo, C.}, \bibinfo{author}{Sonderegger, T.},
+  \bibinfo{author}{Symeonidis, A.}, \bibinfo{author}{Fazio, S.},
+  \bibinfo{author}{Mutel, C.}, \bibinfo{author}{M{\"u}ller, J.},
+  \bibinfo{author}{Dellenbach, D.}, \bibinfo{author}{Stoikou, N.}, et~al.,
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Documentation of changes implemented in the ecoinvent
+  database v3.10}.
+\newblock \bibinfo{journal}{database} \bibinfo{volume}{3}, \bibinfo{pages}{10}.
+\newblock \URLprefix
+  \url{https://ecoinvent.org/wp-content/uploads/2023/11/Change-Report-v3.10.pdf}.
 %Type = Misc
 \bibitem[{{Government of the Netherlands}(2016)}]{nl2016ceplan}
 \bibinfo{author}{{Government of the Netherlands}}, \bibinfo{year}{2016}.

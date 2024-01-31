@@ -1,9 +1,33 @@
-This section is divided into two parts. In \autoref{sec:method-WMF_tool}, we describe the WasteAndMaterialFootprint tool, in \autoref{sec:method-case_study}, we describe the methodology used to calculate the waste and material footprints in the case study.
+This section is divided into two parts. In \autoref{sec:method-WMF_tool}, we describe the WasteAndMaterialFootprint (WMF) tool, in \autoref{sec:method-case_study}, we describe the methodology used to calculate the waste and material footprints in the case study.
 
-\subsection{The WasteAndMaterialFootprint tool}
+\subsection{The WasteAndMaterialFootprint (WMF) tool}
 \label{sec:method-WMF_tool}
 
-The WasteAndMaterialFootprint tool is a Python package that allows one to calculate the waste and material footprint of any product or service inside of LCA databases. The tool is built on the \texttt{Brightway2} LCA framework~\citep{mutel2017brightway} and is also compatible with \texttt{ActivityBrowser}~\citep{steubing2020activitybrowser} an open-source graphical user interface for LCA. The WMF tool is installable via the Python Package Index (PyPI)~\citep{mcdowall2023wmfpipy} and is open source under the CC-0 licence. The full source code for the WasteAndMaterialFootprint tool is indexed on Zenodo~\citep{mcdowall2023wmfzenodo} and under further development in the GitHub repository~\citep{mcdowall2024wmfgithub}. The tool is designed to be used with ecoinvent databases~\citep{ecoinvent2016version3}, but could be adapted to other databases as well by changing the search criteria. Currently, it has been tested with all available system models of ecoinvent 3.5--3.10.
+The WMF tool is a Python package that allows one to calculate the waste and material footprint of any product or service inside of LCA databases. Metadata of the WMF tool is presented in \autoref{tab:methods-wmfmetadata}. 
+
+\begin{table}[h]
+    \caption{WasteAndMaterialFootprint (WMF) tool metadata}
+    \label{tab:methods-wmfmetadata}
+    \centering
+    \begin{tabular}{ll}
+    \toprule
+    \textbf{Item} & \textbf{Details} \\
+    \midrule
+    Current version & 0.1.21 \\
+    DOI & \url{zenodo.org/doi/10.5281/zenodo.10431180} \\
+    Code repository & \url{github.com/Stew-McD/WasteAndMaterialFootprint} \\
+    License & CC0--1.0 license \\
+    Versioning system & git \\
+    Language & Python \\
+    Documentation & \url{wasteandmaterialfootprint.readthedocs.io} \\
+    Main dependencies & brightway2, premise, wurst \\
+    Support email & s.c.mcdowall@cml.leidenuniv.nl \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+    
+    
+The tool is built on the \texttt{Brightway2} LCA framework~\citep{mutel2017brightway} and is also compatible with \texttt{ActivityBrowser}~\citep{steubing2020activitybrowser} an open-source graphical user interface for LCA. The WMF tool is installable via the Python Package Index (PyPI)~\citep{mcdowall2023wmfpipy} and is open source under the CC-0 licence. The full source code for the WMF tool is indexed on Zenodo~\citep{mcdowall2023wmfzenodo} and under further development in the GitHub repository~\citep{mcdowall2024wmfgithub}. The tool is designed to be used with ecoinvent databases~\citep{ecoinvent2016version3}, but could be adapted to other databases as well by changing the search criteria. Currently, it has been tested with all available system models of ecoinvent 3.5--3.10.
 
 The program can be used directly from the command line, or imported as a Python module, in which case, the user can access the individual functions and modules. In the simplest case, the user can run the program with the default settings, which will calculate the waste and material footprint of the ecoinvent database. The user can also customise the program to calculate the waste and material footprint of a custom database, or a prospective database based on future scenarios. The program is designed to be modular so that the user can easily customise the program to their needs.
 
@@ -33,8 +57,8 @@ The following lists outline the constituent modules of the WMF tool, with a brie
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.7\columnwidth]{figures/WMF_flowchart.pdf}
-    \caption{Flowchart of the WasteAndMaterialFootprint tool \cbox{Figure needs to be updated with new names + premise}}\label{fig:WMF_flowchart}
+    \includegraphics[height=0.8\textheight]{figures/WMF_flowchart.pdf}
+    \caption{Flowchart of the WasteAndMaterialFootprint (WMF) tool}\label{fig:WMF_flowchart}
 \end{figure}
 
 \subsubsection{Computational framework}

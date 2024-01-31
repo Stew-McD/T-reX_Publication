@@ -8,7 +8,7 @@
 %% \documentclass[final,3p,times,authoryear]{elsarticle}
 %% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
 %% \documentclass[final,5p,times,authoryear]{elsarticle}
-\documentclass[review,3p,authoryear]{elsarticle}
+\documentclass[final,5p,authoryear]{elsarticle}
 %% For including figures, graphicx.sty has been loaded in
 %% elsarticle.cls. If you prefer to use the old commands
 \usepackage{amssymb}
@@ -20,6 +20,7 @@
 %             FOR DRAFTING / REVIEW (DELETE BEFORE SUBMISSION)
 % ---------------------------------------------------------------------
 \usepackage{caption}
+\usepackage{subcaption}
 \usepackage[T1]{fontenc}
 \usepackage[british]{babel}
 \usepackage{microtype}
@@ -143,16 +144,12 @@
 \section{Discussion}
 \label{sec:discussion}
 \input{discussion.tex}
-\cbox{Section word count: aim for 400?}
+\cbox{Section word count: 450}
 
 \section{Conclusions}
 \label{sec:conclusions}
 \cbox{Section word count: 250}
-We have written the WasteAndMaterialFootprint (WMF) tool, an extension to the brightway2 LCA framework that enables the user to calculate the waste and material footprints of a product or service in an LCA database. It explodes the database, identifies upstream waste and material exchanges, edits them and writes matching custom WMF methods. These exchanges become pseudo-biosphere flows and thus, the footprint can be calculated as with the existing LCIA methods. The WMF tool can be easily customised by the user to calculate the footprints of other supply-chain flows such as water, gas, and critical raw materials.
-
-Given that both waste generation and material demand are often strongly associated with the environmental impacts of an activity, it is important that they are included in the LCA. While there are numerous examples of existing and proposed methods that attempt to provide endpoint LCIA scores through convoluted formulae or subjective weighting, there is little consensus on their application and their complexity and lack of transparency can make them difficult to use and interpret.
-
-The WMF tool, in contrast, gives LCA practitioners a simple, flexible, and transparent way to calculate the supply chain waste and material footprints, delivering results in standard units as direct aggregations of the relevant demand inventories. 
+We have written the WasteAndMaterialFootprint (WMF) tool, an extension to the brightway2 LCA framework that enables the user to calculate the waste and material footprints of a product or service in an LCA database. It explodes the database, identifies upstream waste and material exchanges, edits them, and writes matching custom WMF methods. These exchanges become pseudo-biosphere flows and thus, the footprint can be calculated as with the existing LCIA methods. The WMF tool can be easily customised by the user to calculate the footprints of other supply-chain flows such as water, gas, and critical raw materials.
 
 This paper extends the state of knowledge by exploring the relationship between various waste aggregation methods and environmental damage indicators, contributing to a deeper understanding of life cycle waste inventories and their association with supply-chain risk and potential environmental damage.
 
@@ -185,7 +182,11 @@ The authors declare that they have no known competing financial interests or per
     \begin{enumerate}
         \item List of waste and material categories
         \item Example output of the WasteAndMaterialFootprint tool
-        \item Extended results of the case study
+        \item List of identified waste and material exchanges
+        \item Code (python script) used for case study
+        \item Inventory and methods used in the case study
+        \item Complete tabulated results of the case study
+        \item Complete visualisations of the case study
     \end{enumerate}
 
 \bibliographystyle{elsarticle-harv}

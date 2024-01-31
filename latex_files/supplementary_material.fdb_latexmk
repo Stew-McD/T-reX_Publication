@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1705063917 "/home/stew/code/gh/PhD/papers/1_wasteandmaterialfootprint/latex_files/supplementary_material.tex" "supplementary_material.pdf" "supplementary_material" 1705063917 0
+["pdflatex"] 1706705465 "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/supplementary_material.tex" "supplementary_material.pdf" "supplementary_material" 1706705465 0
   "/home/stew/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700391700 8015625 a5a0154258173577727e1739f831665d ""
-  "/home/stew/code/gh/PhD/papers/1_wasteandmaterialfootprint/latex_files/supplementary_material.tex" 1705015322 2432 bd205ac6d6cefe8e5fc3e27661c33679 ""
+  "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/supplementary_material.tex" 1706705465 2428 5bd529552ad6881fd1b48cff58f5fcb5 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -17,10 +17,10 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1699826044 29988 6d57d2b884f7464419678df319af86d2 ""
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1697057529 41009 84b61f42d16d06bedb915f57aa2374cf ""
-  "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1704994004 748188 0d0c94f48ebc370631ef8e2d6a302333 ""
+  "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705512617 788388 a22dc4bd979e881c0740b8d13c2bbba9 ""
   "/usr/local/texlive/2023/texmf.cnf" 1687433526 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "supplementary_material.aux" 1705063917 431 5f376679f989daa9ca3a0bee7c8fe366 "pdflatex"
-  "supplementary_material.tex" 1705015322 2432 bd205ac6d6cefe8e5fc3e27661c33679 ""
+  "supplementary_material.aux" 1706705465 431 5f376679f989daa9ca3a0bee7c8fe366 "pdflatex"
+  "supplementary_material.tex" 1706705465 2428 5bd529552ad6881fd1b48cff58f5fcb5 ""
   (generated)
   "supplementary_material.aux"
   "supplementary_material.log"
