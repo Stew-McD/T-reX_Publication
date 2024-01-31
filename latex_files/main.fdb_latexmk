@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1706706064 "main.aux" "main.bbl" "main" 1706706066 0
-  "./references.bib" 1706703045 30596 d827b5e4b7f5507eca1b3682ae6250d5 ""
+["bibtex main"] 1706718598 "main.aux" "main.bbl" "main" 1706718601 0
+  "./references.bib" 1706718432 30596 cf35182b804073d039a5fabb93171743 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/elsarticle/elsarticle-harv.bst" 1606256092 30002 8c0c5833f37bea3ec214cf315a72975d ""
-  "main.aux" 1706706066 18776 94e03ccc6f1e0dab3d824589ab18cbeb "pdflatex"
+  "main.aux" 1706718600 18776 37aad11ffe86abf9f45e6567c8dcb135 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1706706064 "main.tex" "main.pdf" "main" 1706706066 0
+["pdflatex"] 1706718599 "main.tex" "main.pdf" "main" 1706718601 0
   "/home/stew/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700391700 8015625 a5a0154258173577727e1739f831665d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1490131464 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
@@ -234,11 +234,11 @@
   "figures/top-processes.png" 1706658833 1173562 71f1dd7f228e1790db0b5793a4a0cb3b ""
   "figures/total_waste.png" 1706657333 111851 fd8f27742115953e15fd4045e7fbeef3 ""
   "introduction.tex" 1706631272 12243 d7c833efd7de6d1836669efd546b8e11 ""
-  "main.aux" 1706706066 18776 94e03ccc6f1e0dab3d824589ab18cbeb "pdflatex"
-  "main.bbl" 1706706064 23292 cb6b139160e52b2593293ecea760da55 "bibtex main"
-  "main.out" 1706706066 6373 502a1da57cd4511474c1bf4525a4bd89 "pdflatex"
-  "main.spl" 1706706064 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1706705913 10288 903846dc37b297cff0fb6ad69df8d58a ""
+  "main.aux" 1706718600 18776 37aad11ffe86abf9f45e6567c8dcb135 "pdflatex"
+  "main.bbl" 1706718599 23292 c0737ae2cfa02826158e0c7c77dbe501 "bibtex main"
+  "main.out" 1706718600 6373 502a1da57cd4511474c1bf4525a4bd89 "pdflatex"
+  "main.spl" 1706718599 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1706718431 10288 82afd117104320b04f89bef06778d554 ""
   "methodology.tex" 1706706053 17987 e269d565c27615c28d06d37ecaa483b7 ""
   "results.tex" 1706659042 11170 73b595666ed6f0c68ea31bcb4e6b7531 ""
   (generated)

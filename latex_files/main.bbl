@@ -291,14 +291,14 @@
   \url{{https://wasteandmaterialfootprint.readthedocs.io/en/latest/index.html}}.
   \bibinfo{note}{(Accessed on 01/11/2024)}.
 %Type = Misc
-\bibitem[{McDowall and Lanphere(2023a)}]{mcdowall2023wmfzenodo}
-\bibinfo{author}{McDowall, S.C.}, \bibinfo{author}{Lanphere, E.},
+\bibitem[{McDowall and Lanphear(2023a)}]{mcdowall2023wmfzenodo}
+\bibinfo{author}{McDowall, S.C.}, \bibinfo{author}{Lanphear, E.},
   \bibinfo{year}{2023}a.
 \newblock \bibinfo{title}{Wasteandmaterialfootprint}.
 \newblock \URLprefix \url{{https://zenodo.org/doi/10.5281/zenodo.10431180}}.
 %Type = Misc
-\bibitem[{McDowall and Lanphere(2023b)}]{mcdowall2023wmfpipy}
-\bibinfo{author}{McDowall, S.C.}, \bibinfo{author}{Lanphere, E.},
+\bibitem[{McDowall and Lanphear(2023b)}]{mcdowall2023wmfpipy}
+\bibinfo{author}{McDowall, S.C.}, \bibinfo{author}{Lanphear, E.},
   \bibinfo{year}{2023}b.
 \newblock \bibinfo{title}{Wasteandmaterialfootprint · pypi}.
 \newblock \URLprefix
