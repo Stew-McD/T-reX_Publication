@@ -4,4 +4,6 @@ The manuscript and data associated with the WasteAndMaterialFootprint program fo
 See the current version of the manuscript [here](https://github.com/Stew-McD/WasteAndMaterialFootprint-Publication/blob/main/latex_files/main.pdf) also here in single column double-spaced format [here](<https://github.com/Stew-McD/WasteAndMaterialFootprint-Publication/blob/main/latex_files/main_doublespaced.pdf>)
 
 
+Commented versions from reviewers are in the `reviews` directory.
+
 Drafted according to the submission guidelines [here](ResourcesConservationAndRecycling_SubmissionRequirements.pdf)
