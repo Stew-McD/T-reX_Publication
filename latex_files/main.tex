@@ -62,22 +62,22 @@
     {\Large Spotlights}
     \vspace{1em}
     \begin{description}[style=nextline]
-        \item[Bullet 1: Critical context and background information on the problem addressed] Understanding waste and material flows is essential for developing the circular economy and supply chain resilience
-        \item[Bullet 2: A brief overview of the key finding of the study (or findings if necessary)] A program was developed to quantify waste and material footprints of activities in life cycle assessment (LCA) databases
-        \item[Bullet 3: The most radical, creative, disruptive or innovative aspect of the manuscript] Built to complement the Brightway LCA framework and ActivityBrowser, the tool is flexible and easy to use.
+        \item[Bullet 1: Critical context and background information on the problem addressed] Tracking waste and material flows is essential for developing the circular economy and supply chain resilience
+        \item[Bullet 2: A brief overview of the key finding of the study (or findings if necessary)] A tool was developed to quantify waste and material footprints of activities in life cycle assessment (LCA) databases
+        \item[Bullet 3: The most radical, creative, disruptive or innovative aspect of the manuscript] Built to complement the Brightway LCA framework and ActivityBrowser, the tool is customisable and easy to use.
         \item[Bullet 4: The significance of the results to the environment, economics or society] The tool can be used to identify pre-consumer waste and material hotspots that are often hidden in supply chains.
         \item[Bullet 5: Future vision or the most important implications for continued research] Improved data availability and quality would enable more detailed and accurate waste and material footprinting.
     \end{description}
 
     \newpage
-    % %% GRAPHICAL ABSTRACT
-    % \begin{graphicalabstract}
-    %     %\includegraphics{grabs}
-    % \end{graphicalabstract}
+    %% GRAPHICAL ABSTRACT
+    \begin{graphicalabstract}
+        \includegraphics{grabs}
+    \end{graphicalabstract}
 
     %% RESEARCH HIGHLIGHTS (3-5 bullet points, max 85 characters each)
     \begin{highlights}
-        \item WasteAndMaterialFootprint, a new tool for quantifying waste and material flows in LCA.
+        \item T-reX, a new tool for quantifying waste and material flows in LCA.
         \item Assesses supply risks by calculating demand for critical materials.
         \item Simplifies quantification of user-specified waste and material categories.
         \item Rapidly identifies waste and material demand hotspots.
@@ -87,7 +87,7 @@
 
 \begin{frontmatter}
 
-    \title{WasteAndMaterialFootprint: A python package to quantify supply chain flows of waste and material in LCA databases}
+    \title{T-reX: A python package to quantify supply chain flows of waste and material in LCA databases}
     \author[1]{Stewart Charles McDowall\corref{cor1}}
     \ead{s.c.mcdowall@cml.leidenuniv.nl}
     \author[1]{Elizabeth Lanphear}
@@ -105,13 +105,13 @@
         country={The Netherlands}}
 
     \begin{abstract}
-        \cbox{Abstract word count: 150, Limit: 150}
-        
-        The `circular economy' is a concept centered on `re-X' strategies---on the prevention of waste and the reuse of resources. Thus, identifying and quantifying waste and material flows are of fundamental importance. Life Cycle Assessment (LCA) is powerful for this end, given its capacity to pinpoint hotspots of environmental impact throughout the life cycle of products and services, those where the implementation of circular principles could be most effective.
+        \cbox{Abstract word count: 164, Limit: 150}
+        Minimising waste through the reuse of resources is the quintessential principle of the `circular economy', but relies on our ability to identify and quantify waste and material flows.
+        Thus, identifying and quantifying waste and material flows are of fundamental importance. Life Cycle Assessment (LCA) is powerful for this end, given its capacity to pinpoint hotspots of environmental impact throughout the life cycle of products and services, those where the implementation of circular principles could be most effective.
 
-        Introducing WasteAndMaterialFootprint, a Python tool extending the Brightway framework for flexible, user-defined quantification of supply-chain demands in current and future scenarios. This tool streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
+        Introducing T-reX, a Python tool extending the Brightway framework for flexible quantification of user-defined supply-chain demands in current and future scenarios. This tool streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
 
-        A case study on battery supply chains demonstrates the tool's utility. WasteAndMaterialFootprint quantifies and compares inventory demands and potential environmental burdens, aiding sustainable decision-making. It contributes to a more sustainable, circular economy by providing detailed material usage and waste generation analysis.
+        A case study on battery supply chains demonstrates the tool's utility. T-reX quantifies and compares inventory demands and, thus, potential environmental burdens, aiding sustainable decision-making. It contributes to the development of the `circular economy' by providing detailed material usage and waste generation analysis.
 
     \end{abstract}
 
@@ -149,16 +149,16 @@
 \section{Conclusions}
 \label{sec:conclusions}
 \cbox{Section word count: 250}
-We have written the WasteAndMaterialFootprint (WMF) tool, an extension to the brightway2 LCA framework that enables the user to calculate the waste and material footprints of a product or service in an LCA database. It explodes the database, identifies upstream waste and material exchanges, edits them, and writes matching custom WMF methods. These exchanges become pseudo-biosphere flows and thus, the footprint can be calculated as with the existing LCIA methods. The WMF tool can be easily customised by the user to calculate the footprints of other supply-chain flows such as water, gas, and critical raw materials.
+We have written the T-reX tool, an extension to the brightway2 LCA framework that enables the user to calculate the waste and material footprints of a product or service in an LCA database. It explodes the database, identifies upstream waste and material exchanges, edits them, and writes matching custom WMF methods. These exchanges become pseudo-biosphere flows and thus, the footprint can be calculated as with the existing LCIA methods. The WMF tool can be easily customised by the user to calculate the footprints of other supply-chain flows such as water, gas, and critical raw materials.
 
 This paper extends the state of knowledge by exploring the relationship between various waste aggregation methods and environmental damage indicators, contributing to a deeper understanding of life cycle waste inventories and their association with supply-chain risk and potential environmental damage.
 
 
 % Back matter
 \section*{Data availability} 
-All data used in this analysis are publicly available online under the noted sources. The WasteAndMaterialFootprint tool is installable via the Python Package Index (PyPI) and is available at \url{https://pypi.org/project/WasteAndMaterialFootprint}.
-The full source code for the WasteAndMaterialFootprint tool is available at \url{https://www.github.com/Stew-McD/WasteAndMaterialFootprint}.
-A user guide and comprehensive documentation are available at \url{https://wasteandmaterialfootprint.readthedocs.io}.
+All data used in this analysis are publicly available online under the noted sources. The T-reX tool is installable via the Python Package Index (PyPI) and is available at \url{https://pypi.org/project/T-reX}.
+The full source code for the T-reX tool is available at \url{https://www.github.com/Stew-McD/T-reX}.
+A user guide and comprehensive documentation are available at \url{https://T-reX.readthedocs.io}.
 
 \section*{CRediT authorship contribution statement}
 \cbox{Co-authors, please check this and change as necessary.}
@@ -181,7 +181,7 @@ The authors declare that they have no known competing financial interests or per
     The supplementary material contains the following:
     \begin{enumerate}
         \item List of waste and material categories
-        \item Example output of the WasteAndMaterialFootprint tool
+        \item Example output of the T-reX tool
         \item List of identified waste and material exchanges
         \item Code (python script) used for case study
         \item Inventory and methods used in the case study
