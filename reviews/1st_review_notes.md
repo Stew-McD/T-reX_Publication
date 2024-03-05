@@ -70,4 +70,4 @@ Reviewers:
 
 * 164 - ditto
 * Table 1 - CB: 'Do we need this?' - Maybe... maybe not... You asked me last meeting if there were any other software papers in this journal my inexaustive search only found Franco's Pycirk paper [(LINK)](https://doi.org/10.1016/j.resconrec.2019.104508). They don't have such a table. I took the inspiration for this table from Bernhard's ActivityBrowser paper, which was published in *SoftwareImpacts* [(LINK)](http://dx.doi.org/10.1016/j.simpa.2019.100012).
-* 179 - SC and CB: 'shift code to supplementary' - okay
+* 179 - SC and CB: 'shift code to supplementary' - okay, underway.
