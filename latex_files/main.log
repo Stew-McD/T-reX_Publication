@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.19)  5 MAR 2024 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.19)  5 MAR 2024 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -742,7 +742,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 65.
-<grabs.jpg, id=135, 282.05376pt x 408.52625pt>
+<grabs.jpg, id=123, 282.05376pt x 408.52625pt>
 File: grabs.jpg Graphic file (type jpg)
 <use grabs.jpg>
 Package pdftex.def Info: grabs.jpg  used on input line 75.
@@ -819,7 +819,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./introduction.tex
+
+Overfull \hbox (160.78561pt too wide) in paragraph at lines 131--131
+[] 
+ []
+
+(./introduction.tex
 Overfull \hbox (1.667pt too wide) has occurred while \output is active
 [] 
  []
@@ -837,82 +842,58 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
 <to be read again> 
                    \relax 
 l.32 
-      [2]) (./methodology.tex
-Overfull \hbox (30.08603pt too wide) in paragraph at lines 12--27
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (4.65285pt too wide) in paragraph at lines 44--45
-[]$\T1/cmtt/m/n/9 e x c h a n g e _ e d i t o r$\T1/LinuxLibertineT-TLF/m/n/10 (-20) : Ap-pends `pseudo-biosphere' ex-changes
- []
-
-[3]
-
-pdfTeX warning: pdflatex (file ./figures/WMF_flowchart.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/WMF_flowchart.pdf, id=338, 260.89468pt x 695.7192pt>
-File: figures/WMF_flowchart.pdf Graphic file (type pdf)
-<use figures/WMF_flowchart.pdf>
-Package pdftex.def Info: figures/WMF_flowchart.pdf  used on input line 60.
-(pdftex.def)             Requested size: 204.6077pt x 545.60208pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4 <./figures/WMF_flowchart.pdf>] [5]
-Overfull \hbox (20.99911pt too wide) in paragraph at lines 173--174
+      [2]) (./methodology.tex [3] [4]
+Overfull \hbox (20.99911pt too wide) in paragraph at lines 121--122
 []\T1/LinuxLibertineT-TLF/m/n/10 (-20) For each path-way, data-bases were cre-ated with textttpremise ([][]Sac-
  []
 
-) (./results.tex [6]
-<figures/total_waste.png, id=416, 1262.7175pt x 902.37125pt>
+) (./results.tex [5]
+<figures/total_waste.png, id=379, 1262.7175pt x 902.37125pt>
 File: figures/total_waste.png Graphic file (type png)
 <use figures/total_waste.png>
 Package pdftex.def Info: figures/total_waste.png  used on input line 16.
 (pdftex.def)             Requested size: 252.0pt x 180.08551pt.
-<figures/carbondioxide.png, id=423, 1260.71pt x 914.41624pt>
+<figures/carbondioxide.png, id=386, 1260.71pt x 914.41624pt>
 File: figures/carbondioxide.png Graphic file (type png)
 <use figures/carbondioxide.png>
 Package pdftex.def Info: figures/carbondioxide.png  used on input line 24.
 (pdftex.def)             Requested size: 252.0pt x 182.76839pt.
-<figures/phosphate.png, id=425, 1304.875pt x 916.42375pt>
+<figures/phosphate.png, id=388, 1304.875pt x 916.42375pt>
 File: figures/phosphate.png Graphic file (type png)
 <use figures/phosphate.png>
 Package pdftex.def Info: figures/phosphate.png  used on input line 32.
 (pdftex.def)             Requested size: 252.0pt x 176.97495pt.
- [7 <./figures/total_waste.png> <./figures/carbondioxide.png> <./figures/phosphate.png>]
-<figures/top-processes.png, id=441, 608.2725pt x 639.38875pt>
+ [6 <./figures/total_waste.png> <./figures/carbondioxide.png> <./figures/phosphate.png>]
+<figures/top-processes.png, id=403, 608.2725pt x 639.38875pt>
 File: figures/top-processes.png Graphic file (type png)
 <use figures/top-processes.png>
 Package pdftex.def Info: figures/top-processes.png  used on input line 42.
 (pdftex.def)             Requested size: 151.20154pt x 158.9297pt.
-<figures/cpc_contribution.png, id=443, 834.11626pt x 921.4425pt>
+<figures/cpc_contribution.png, id=405, 834.11626pt x 921.4425pt>
 File: figures/cpc_contribution.png Graphic file (type png)
 <use figures/cpc_contribution.png>
 Package pdftex.def Info: figures/cpc_contribution.png  used on input line 53.
 (pdftex.def)             Requested size: 151.20154pt x 167.01947pt.
-<figures/comparison_methods2.png, id=445, 1143.27126pt x 826.08624pt>
+<figures/comparison_methods2.png, id=407, 1143.27126pt x 826.08624pt>
 File: figures/comparison_methods2.png Graphic file (type png)
 <use figures/comparison_methods2.png>
 Package pdftex.def Info: figures/comparison_methods2.png  used on input line 65.
 (pdftex.def)             Requested size: 201.60077pt x 145.6639pt.
-<figures/comparison_methods1.png, id=446, 1176.395pt x 828.09375pt>
+<figures/comparison_methods1.png, id=408, 1176.395pt x 828.09375pt>
 File: figures/comparison_methods1.png Graphic file (type png)
 <use figures/comparison_methods1.png>
 Package pdftex.def Info: figures/comparison_methods1.png  used on input line 70.
 (pdftex.def)             Requested size: 201.60077pt x 141.91129pt.
- [8 <./figures/top-processes.png> <./figures/cpc_contribution.png>]) (./discussion.tex) [9 <./figures/comparison_methods2.png> <./figures/comparison_methods1.png>]
-<credit.pdf, id=478, 190.73358pt x 224.01291pt>
+ [7 <./figures/top-processes.png> <./figures/cpc_contribution.png>]) (./discussion.tex) [8 <./figures/comparison_methods2.png> <./figures/comparison_methods1.png>]
+<credit.pdf, id=441, 190.73358pt x 224.01291pt>
 File: credit.pdf Graphic file (type pdf)
 <use credit.pdf>
 Package pdftex.def Info: credit.pdf  used on input line 172.
 (pdftex.def)             Requested size: 169.58936pt x 199.17943pt.
- (./main.bbl [10 <./credit.pdf>]
+ (./main.bbl [9 <./credit.pdf>]
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 188.
- [11]) [12
+ [10]) [11
 
 ] (./main.aux)
  ***********
@@ -920,21 +901,21 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D69C5FAC203C95E276ADD2634A6965DB;5784.
+(rerunfilecheck)             Checksum: 0B817F6E34DF95BE85C9471A157FEFDA;5260.
  ) 
 Here is how much of TeX's memory you used:
- 28446 strings out of 475387
- 536357 string characters out of 5769436
+ 28428 strings out of 475387
+ 535944 string characters out of 5769436
  2019555 words of memory out of 5000000
- 49526 multiletter control sequences out of 15000+600000
+ 49514 multiletter control sequences out of 15000+600000
  664148 words of font info for 306 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 83i,10n,87p,1958b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,8n,87p,1964b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on main.pdf (14 pages, 1210335 bytes).
+Output written on main.pdf (13 pages, 1186027 bytes).
 PDF statistics:
- 752 PDF objects out of 1000 (max. 8388607)
- 686 compressed objects within 7 object streams
- 121 named destinations out of 1000 (max. 500000)
- 60223 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 714 PDF objects out of 1000 (max. 8388607)
+ 654 compressed objects within 7 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 60194 words of extra memory for PDF output out of 61914 (max. 10000000)
 

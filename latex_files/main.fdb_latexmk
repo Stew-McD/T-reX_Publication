@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex main"] 1709643415 "main.aux" "main.bbl" "main" 1709643417 0
-  "./references.bib" 1709126010 30456 87e8f88879c474aad979eeb060c62343 ""
+["bibtex main"] 1709650978 "main.aux" "main.bbl" "main" 1709650980 0
+  "./references.bib" 1709648422 30482 28733347ef5c23227ae1aeb6b08281b0 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/elsarticle/elsarticle-harv.bst" 1606256092 30002 8c0c5833f37bea3ec214cf315a72975d ""
-  "main.aux" 1709643417 18375 2196457d25843deee39f51cb89c1e9bf "pdflatex"
+  "main.aux" 1709650980 17522 3da9843d3fe560f9027a739d90bac118 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1709643415 "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex" "main.pdf" "main" 1709643417 0
+["pdflatex"] 1709650978 "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex" "main.pdf" "main" 1709650980 0
   "/home/stew/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700391700 8015625 a5a0154258173577727e1739f831665d ""
-  "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex" 1709631698 10154 e346ebb9839f7f31ad759271bf983d7f ""
+  "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex" 1709646511 10225 76d0a621a1e42218356b565d078ee1dd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1490131464 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490131464 2933 9ad527ce78d7c5fa0a642dead095f172 ""
@@ -225,8 +225,7 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705512617 788388 a22dc4bd979e881c0740b8d13c2bbba9 ""
   "/usr/local/texlive/2023/texmf.cnf" 1687433526 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "credit.pdf" 1708427588 86029 9ad36d2f4079e2d75390267afb507c69 ""
-  "discussion.tex" 1706704032 3211 52af52848378f6d834b7ad4eff2a90e3 ""
-  "figures/WMF_flowchart.pdf" 1706705450 22785 1831d9c51d87b161690ec80896f1c2f4 ""
+  "discussion.tex" 1709646548 3231 b1be808b87639e0fc8e252cacc908a79 ""
   "figures/carbondioxide.png" 1706657450 125612 af854eafe3cfb9d3ba4c31708079b45f ""
   "figures/comparison_methods1.png" 1706658462 132733 d5d8b87aa394dabd531515020fd673ac ""
   "figures/comparison_methods2.png" 1706658794 2826232 c94fe3d91c9f9c021eb741fc21ff6b74 ""
@@ -235,14 +234,14 @@
   "figures/top-processes.png" 1706658833 1173562 71f1dd7f228e1790db0b5793a4a0cb3b ""
   "figures/total_waste.png" 1706657333 111851 fd8f27742115953e15fd4045e7fbeef3 ""
   "grabs.jpg" 1709128100 92735 47dd3c4a9aff9caf2b5a71983e177cd7 ""
-  "introduction.tex" 1709643414 11676 f94786db352611d679ff60c32351765c ""
-  "main.aux" 1709643417 18375 2196457d25843deee39f51cb89c1e9bf "pdflatex"
-  "main.bbl" 1709643415 22790 dd3df13464c23f3e35e3181b0eb0ae57 "bibtex main"
-  "main.out" 1709643417 5784 d69c5fac203c95e276add2634a6965db "pdflatex"
-  "main.spl" 1709643415 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1709631698 10154 e346ebb9839f7f31ad759271bf983d7f ""
-  "methodology.tex" 1709126384 17783 b36130cd42314aa3b7a90ab94bb1d507 ""
-  "results.tex" 1709125679 11150 eedee2c83c6b91e625918619ed59d419 ""
+  "introduction.tex" 1709646338 11184 b2b5c7e64ee621db64c51ba97085c647 ""
+  "main.aux" 1709650980 17522 3da9843d3fe560f9027a739d90bac118 "pdflatex"
+  "main.bbl" 1709650978 22822 dfbe2ff19f926943cc267592738247c4 "bibtex main"
+  "main.out" 1709650980 5260 0b817f6e34df95be85c9471a157fefda "pdflatex"
+  "main.spl" 1709650978 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1709646511 10225 76d0a621a1e42218356b565d078ee1dd ""
+  "methodology.tex" 1709650976 15368 9b254794b2f513a9b8bf7b857a354743 ""
+  "results.tex" 1709646548 11182 27ebb1239e9727a12f041575b5e8af80 ""
   (generated)
   "main.aux"
   "main.log"
