@@ -48,7 +48,7 @@ Reviewers:
 * [ ] re-run the analysis with the new name
 * [x] revised the highlights/spotlight points
 * [x] revised the abstract
-* [ ] added a graphical abstract
+* [x] added a graphical abstract (lol, I'll make a better one if you don't like this one)
 * [ ] add a list of abbreviations
 
 ### Introduction
@@ -72,8 +72,8 @@ Reviewers:
 * [x] revised the methods
 * [x] move code detail to supplementary information
 * [x] generalised the methods section (more simple)
-* [ ] added section of mathematical basis
-* [ ] revised the methods flowchart (simple workflow)
+* [ ] added section of mathematical basis (does this add anything?)
+* [x] revised the methods flowchart (simple workflow)
 
 ### Results
 

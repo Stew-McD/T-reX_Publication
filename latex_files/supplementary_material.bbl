@@ -12,70 +12,40 @@
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
 %Type = Misc
-\bibitem[{Aboumahboub et~al.(2020)Aboumahboub, Auer, Bauer, Baumstark
-  et~al.}]{remind2020model}
-\bibinfo{author}{Aboumahboub, T.}, \bibinfo{author}{Auer, C.},
-  \bibinfo{author}{Bauer, N.}, \bibinfo{author}{Baumstark, L.}, et~al.,
-  \bibinfo{year}{2020}.
-\newblock \bibinfo{title}{Remind - regional model of investments and
-  development - version 2.1.0}.
-\newblock \URLprefix
-  \url{https://www.pik-potsdam.de/research/transformation-pathways/models/remind}.
+\bibitem[{Aboumahboub et~al.(2020)Aboumahboub, Auer, Bauer, Baumstark et~al.}]{remind2020model}
+\bibinfo{author}{Aboumahboub, T.}, \bibinfo{author}{Auer, C.}, \bibinfo{author}{Bauer, N.}, \bibinfo{author}{Baumstark, L.}, et~al., \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Remind - regional model of investments and development - version 2.1.0}.
+\newblock \URLprefix \url{https://www.pik-potsdam.de/research/transformation-pathways/models/remind}.
 %Type = Article
-\bibitem[{Arvidsson et~al.(2020)Arvidsson, S\"{o}derman, Sand\'{e}n,
-  Nordel\"{o}f et~al.}]{arvidsson2020csi}
-\bibinfo{author}{Arvidsson, R.}, \bibinfo{author}{S\"{o}derman, M.L.},
-  \bibinfo{author}{Sand\'{e}n, B.A.}, \bibinfo{author}{Nordel\"{o}f, A.},
-  et~al., \bibinfo{year}{2020}.
-\newblock \bibinfo{title}{A crustal scarcity indicator for long-term global
-  elemental resource assessment in lca}.
-\newblock \bibinfo{journal}{The International Journal of Life Cycle Assessment}
-  \URLprefix \url{https://doi.org/10.1007/s11367-020-01781-1}.
+\bibitem[{Arvidsson et~al.(2020)Arvidsson, S\"{o}derman, Sand\'{e}n, Nordel\"{o}f et~al.}]{arvidsson2020csi}
+\bibinfo{author}{Arvidsson, R.}, \bibinfo{author}{S\"{o}derman, M.L.}, \bibinfo{author}{Sand\'{e}n, B.A.}, \bibinfo{author}{Nordel\"{o}f, A.}, et~al., \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{A crustal scarcity indicator for long-term global elemental resource assessment in lca}.
+\newblock \bibinfo{journal}{The International Journal of Life Cycle Assessment} \URLprefix \url{https://doi.org/10.1007/s11367-020-01781-1}.
 %Type = Misc
-\bibitem[{{European Commission and Directorate-General for Internal Market,
-  Industry, Entrepreneurship and SMEs and Grohol, M and
-  others}(2023)}]{eu2023crmstudy}
-\bibinfo{author}{{European Commission and Directorate-General for Internal
-  Market, Industry, Entrepreneurship and SMEs and Grohol, M and others}},
-  \bibinfo{year}{2023}.
-\newblock \bibinfo{title}{Study on the critical raw materials for the eu 2023
-  --– final report}.
+\bibitem[{{European Commission and Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs and Grohol, M and others}(2023)}]{eu2023crmstudy}
+\bibinfo{author}{{European Commission and Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs and Grohol, M and others}}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Study on the critical raw materials for the eu 2023 --– final report}.
 \newblock \URLprefix \url{https://doi.org/10.2873/725585}.
 %Type = Article
 \bibitem[{Guin\'{e}e and Heijungs(2021)}]{guinee2021wasteisnotaservice}
-\bibinfo{author}{Guin\'{e}e, J.B.}, \bibinfo{author}{Heijungs, R.},
-  \bibinfo{year}{2021}.
+\bibinfo{author}{Guin\'{e}e, J.B.}, \bibinfo{author}{Heijungs, R.}, \bibinfo{year}{2021}.
 \newblock \bibinfo{title}{Waste is not a service}.
-\newblock \bibinfo{journal}{The International Journal of Life Cycle Assessment}
-  \URLprefix \url{https://doi.org/10.1007/s11367-021-01955-5}.
+\newblock \bibinfo{journal}{The International Journal of Life Cycle Assessment} \URLprefix \url{https://doi.org/10.1007/s11367-021-01955-5}.
 %Type = Inproceedings
 \bibitem[{Hauschild and Potting(2004)}]{hauschild2003edip}
-\bibinfo{author}{Hauschild, M.Z.}, \bibinfo{author}{Potting, J.},
-  \bibinfo{year}{2004}.
-\newblock \bibinfo{title}{Spatial differentiation in life cycle impact
-  assessment - the edip-2003 methodology. guidelines from the danish epa}.
+\bibinfo{author}{Hauschild, M.Z.}, \bibinfo{author}{Potting, J.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Spatial differentiation in life cycle impact assessment - the edip-2003 methodology. guidelines from the danish epa}.
 \newblock \URLprefix \url{https://api.semanticscholar.org/CorpusID:113556375}.
 %Type = Article
-\bibitem[{Meinshausen et~al.(2020)Meinshausen, Nicholls, Lewis, Gidden
-  et~al.}]{ssp2020ghg}
-\bibinfo{author}{Meinshausen, M.}, \bibinfo{author}{Nicholls, Z.R.J.},
-  \bibinfo{author}{Lewis, J.}, \bibinfo{author}{Gidden, M.J.}, et~al.,
-  \bibinfo{year}{2020}.
-\newblock \bibinfo{title}{The shared socio-economic pathway (ssp) greenhouse
-  gas concentrations and their extensions to 2500}.
-\newblock \bibinfo{journal}{Geoscientific Model Development} \URLprefix
-  \url{https://doi.org/10.5194/gmd-13-3571-2020}.
+\bibitem[{Meinshausen et~al.(2020)Meinshausen, Nicholls, Lewis, Gidden et~al.}]{ssp2020ghg}
+\bibinfo{author}{Meinshausen, M.}, \bibinfo{author}{Nicholls, Z.R.J.}, \bibinfo{author}{Lewis, J.}, \bibinfo{author}{Gidden, M.J.}, et~al., \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{The shared socio-economic pathway (ssp) greenhouse gas concentrations and their extensions to 2500}.
+\newblock \bibinfo{journal}{Geoscientific Model Development} \URLprefix \url{https://doi.org/10.5194/gmd-13-3571-2020}.
 %Type = Book
-\bibitem[{Stehfest et~al.(2014)Stehfest, van Vuuren, Bouwman, Kram
-  et~al.}]{stehfest2014image}
-\bibinfo{author}{Stehfest, E.}, \bibinfo{author}{van Vuuren, D.},
-  \bibinfo{author}{Bouwman, L.}, \bibinfo{author}{Kram, T.}, et~al.,
-  \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{Integrated assessment of global environmental change
-  with IMAGE 3.0: Model description and policy applications}.
-\newblock \bibinfo{publisher}{Netherlands Environmental Assessment Agency
-  (PBL)}.
-\newblock \URLprefix
-  \url{{https://dspace.library.uu.nl/bitstream/handle/1874/308545/PBL_2014_Integrated_Assessment_of_Global_Environmental_Change_with_IMAGE_30_735.pdf}}.
+\bibitem[{Stehfest et~al.(2014)Stehfest, van Vuuren, Bouwman, Kram et~al.}]{stehfest2014image}
+\bibinfo{author}{Stehfest, E.}, \bibinfo{author}{van Vuuren, D.}, \bibinfo{author}{Bouwman, L.}, \bibinfo{author}{Kram, T.}, et~al., \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Integrated assessment of global environmental change with IMAGE 3.0: Model description and policy applications}.
+\newblock \bibinfo{publisher}{Netherlands Environmental Assessment Agency (PBL)}.
+\newblock \URLprefix \url{{https://dspace.library.uu.nl/bitstream/handle/1874/308545/PBL_2014_Integrated_Assessment_of_Global_Environmental_Change_with_IMAGE_30_735.pdf}}.
 
 \end{thebibliography}

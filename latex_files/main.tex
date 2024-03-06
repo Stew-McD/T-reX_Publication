@@ -14,7 +14,6 @@
 \usepackage{amssymb}
 %% The amsthm package provides extended theorem environments
 %% \usepackage{amsthm}
-\usepackage{lineno}
 \usepackage{booktabs}
 % ---------------------------------------------------------------------
 %             FOR DRAFTING / REVIEW (DELETE BEFORE SUBMISSION)
@@ -56,7 +55,7 @@
 \begin{document}
 
 
-\linenumbers
+% \linenumbers
 
     % SPOTLIGHTS (5 bullet points, max 120 characters each)
     {\Large Spotlights}
@@ -105,11 +104,11 @@
         country={The Netherlands}}
 
     \begin{abstract}
-        \cbox{Abstract word count: 158, Limit: 150}
+        \cbox{Abstract word count: 151, Limit: 150}
         Minimising material consumption and waste generation is the quintessential principle of the `circular economy'.
-        Thus, identifying and quantifying waste and material flows are of fundamental importance. Life Cycle Assessment (LCA) is powerful for this end, given its capacity to pinpoint hotspots of environmental impact throughout the life cycle of products and services, those where the implementation of circular principles could be most effective.
+        Thus, identifying and quantifying waste and material flows are of fundamental importance. Life Cycle Assessment (LCA) is powerful for this end, given its capacity to pinpoint hotspots of environmental impact throughout the life cycle of activities, where the implementation of circular principles could be most effective.
 
-        Introducing T-reX, a Python tool extending the `Brightway' LCA ecosystem, allowing facile quantification of user-defined supply-chain demands in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
+        Introducing T-reX, a Python tool extending the brightway ecosystem, allowing facile quantification of user-defined supply-chain demands in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
 
         A case study of 6 Li-ion batteries demonstrated T-reX's utility, quantifying categorised waste and material inventory footprints, and thus, their potential environmental burdens. T-reX can aid sustainable decision-making and contribute to the development of the `circular economy' by facilitating analysis of material consumption and waste generation in LCA.
 
@@ -133,11 +132,11 @@
 
 \section{Methodology}
 \label{sec:methodology}
-\cbox{Section word count: 800}
+\cbox{Section word count: 1600}
 \input{methodology.tex}
 
 \section{Results}
-\cbox{Section word count: 1400}
+\cbox{Section word count: 1300}
 \label{sec:results}
 \input{results.tex}
 
@@ -149,7 +148,7 @@
 \section{Conclusions}
 \label{sec:conclusions}
 \cbox{Section word count: 250}
-We have written the T-reX tool, an extension to the brightway LCA framework that enables the user to calculate the waste and material footprints of a product or service in an LCA database. It explodes the database, identifies upstream waste and material exchanges, edits them, and writes matching custom `pseudo' LCIA methods. These exchanges become pseudo-biosphere flows and thus, the footprint can be calculated as with the existing LCIA methods. The T-reX tool can be easily customised by the user to calculate the footprints of other supply-chain flows such as water, gas, and critical raw materials.
+We have created the T-reX tool, an extension to the brightway LCA ecosystem that enables users to calculate the waste and material footprints of a product or service in an LCA database. It explodes the database, identifies upstream waste and material exchanges, edits them, and writes matching custom `pseudo' LCIA methods. These exchanges become pseudo-biosphere flows and thus, the footprint can be calculated as with the existing LCIA methods. The T-reX tool can be easily customised by the user to calculate the footprints of other supply-chain flows such as water, gas, and critical raw materials.
 
 This paper extends the state of knowledge by exploring the relationship between various waste aggregation methods and environmental damage indicators, contributing to a deeper understanding of life cycle waste inventories and their association with supply-chain risk and potential environmental damage.
 
@@ -180,11 +179,11 @@ The authors declare that they have no known competing financial interests or per
 \section*{Supplementary material}
     The supplementary material contains the following:
     \begin{enumerate}
-        \item List of waste and material categories
-        \item Example output of the T-reX tool
-        \item List of identified waste and material exchanges
-        \item Code (python script) used for case study
-        \item Inventory and methods used in the case study
+        \item Metadata of the T-reX python package
+        \item Details of the modules and user configuration
+        \item Description of the computational workflow
+        \item Modular flowchart of the T-reX tool
+        \item Example of the terminal output of the T-reX tool
         \item Complete tabulated results of the case study
         \item Complete visualisations of the case study
     \end{enumerate}
