@@ -55,11 +55,6 @@
 \newblock \bibinfo{title}{Uncertainty caused by life cycle impact assessment methods: Case studies in process-based lci databases}.
 \newblock \bibinfo{journal}{Resources, Conservation and Recycling} \URLprefix \url{http://dx.doi.org/10.1016/j.resconrec.2021.105678}.
 %Type = Misc
-\bibitem[{Commission et~al.(2023)Commission, Directorate-General~for Internal~Market, SMEs, Grohol et~al.}]{eu2023crmstudy}
-\bibinfo{author}{Commission, E.}, \bibinfo{author}{Directorate-General~for Internal~Market, Industry, E.}, \bibinfo{author}{SMEs}, \bibinfo{author}{Grohol, M.}, et~al., \bibinfo{year}{2023}.
-\newblock \bibinfo{title}{Study on the critical raw materials for the eu 2023 --– final report}.
-\newblock \URLprefix \url{https://doi.org/10.2873/725585}.
-%Type = Misc
 \bibitem[{Doka(2024)}]{doka2024publications}
 \bibinfo{author}{Doka, G.}, \bibinfo{year}{2024}.
 \newblock \bibinfo{title}{Doka lca | publications}.
@@ -86,6 +81,11 @@
 \bibinfo{author}{{European Commission}}, \bibinfo{year}{2020}.
 \newblock \bibinfo{title}{A new circular economy action plan for a cleaner and more competitive europe}.
 \newblock \URLprefix \url{https://doi.org/10.2779/05068}.
+%Type = Misc
+\bibitem[{{European Commission and Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs and Grohol, M and others}(2023)}]{eu2023crmstudy}
+\bibinfo{author}{{European Commission and Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs and Grohol, M and others}}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Study on the critical raw materials for the eu 2023 --– final report}.
+\newblock \URLprefix \url{https://doi.org/10.2873/725585}.
 %Type = Techreport
 \bibitem[{{European Union}(2022)}]{eu2022ecodesign}
 \bibinfo{author}{{European Union}}, \bibinfo{year}{2022}.

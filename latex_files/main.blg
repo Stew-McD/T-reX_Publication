@@ -23,37 +23,37 @@ Warning--empty journal in laurent2012carbonfootprint
 Warning--missing institution in foen2021ecofactors
 You've used 50 entries,
             2990 wiz_defined-function locations,
-            878 strings with 16887 characters,
-and the built_in function-call counts, 29124 in all, are:
-= -- 2132
-> -- 1396
-< -- 22
-+ -- 558
-- -- 486
-* -- 3065
-:= -- 4504
+            879 strings with 16932 characters,
+and the built_in function-call counts, 28879 in all, are:
+= -- 2120
+> -- 1364
+< -- 23
++ -- 546
+- -- 474
+* -- 3021
+:= -- 4466
 add.period$ -- 153
 call.type$ -- 50
-change.case$ -- 399
+change.case$ -- 396
 chr.to.int$ -- 48
 cite$ -- 57
-duplicate$ -- 2220
-empty$ -- 1952
-format.name$ -- 616
-if$ -- 5274
+duplicate$ -- 2210
+empty$ -- 1948
+format.name$ -- 602
+if$ -- 5235
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 408
+missing$ -- 404
 newline$ -- 268
 num.names$ -- 200
-pop$ -- 916
+pop$ -- 913
 preamble$ -- 1
-purify$ -- 348
+purify$ -- 345
 quote$ -- 0
 skip$ -- 729
 stack$ -- 0
 substring$ -- 604
-swap$ -- 1413
+swap$ -- 1397
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0

@@ -8,7 +8,7 @@
 %% \documentclass[final,3p,times,authoryear]{elsarticle}
 %% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
 %% \documentclass[final,5p,times,authoryear]{elsarticle}
-\documentclass[final,5p,authoryear]{elsarticle}
+\documentclass[review,3p,authoryear]{elsarticle}
 %% For including figures, graphicx.sty has been loaded in
 %% elsarticle.cls. If you prefer to use the old commands
 \usepackage{amssymb}
@@ -87,7 +87,7 @@
 
 \begin{frontmatter}
 
-    \title{T-reX: A python package to quantify supply chain flows of waste and material in LCA databases}
+    \title{T-reX: A python package to quantify waste and material footprints in current and future LCA databases}
     \author[1]{Stewart Charles McDowall\corref{cor1}}
     \ead{s.c.mcdowall@cml.leidenuniv.nl}
     \author[1]{Elizabeth Lanphear}
@@ -105,13 +105,13 @@
         country={The Netherlands}}
 
     \begin{abstract}
-        \cbox{Abstract word count: 164, Limit: 150}
-        Minimising waste through the reuse of resources is the quintessential principle of the `circular economy', but relies on our ability to identify and quantify waste and material flows.
+        \cbox{Abstract word count: 158, Limit: 150}
+        Minimising material consumption and waste generation is the quintessential principle of the `circular economy'.
         Thus, identifying and quantifying waste and material flows are of fundamental importance. Life Cycle Assessment (LCA) is powerful for this end, given its capacity to pinpoint hotspots of environmental impact throughout the life cycle of products and services, those where the implementation of circular principles could be most effective.
 
-        Introducing T-reX, a Python tool extending the Brightway framework for flexible quantification of user-defined supply-chain demands in current and future scenarios. This tool streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
+        Introducing T-reX, a Python tool extending the `Brightway' LCA ecosystem, allowing facile quantification of user-defined supply-chain demands in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
 
-        A case study on battery supply chains demonstrates the tool's utility. T-reX quantifies and compares inventory demands and, thus, potential environmental burdens, aiding sustainable decision-making. It contributes to the development of the `circular economy' by providing detailed material usage and waste generation analysis.
+        A case study of 6 Li-ion batteries demonstrated T-reX's utility, quantifying categorised waste and material inventory footprints, and thus, their potential environmental burdens. T-reX can aid sustainable decision-making and contribute to the development of the `circular economy' by facilitating analysis of material consumption and waste generation in LCA.
 
     \end{abstract}
 
@@ -133,7 +133,7 @@
 
 \section{Methodology}
 \label{sec:methodology}
-\cbox{Section word count: 2000}
+\cbox{Section word count: 800}
 \input{methodology.tex}
 
 \section{Results}
