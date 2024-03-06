@@ -13,11 +13,12 @@ Reviewers:
 
 ## Topics for discussion
 
-1. Everyone okay with the new name "T-reX"? Grrr
+1. Everyone okay with the new name "T-reX"? Grrr (or whatever) No one knows what sound they made. In any case it will require a small explanation. Great for a graphical abstract and a funny logo.
+2. It would need to be the full name " Tool-reX" in git and pip, of course t-rex is already taken
 
 ### Phrasing 
-2. Nomenclature 1: Tool, method, package.... 
-3. Nomenclature 2: "pseudo LCIA"
+2. Nomenclature 1: Tool, method, package....  *Tool is now embedded as T(ool)-reX, it seems, but it is all three, I think*
+3. Nomenclature 2: "pseudo LCIA", "pseudo biosphere"
 4. Nomenclature 3: "demand footprint" vs "inventory footprint" etc.
 
 ### Introduction
@@ -47,23 +48,23 @@ Reviewers:
 ### General
 
 * [x] changed "WasteAndMaterialFootprint to "T-reX" in manuscript
-* [ ] changed "WasteAndMaterialFootprint to "T-reX" in code, documentation, github, etc.
+* [ ] changed "WasteAndMaterialFootprint to "T-reX" in code, documentation, github, etc. (I've contacted LL to ask her opinion)
 * [ ] re-run the program with the new name
 * [ ] re-run the analysis with the new name
 * [x] revised the highlights/spotlight points
 * [x] revised the abstract
 * [x] added a graphical abstract (lol, I'll make a better one if you don't like this one)
-* [ ] add a list of abbreviations
+* [x] add a list of abbreviations
 
 ### Introduction
 
 * [x] revised the introduction
-* [ ] separate the introduction into two sections: background and  short introduction
-* [ ] define 'waste/material footprint' in the introduction
+* [x] separate the introduction into two sections: background and short introduction
+* [x] define 'waste/material footprint' in the introduction
 * [ ] maybe move the text about Laurenti's method to somewhere earlier
 * [ ] move CSI to later in the intro/background ~122 in V1
 * [ ] add mention of limitations of current approaches in the introduction (regarding the future)
-* [ ] add explicit mention of EDIP in the intro
+* [x] add explicit mention of EDIP in the intro
 
 
 ### Methods

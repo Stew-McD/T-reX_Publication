@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{53}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -60,6 +60,17 @@
   waste incineration sector}.
 \newblock \bibinfo{journal}{Waste Management} \URLprefix
   \url{https://doi.org/10.1016/j.wasman.2018.08.037}.
+%Type = Article
+\bibitem[{Bisinella et~al.(2024)Bisinella, Schmidt, Varling, Laner and
+  Christensen}]{bisinella2024wastelca}
+\bibinfo{author}{Bisinella, V.}, \bibinfo{author}{Schmidt, S.},
+  \bibinfo{author}{Varling, A.}, \bibinfo{author}{Laner, D.},
+  \bibinfo{author}{Christensen, T.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Waste lca and the future}.
+\newblock \bibinfo{journal}{Waste Management} \bibinfo{volume}{174},
+  \bibinfo{pages}{53–75}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.wasman.2023.11.021},
+  \DOIprefix\doi{10.1016/j.wasman.2023.11.021}.
 %Type = Misc
 \bibitem[{Carrara et~al.(2023)Carrara, Bobba, Blagoeva, Alves~Dias
   et~al.}]{jrc2023supplychain}
@@ -243,7 +254,7 @@
   \URLprefix \url{https://doi.org/10.1007/s11367-016-1246-y}.
 %Type = Article
 \bibitem[{Laurent et~al.(2012)Laurent, Olsen and
-  Hauschild}]{laurent2012carbonfootprint}
+  Hauschild}]{laurenti2012carbonfootprint}
 \bibinfo{author}{Laurent, A.}, \bibinfo{author}{Olsen, S.I.},
   \bibinfo{author}{Hauschild, M.Z.}, \bibinfo{year}{2012}.
 \newblock \bibinfo{title}{Limitations of carbon footprint as indicator of
@@ -433,6 +444,13 @@
 \newblock \URLprefix
   \url{https://www.bafu.admin.ch/bafu/en/home/topics/economy-consumption/economy-and-consumption-publications/publications-economy-and-consumption/eco-factors-switzerland.html}.
 %Type = Article
+\bibitem[{Wackernagel(1994)}]{wackernagel1994ecologicalfootprint}
+\bibinfo{author}{Wackernagel, M.}, \bibinfo{year}{1994}.
+\newblock \bibinfo{title}{Ecological footprint and appropriated carrying
+  capacity : a tool for planning toward sustainability} \URLprefix
+  \url{https://doi.library.ubc.ca/10.14288/1.0088048},
+  \DOIprefix\doi{10.14288/1.0088048}.
+%Type = Article
 \bibitem[{Wernet et~al.(2016)Wernet, Bauer, Steubing, Reinhard, Moreno-Ruiz and
   Weidema}]{ecoinvent2016version3}
 \bibinfo{author}{Wernet, G.}, \bibinfo{author}{Bauer, C.},
@@ -443,5 +461,16 @@
   and methodology}.
 \newblock \bibinfo{journal}{The International Journal of Life Cycle Assessment}
   \URLprefix \url{{http://dx.doi.org/10.1007/s11367-016-1087-8}}.
+%Type = Inbook
+\bibitem[{Čuček et~al.(2015)Čuček, Klemeš and
+  Kravanja}]{cucek2015environmentalfootprints}
+\bibinfo{author}{Čuček, L.}, \bibinfo{author}{Klemeš, J.J.},
+  \bibinfo{author}{Kravanja, Z.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Overview of environmental footprints}.
+  \bibinfo{publisher}{Elsevier}.
+\newblock p. \bibinfo{pages}{131–193}.
+\newblock \URLprefix
+  \url{http://dx.doi.org/10.1016/B978-0-12-799968-5.00005-1},
+  \DOIprefix\doi{10.1016/b978-0-12-799968-5.00005-1}.
 
 \end{thebibliography}
