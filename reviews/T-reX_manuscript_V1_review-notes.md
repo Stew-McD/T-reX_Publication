@@ -22,7 +22,7 @@ Reviewers:
 4. Nomenclature 3: "demand footprint" vs "inventory footprint" etc.
 
 ### Introduction
-5. How to split up the the introduction into "background and short introduction"
+5. How to split up the the introduction into "background and short introduction" (I think I managed that now, we'll see)
 
 ### Methods
 
@@ -61,9 +61,9 @@ Reviewers:
 * [x] revised the introduction
 * [x] separate the introduction into two sections: background and short introduction
 * [x] define 'waste/material footprint' in the introduction
-* [ ] maybe move the text about Laurenti's method to somewhere earlier
-* [ ] move CSI to later in the intro/background ~122 in V1
-* [ ] add mention of limitations of current approaches in the introduction (regarding the future)
+* [x] maybe move the text about Laurenti's method to somewhere earlier
+* [x] move CSI to later in the intro/background ~122 in V1
+* [x] add mention of limitations of current approaches in the introduction (regarding the future)
 * [x] add explicit mention of EDIP in the intro
 
 
