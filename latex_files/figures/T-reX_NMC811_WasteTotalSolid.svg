@@ -1,4 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="625.4515380859375" height="718.875"><style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="625.4515380859375"
+   height="718.875"
+   version="1.1"
+   id="svg602"
+   sodipodi:docname="T-reX_NMC811_WasteTotalSolid.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs606" />
+  <sodipodi:namedview
+     id="namedview604"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.65658146"
+     inkscape:cx="171.34203"
+     inkscape:cy="281.76245"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg602" />
+  <style
+     id="style2">
 
 
 /*to make the svg resizable*/ /*
@@ -226,4 +260,1495 @@ div.tooltip {
     border-radius: 8px;
     pointer-events: none;
     /*color: red;*/
-}</style><g class="wrapper inner" clip-path="url(#wrapperClipPath_qwpyza)" transform="translate(0,0)"><g class="panCanvas"><g class="output"><g class="clusters"/><g class="edgePaths"><g class="edgePath impact" style="opacity: 1;" stroke-width="5.752195607003973"><path class="path" d="M87.5078125,1463.25L87.5078125,1473.3125C87.5078125,1483.375,87.5078125,1503.5,109.47916666666667,1524.083606751846C131.45052083333334,1544.6672135036918,175.39322916666666,1565.7094270073837,197.36458333333334,1576.2305337592297L219.3359375,1586.7516405110757" marker-end="url(#arrowhead1486)" style="fill: none;"/><defs><marker id="arrowhead1486" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="33.924156371040034"><path class="path" d="M312.5234375,1463.25L312.5234375,1473.3125C312.5234375,1483.375,312.5234375,1503.5,312.5234375,1523.625C312.5234375,1543.75,312.5234375,1563.875,312.5234375,1573.9375L312.5234375,1584" marker-end="url(#arrowhead1487)" style="fill: none;"/><defs><marker id="arrowhead1487" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="0.27743962204723943"><path class="path" d="M761.6992225646973,81.00434840526756L784.4908892313639,92.1911236710563C807.2825558980306,103.37789893684504,852.8658892313639,125.75144946842254,875.6575558980306,152.56322473421127C898.4492225646973,179.375,898.4492225646973,210.625,898.4492225646973,241.875C898.4492225646973,273.125,898.4492225646973,304.375,898.4492225646973,335.625C898.4492225646973,366.875,898.4492225646973,398.125,898.4492225646973,429.375C898.4492225646973,460.625,898.4492225646973,491.875,898.4492225646973,523.125C898.4492225646973,554.375,898.4492225646973,585.625,898.4492225646973,615.7083333333334C898.4492225646973,645.7916666666666,898.4492225646973,674.7083333333334,898.4492225646973,704.7916666666666C898.4492225646973,734.875,898.4492225646973,766.125,898.4492225646973,798.5416666666666C898.4492225646973,830.9583333333334,898.4492225646973,864.5416666666666,898.4492225646973,898.125C898.4492225646973,931.7083333333334,898.4492225646973,965.2916666666666,898.4492225646973,998.875C898.4492225646973,1032.4583333333333,898.4492225646973,1066.0416666666667,898.4492225646973,1099.625C898.4492225646973,1133.2083333333333,898.4492225646973,1166.7916666666667,898.4492225646973,1201.5416666666667C898.4492225646973,1236.2916666666667,898.4492225646973,1272.2083333333333,898.4492225646973,1308.125C898.4492225646973,1344.0416666666667,898.4492225646973,1379.9583333333333,898.4492225646973,1415.875C898.4492225646973,1451.7916666666667,898.4492225646973,1487.7083333333333,816.3261750539144,1520.7688495622526C734.2031275431315,1553.829365791172,569.9570325215658,1584.0337315823438,487.8339850107829,1599.1359144779299L405.7109375,1614.2380973735158" marker-end="url(#arrowhead1488)" style="fill: none;"/><defs><marker id="arrowhead1488" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.290195655047647"><path class="path" d="M204.48437118530273,1240.75L204.48437118530273,1251.9791666666667C204.48437118530273,1263.2083333333333,204.48437118530273,1285.6666666666667,214.57386635738294,1306.9583333333333C224.66336152946315,1328.25,244.84235187362353,1348.375,254.93184704570373,1358.4375L265.0213422177839,1368.5" marker-end="url(#arrowhead1489)" style="fill: none;"/><defs><marker id="arrowhead1489" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="28.48390223549037"><path class="path" d="M406.15625381469727,1240.75L406.15625381469727,1251.9791666666667C406.15625381469727,1263.2083333333333,406.15625381469727,1285.6666666666667,397.41212189667743,1306.9583333333333C388.66798997865754,1328.25,371.17972614261777,1348.375,362.43559422459793,1358.4375L353.69146230657805,1368.5" marker-end="url(#arrowhead1490)" style="fill: none;"/><defs><marker id="arrowhead1490" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.0457912553721465"><path class="path" d="M738.9179725646973,1247.75L738.9179725646973,1257.8125C738.9179725646973,1267.875,738.9179725646973,1288,682.4368521372477,1312.3352925092527C625.9557317097982,1336.6705850185053,512.993490854899,1365.2161700370107,456.5123704274495,1379.488962546263L400.03125,1393.761755055516" marker-end="url(#arrowhead1491)" style="fill: none;"/><defs><marker id="arrowhead1491" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="26.054029083446345"><path class="path" d="M406.15625381469727,1046.25L406.15625381469727,1055.1458333333333C406.15625381469727,1064.0416666666667,406.15625381469727,1081.8333333333333,406.15625381469727,1100.7916666666667C406.15625381469727,1119.75,406.15625381469727,1139.875,406.15625381469727,1149.9375L406.15625381469727,1160" marker-end="url(#arrowhead1492)" style="fill: none;"/><defs><marker id="arrowhead1492" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="25.98774530009784"><path class="path" d="M292.54296875,844.75L292.54296875,853.6458333333334C292.54296875,862.5416666666666,292.54296875,880.3333333333334,302.5745801483924,898.125C312.6061915467848,915.9166666666666,332.66941434356966,933.7083333333334,342.70102574196204,942.6041666666666L352.7326371403545,951.5" marker-end="url(#arrowhead1493)" style="fill: none;"/><defs><marker id="arrowhead1493" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="0.06587873523500486"><path class="path" d="M669.2407791999078,94.75L664.7449201665898,103.64583333333333C660.2490611332719,112.54166666666667,651.2573430666359,130.33333333333334,646.761484033318,154.85416666666666C642.265625,179.375,642.265625,210.625,642.265625,241.875C642.265625,273.125,642.265625,304.375,642.265625,335.625C642.265625,366.875,642.265625,398.125,642.265625,429.375C642.265625,460.625,642.265625,491.875,642.265625,523.125C642.265625,554.375,642.265625,585.625,642.265625,615.7083333333334C642.265625,645.7916666666666,642.265625,674.7083333333334,642.265625,704.7916666666666C642.265625,734.875,642.265625,766.125,642.265625,798.5416666666666C642.265625,830.9583333333334,642.265625,864.5416666666666,615.4453131357828,892.7778025077447C588.6250012715658,921.013938348823,534.9843775431315,943.9028766976459,508.16406567891437,955.3473458720573L481.34375381469727,966.7918150464689" marker-end="url(#arrowhead1494)" style="fill: none;"/><defs><marker id="arrowhead1494" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="25.86620488780141"><path class="path" d="M292.54296875,657.25L292.54296875,664.9791666666666C292.54296875,672.7083333333334,292.54296875,688.1666666666666,292.54296875,703.625C292.54296875,719.0833333333334,292.54296875,734.5416666666666,292.54296875,742.2708333333334L292.54296875,750" marker-end="url(#arrowhead1495)" style="fill: none;"/><defs><marker id="arrowhead1495" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="25.821359567747038"><path class="path" d="M169.6171875,469.75L169.6171875,478.6458333333333C169.6171875,487.5416666666667,169.6171875,505.3333333333333,181.2814782986111,523.125C192.9457690972222,540.9166666666666,216.27435069444445,558.7083333333334,227.93864149305554,567.6041666666666L239.60293229166666,576.5" marker-end="url(#arrowhead1496)" style="fill: none;"/><defs><marker id="arrowhead1496" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="0.04087569813924174"><path class="path" d="M624.6679725646973,83.78641006000005L604.4902375539144,94.50950838333337C584.3125025431315,105.23260670666669,543.9570325215658,126.67880335333335,523.7792975107828,153.02690167666668C503.6015625,179.375,503.6015625,210.625,503.6015625,241.875C503.6015625,273.125,503.6015625,304.375,503.6015625,335.625C503.6015625,366.875,503.6015625,398.125,503.6015625,429.375C503.6015625,460.625,503.6015625,491.875,480.8899739583333,517.5882479502508C458.1783854166667,543.3014959005015,412.7552083333333,563.4779918010031,390.0436197916667,573.5662397512539L367.33203125,583.6544877015046" marker-end="url(#arrowhead1497)" style="fill: none;"/><defs><marker id="arrowhead1497" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="4.4887456413319935"><path class="path" d="M72.30859375,282.25L72.30859375,291.1458333333333C72.30859375,300.0416666666667,72.30859375,317.8333333333333,81.54209809027778,335.625C90.77560243055557,353.4166666666667,109.24261111111112,371.2083333333333,118.4761154513889,380.1041666666667L127.70961979166667,389" marker-end="url(#arrowhead1498)" style="fill: none;"/><defs><marker id="arrowhead1498" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="21.08849965616736"><path class="path" d="M266.92578125,282.25L266.92578125,291.1458333333333C266.92578125,300.0416666666667,266.92578125,317.8333333333333,257.69227690972224,335.625C248.45877256944445,353.4166666666667,229.99176388888887,371.2083333333333,220.7582595486111,380.1041666666667L211.52475520833332,389" marker-end="url(#arrowhead1499)" style="fill: none;"/><defs><marker id="arrowhead1499" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="21.045941447392988"><path class="path" d="M194.26171875,94.75L194.26171875,103.64583333333333C194.26171875,112.54166666666667,194.26171875,130.33333333333334,201.15673090277778,148.125C208.05174305555556,165.91666666666666,221.84176736111112,183.70833333333334,228.7367795138889,192.60416666666666L235.63179166666666,201.5" marker-end="url(#arrowhead1500)" style="fill: none;"/><defs><marker id="arrowhead1500" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="0.0387910375731225"><path class="path" d="M624.6679725646973,68.25077204774314L580.9759146372477,81.56314337311927C537.2838567097982,94.87551469849542,449.8997408548991,121.5002573492477,397.1372688649496,143.7084620079572C344.37479687499996,165.91666666666666,326.23396875,183.70833333333334,317.1635546875,192.60416666666666L308.093140625,201.5" marker-end="url(#arrowhead1501)" style="fill: none;"/><defs><marker id="arrowhead1501" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(169.4765625,1523.625)" style="opacity: 1;"><g transform="translate(-76.96875,-30.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">battery, Li-ion,</tspan><tspan xml:space="preserve" dy="1em" x="1">NMC811, rechargeable,</tspan><tspan xml:space="preserve" dy="1em" x="1">prismatic</tspan><tspan xml:space="preserve" dy="1em" x="1">(14.4%)</tspan></text></g></g><g class="edgeLabel" transform="translate(394.4921875,1523.625)" style="opacity: 1;"><g transform="translate(-76.96875,-30.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">battery, Li-ion,</tspan><tspan xml:space="preserve" dy="1em" x="1">NMC811, rechargeable,</tspan><tspan xml:space="preserve" dy="1em" x="1">prismatic</tspan><tspan xml:space="preserve" dy="1em" x="1">(84.8%)</tspan></text></g></g><g class="edgeLabel" transform="translate(961.8710975646973,797.375)" style="opacity: 1;"><g transform="translate(-58.421875,-23.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">transport, freight,</tspan><tspan xml:space="preserve" dy="1em" x="1">lorry</tspan><tspan xml:space="preserve" dy="1em" x="1">(0.694%)</tspan></text></g></g><g class="edgeLabel" transform="translate(281.70312118530273,1308.125)" style="opacity: 1;"><g transform="translate(-72.21875,-16.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">metal working factory</tspan><tspan xml:space="preserve" dy="1em" x="1">(5.73%)</tspan></text></g></g><g class="edgeLabel" transform="translate(471.19531631469727,1308.125)" style="opacity: 1;"><g transform="translate(-60.0390625,-23.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">battery cell, Li-ion,</tspan><tspan xml:space="preserve" dy="1em" x="1">NMC811</tspan><tspan xml:space="preserve" dy="1em" x="1">(71.2%)</tspan></text></g></g><g class="edgeLabel" transform="translate(813.6835975646973,1308.125)" style="opacity: 1;"><g transform="translate(-69.765625,-30.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">battery management</tspan><tspan xml:space="preserve" dy="1em" x="1">system, for Li-ion</tspan><tspan xml:space="preserve" dy="1em" x="1">battery</tspan><tspan xml:space="preserve" dy="1em" x="1">(5.11%)</tspan></text></g></g><g class="edgeLabel" transform="translate(471.39844131469727,1099.625)" style="opacity: 1;"><g transform="translate(-60.2421875,-23.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">cathode, NMC811,</tspan><tspan xml:space="preserve" dy="1em" x="1">for Li-ion battery</tspan><tspan xml:space="preserve" dy="1em" x="1">(65.1%)</tspan></text></g></g><g class="edgeLabel" transform="translate(357.78515625,898.125)" style="opacity: 1;"><g transform="translate(-60.2421875,-23.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">cathode, NMC811,</tspan><tspan xml:space="preserve" dy="1em" x="1">for Li-ion battery</tspan><tspan xml:space="preserve" dy="1em" x="1">(65.0%)</tspan></text></g></g><g class="edgeLabel" transform="translate(705.6875,523.125)" style="opacity: 1;"><g transform="translate(-58.421875,-23.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">transport, freight,</tspan><tspan xml:space="preserve" dy="1em" x="1">lorry</tspan><tspan xml:space="preserve" dy="1em" x="1">(0.165%)</tspan></text></g></g><g class="edgeLabel" transform="translate(345.27734375,703.625)" style="opacity: 1;"><g transform="translate(-47.734375,-16.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 oxide</tspan><tspan xml:space="preserve" dy="1em" x="1">(64.7%)</tspan></text></g></g><g class="edgeLabel" transform="translate(222.3515625,523.125)" style="opacity: 1;"><g transform="translate(-47.734375,-16.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 oxide</tspan><tspan xml:space="preserve" dy="1em" x="1">(64.6%)</tspan></text></g></g><g class="edgeLabel" transform="translate(567.0234375,335.625)" style="opacity: 1;"><g transform="translate(-58.421875,-23.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">transport, freight,</tspan><tspan xml:space="preserve" dy="1em" x="1">lorry</tspan><tspan xml:space="preserve" dy="1em" x="1">(0.102%)</tspan></text></g></g><g class="edgeLabel" transform="translate(135.01953125,335.625)" style="opacity: 1;"><g transform="translate(-57.7109375,-16.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">lithium hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">(11.2%)</tspan></text></g></g><g class="edgeLabel" transform="translate(334.58984375,335.625)" style="opacity: 1;"><g transform="translate(-62.6640625,-16.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">(52.7%)</tspan></text></g></g><g class="edgeLabel" transform="translate(261.92578125,148.125)" style="opacity: 1;"><g transform="translate(-62.6640625,-16.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">(52.6%)</tspan></text></g></g><g class="edgeLabel" transform="translate(425.9375,148.125)" style="opacity: 1;"><g transform="translate(-58.421875,-23.375)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">transport, freight,</tspan><tspan xml:space="preserve" dy="1em" x="1">lorry</tspan><tspan xml:space="preserve" dy="1em" x="1">(0.0970%)</tspan></text></g></g></g><g class="nodes"><g class="node demand" id="a6340d3ae1622f5fea25af16af07bbc0" transform="translate(312.5234375,1631.375)" style="opacity: 1;"><rect rx="0" ry="0" x="-93.1875" y="-47.375" width="186.375" height="94.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-83.1875,-37.375)"><text><tspan xml:space="preserve" dy="1em" x="1">market for battery,</tspan><tspan xml:space="preserve" dy="1em" x="1">Li-ion, NMC811,</tspan><tspan xml:space="preserve" dy="1em" x="1">rechargeable, prismatic</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="0f8c132a27a299fb959c5e35254f4861" transform="translate(87.5078125,1415.875)" style="opacity: 1;"><rect rx="0" ry="0" x="-87.5078125" y="-47.375" width="175.015625" height="94.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-77.5078125,-37.375)"><text><tspan xml:space="preserve" dy="1em" x="1">battery production,</tspan><tspan xml:space="preserve" dy="1em" x="1">Li-ion, NMC811,</tspan><tspan xml:space="preserve" dy="1em" x="1">rechargeable, prismatic</tspan><tspan xml:space="preserve" dy="1em" x="1">CN</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="76d5fbeb2a34f162f3d98c6dacab3281" transform="translate(312.5234375,1415.875)" style="opacity: 1;"><rect rx="0" ry="0" x="-87.5078125" y="-47.375" width="175.015625" height="94.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-77.5078125,-37.375)"><text><tspan xml:space="preserve" dy="1em" x="1">battery production,</tspan><tspan xml:space="preserve" dy="1em" x="1">Li-ion, NMC811,</tspan><tspan xml:space="preserve" dy="1em" x="1">rechargeable, prismatic</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="072851eccc9f466fa5d4c2fea3c43e11" transform="translate(693.1835975646973,47.375)" style="opacity: 1;"><rect rx="0" ry="0" x="-68.515625" y="-47.375" width="137.03125" height="94.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-58.515625,-37.375)"><text><tspan xml:space="preserve" dy="1em" x="1">transport, freight,</tspan><tspan xml:space="preserve" dy="1em" x="1">lorry, unspecified,</tspan><tspan xml:space="preserve" dy="1em" x="1">regional delivery</tspan><tspan xml:space="preserve" dy="1em" x="1">World</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="571470e655ae2b37b978020e9c1c28fb" transform="translate(204.48437118530273,1200.375)" style="opacity: 1;"><rect rx="0" ry="0" x="-65.4453125" y="-40.375" width="130.890625" height="80.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-55.4453125,-30.375)"><text><tspan xml:space="preserve" dy="1em" x="1">market for metal</tspan><tspan xml:space="preserve" dy="1em" x="1">working factory</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="5e8a6fa4a442463434afa4917aa35412" transform="translate(406.15625381469727,1200.375)" style="opacity: 1;"><rect rx="0" ry="0" x="-86.2265625" y="-40.375" width="172.453125" height="80.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-76.2265625,-30.375)"><text><tspan xml:space="preserve" dy="1em" x="1">battery cell production,</tspan><tspan xml:space="preserve" dy="1em" x="1">Li-ion, NMC811</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="d299e544e63857535f686957731c89ce" transform="translate(738.9179725646973,1200.375)" style="opacity: 1;"><rect rx="0" ry="0" x="-79.765625" y="-47.375" width="159.53125" height="94.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-69.765625,-37.375)"><text><tspan xml:space="preserve" dy="1em" x="1">battery management</tspan><tspan xml:space="preserve" dy="1em" x="1">system production,</tspan><tspan xml:space="preserve" dy="1em" x="1">for Li-ion battery</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="80310b5021efcb8abcf6d15a9f5ce58e" transform="translate(406.15625381469727,998.875)" style="opacity: 1;"><rect rx="0" ry="0" x="-75.1875" y="-47.375" width="150.375" height="94.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-65.1875,-37.375)"><text><tspan xml:space="preserve" dy="1em" x="1">market for cathode,</tspan><tspan xml:space="preserve" dy="1em" x="1">NMC811, for Li-ion</tspan><tspan xml:space="preserve" dy="1em" x="1">battery</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="8ed5dce88d25c5cfd32fbc81684a27ab" transform="translate(292.54296875,797.375)" style="opacity: 1;"><rect rx="0" ry="0" x="-76.4296875" y="-47.375" width="152.859375" height="94.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-66.4296875,-37.375)"><text><tspan xml:space="preserve" dy="1em" x="1">cathode production,</tspan><tspan xml:space="preserve" dy="1em" x="1">NMC811, for Li-ion</tspan><tspan xml:space="preserve" dy="1em" x="1">battery</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="bc62c5330286e6df8bfbcf7d03502b2c" transform="translate(292.54296875,616.875)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.7890625" y="-40.375" width="149.578125" height="80.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-64.7890625,-30.375)"><text><tspan xml:space="preserve" dy="1em" x="1">market for NMC811</tspan><tspan xml:space="preserve" dy="1em" x="1">oxide</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="980b17ccb891a38585bf05ad3185e9fa" transform="translate(169.6171875,429.375)" style="opacity: 1;"><rect rx="0" ry="0" x="-97.5625" y="-40.375" width="195.125" height="80.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-87.5625,-30.375)"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 oxide production,</tspan><tspan xml:space="preserve" dy="1em" x="1">for Li-ion battery</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="464c6360725050e3227a12d9cfb2afeb" transform="translate(72.30859375,241.875)" style="opacity: 1;"><rect rx="0" ry="0" x="-69.828125" y="-40.375" width="139.65625" height="80.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-59.828125,-30.375)"><text><tspan xml:space="preserve" dy="1em" x="1">market for lithium</tspan><tspan xml:space="preserve" dy="1em" x="1">hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="f81abe2a383b675a23d300859d4ee45e" transform="translate(266.92578125,241.875)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.7890625" y="-40.375" width="149.578125" height="80.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-64.7890625,-30.375)"><text><tspan xml:space="preserve" dy="1em" x="1">market for NMC811</tspan><tspan xml:space="preserve" dy="1em" x="1">hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="c9393ca3e722e156f115e76d554f70e3" transform="translate(194.26171875,47.375)" style="opacity: 1;"><rect rx="0" ry="0" x="-72.6640625" y="-47.375" width="145.328125" height="94.75" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-62.6640625,-37.375)"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">production, for</tspan><tspan xml:space="preserve" dy="1em" x="1">Li-ion battery</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g></g></g></g></g></svg>
+}</style>
+  <g
+     class="wrapper inner"
+     clip-path="url(#wrapperClipPath_qwpyza)"
+     transform="matrix(0.36298974,0,0,0.36298974,1.8149487e-7,33.584684)"
+     id="g600"
+     inkscape:export-filename="T-reX_NMC811_WasteTotalSolid.pdf"
+     inkscape:export-xdpi="600"
+     inkscape:export-ydpi="600">
+    <g
+       class="panCanvas"
+       id="g598">
+      <g
+         class="output"
+         id="g596">
+        <g
+           class="clusters"
+           id="g4" />
+        <g
+           class="edgePaths"
+           id="g150">
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="5.7522"
+             id="g13">
+            <path
+               class="path"
+               d="m 87.507812,1463.25 v 10.0625 c 0,10.0625 0,30.1875 21.971358,50.7711 21.97135,20.5836 65.91406,41.6258 87.88541,52.1469 l 21.97136,10.5211"
+               marker-end="url(#arrowhead1486)"
+               style="fill:none"
+               id="path6" />
+            <defs
+               id="defs11">
+              <marker
+                 id="arrowhead1486"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path8" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="33.9242"
+             id="g22">
+            <path
+               class="path"
+               d="m 312.52344,1463.25 v 10.0625 c 0,10.0625 0,30.1875 0,50.3125 0,20.125 0,40.25 0,50.3125 V 1584"
+               marker-end="url(#arrowhead1487)"
+               style="fill:none"
+               id="path15" />
+            <defs
+               id="defs20">
+              <marker
+                 id="arrowhead1487"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path17" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="0.27744"
+             id="g31">
+            <path
+               class="path"
+               d="m 761.69922,81.004348 22.79167,11.186776 c 22.79167,11.186776 68.375,33.560326 91.16667,60.372096 22.79166,26.81178 22.79166,58.06178 22.79166,89.31178 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,92.58333 0,30.08334 0,59 0,89.08334 0,30.08333 0,61.33333 0,93.75 0,32.41666 0,66 0,99.58333 0,33.58333 0,67.16667 0,100.75 0,33.5833 0,67.1667 0,100.75 0,33.5833 0,67.1667 0,101.9167 0,34.75 0,70.6666 0,106.5833 0,35.9167 0,71.8333 0,107.75 0,35.9167 0,71.8333 -82.12304,104.8938 -82.12305,33.0606 -246.36915,63.2649 -328.49219,78.3671 l -82.12305,15.1022"
+               marker-end="url(#arrowhead1488)"
+               style="fill:none"
+               id="path24" />
+            <defs
+               id="defs29">
+              <marker
+                 id="arrowhead1488"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path26" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="2.2902"
+             id="g40">
+            <path
+               class="path"
+               d="m 204.48437,1240.75 v 11.2292 c 0,11.2291 0,33.6875 10.0895,54.9791 10.08949,21.2917 30.26848,41.4167 40.35798,51.4792 l 10.08949,10.0625"
+               marker-end="url(#arrowhead1489)"
+               style="fill:none"
+               id="path33" />
+            <defs
+               id="defs38">
+              <marker
+                 id="arrowhead1489"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path35" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="28.4839"
+             id="g49">
+            <path
+               class="path"
+               d="m 406.15625,1240.75 v 11.2292 c 0,11.2291 0,33.6875 -8.74413,54.9791 -8.74413,21.2917 -26.23239,41.4167 -34.97653,51.4792 l -8.74413,10.0625"
+               marker-end="url(#arrowhead1490)"
+               style="fill:none"
+               id="path42" />
+            <defs
+               id="defs47">
+              <marker
+                 id="arrowhead1490"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path44" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="2.04579"
+             id="g58">
+            <path
+               class="path"
+               d="m 738.91797,1247.75 v 10.0625 c 0,10.0625 0,30.1875 -56.48112,54.5228 -56.48112,24.3353 -169.44336,52.8809 -225.92448,67.1537 l -56.48112,14.2728"
+               marker-end="url(#arrowhead1491)"
+               style="fill:none"
+               id="path51" />
+            <defs
+               id="defs56">
+              <marker
+                 id="arrowhead1491"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path53" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="26.054"
+             id="g67">
+            <path
+               class="path"
+               d="m 406.15625,1046.25 v 8.8958 c 0,8.8959 0,26.6875 0,45.6459 0,18.9583 0,39.0833 0,49.1458 V 1160"
+               marker-end="url(#arrowhead1492)"
+               style="fill:none"
+               id="path60" />
+            <defs
+               id="defs65">
+              <marker
+                 id="arrowhead1492"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path62" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="25.9877"
+             id="g76">
+            <path
+               class="path"
+               d="m 292.54297,844.75 v 8.89583 c 0,8.89584 0,26.6875 10.03161,44.47917 10.03161,17.79167 30.09483,35.58333 40.12645,44.47917 L 352.73264,951.5"
+               marker-end="url(#arrowhead1493)"
+               style="fill:none"
+               id="path69" />
+            <defs
+               id="defs74">
+              <marker
+                 id="arrowhead1493"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path71" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="0.0658787"
+             id="g85">
+            <path
+               class="path"
+               d="m 669.24078,94.75 -4.49586,8.89583 c -4.49586,8.89584 -13.48758,26.6875 -17.98344,51.20834 -4.49586,24.52083 -4.49586,55.77083 -4.49586,87.02083 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,92.58333 0,30.08334 0,59 0,89.08334 0,30.08333 0,61.33333 0,93.75 0,32.41666 0,66 -26.82031,94.23613 -26.82031,28.23614 -80.46093,51.12508 -107.28124,62.56955 l -26.82032,11.44447"
+               marker-end="url(#arrowhead1494)"
+               style="fill:none"
+               id="path78" />
+            <defs
+               id="defs83">
+              <marker
+                 id="arrowhead1494"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path80" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="25.8662"
+             id="g94">
+            <path
+               class="path"
+               d="m 292.54297,657.25 v 7.72917 c 0,7.72916 0,23.1875 0,38.64583 0,15.45833 0,30.91667 0,38.64583 V 750"
+               marker-end="url(#arrowhead1495)"
+               style="fill:none"
+               id="path87" />
+            <defs
+               id="defs92">
+              <marker
+                 id="arrowhead1495"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path89" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="25.8214"
+             id="g103">
+            <path
+               class="path"
+               d="m 169.61719,469.75 v 8.89583 c 0,8.89584 0,26.6875 11.66429,44.47917 11.66429,17.79167 34.99287,35.58333 46.65716,44.47917 L 239.60293,576.5"
+               marker-end="url(#arrowhead1496)"
+               style="fill:none"
+               id="path96" />
+            <defs
+               id="defs101">
+              <marker
+                 id="arrowhead1496"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path98" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="0.0408757"
+             id="g112">
+            <path
+               class="path"
+               d="M 624.66797,83.78641 604.49024,94.509508 C 584.3125,105.23261 543.95703,126.6788 523.7793,153.0269 c -20.17774,26.3481 -20.17774,57.5981 -20.17774,88.8481 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 -22.71159,88.21325 -22.71158,25.71325 -68.13476,45.88974 -90.84635,55.97799 l -22.71159,10.08825"
+               marker-end="url(#arrowhead1497)"
+               style="fill:none"
+               id="path105" />
+            <defs
+               id="defs110">
+              <marker
+                 id="arrowhead1497"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path107" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="4.48875"
+             id="g121">
+            <path
+               class="path"
+               d="m 72.308594,282.25 v 8.89583 c 0,8.89584 0,26.6875 9.233504,44.47917 9.233504,17.79167 27.700512,35.58333 36.934022,44.47917 L 127.70962,389"
+               marker-end="url(#arrowhead1498)"
+               style="fill:none"
+               id="path114" />
+            <defs
+               id="defs119">
+              <marker
+                 id="arrowhead1498"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path116" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="21.0885"
+             id="g130">
+            <path
+               class="path"
+               d="m 266.92578,282.25 v 8.89583 c 0,8.89584 0,26.6875 -9.2335,44.47917 -9.23351,17.79167 -27.70052,35.58333 -36.93402,44.47917 L 211.52476,389"
+               marker-end="url(#arrowhead1499)"
+               style="fill:none"
+               id="path123" />
+            <defs
+               id="defs128">
+              <marker
+                 id="arrowhead1499"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path125" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="21.0459"
+             id="g139">
+            <path
+               class="path"
+               d="m 194.26172,94.75 v 8.89583 c 0,8.89584 0,26.6875 6.89501,44.47917 6.89501,17.79167 20.68504,35.58333 27.58005,44.47917 l 6.89501,8.89583"
+               marker-end="url(#arrowhead1500)"
+               style="fill:none"
+               id="path132" />
+            <defs
+               id="defs137">
+              <marker
+                 id="arrowhead1500"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path134" />
+              </marker>
+            </defs>
+          </g>
+          <g
+             class="edgePath impact"
+             style="opacity:1"
+             stroke-width="0.038791"
+             id="g148">
+            <path
+               class="path"
+               d="m 624.66797,68.250772 -43.69206,13.312371 c -43.69205,13.312372 -131.07617,39.937117 -183.83864,62.145317 -52.76247,22.20821 -70.9033,39.99987 -79.97372,48.89571 L 308.09314,201.5"
+               marker-end="url(#arrowhead1501)"
+               style="fill:none"
+               id="path141" />
+            <defs
+               id="defs146">
+              <marker
+                 id="arrowhead1501"
+                 viewBox="0 0 60 60"
+                 refX="9"
+                 refY="5"
+                 markerUnits="strokeWidth"
+                 markerWidth="8"
+                 markerHeight="6"
+                 orient="auto">
+                <path
+                   d="M 0,0 10,5 0,10 Z"
+                   style="stroke-width:1;stroke-dasharray:1, 0"
+                   id="path143" />
+              </marker>
+            </defs>
+          </g>
+        </g>
+        <g
+           class="edgeLabels"
+           id="g338">
+          <g
+             class="edgeLabel"
+             transform="translate(169.47656,1523.625)"
+             style="opacity:1"
+             id="g164">
+            <g
+               transform="translate(-76.96875,-30.375)"
+               class="label"
+               id="g162">
+              <text
+                 id="text160"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan152">battery, Li-ion,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan154">NMC811, rechargeable,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan156">prismatic</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan158">(14.4%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(394.49219,1523.625)"
+             style="opacity:1"
+             id="g178">
+            <g
+               transform="translate(-76.96875,-30.375)"
+               class="label"
+               id="g176">
+              <text
+                 id="text174"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan166">battery, Li-ion,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan168">NMC811, rechargeable,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan170">prismatic</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan172">(84.8%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(961.8711,797.375)"
+             style="opacity:1"
+             id="g190">
+            <g
+               transform="translate(-58.421875,-23.375)"
+               class="label"
+               id="g188">
+              <text
+                 id="text186"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan180">transport, freight,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan182">lorry</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan184">(0.694%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(281.70312,1308.125)"
+             style="opacity:1"
+             id="g200">
+            <g
+               transform="translate(-72.21875,-16.375)"
+               class="label"
+               id="g198">
+              <text
+                 id="text196"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan192">metal working factory</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan194">(5.73%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(471.19532,1308.125)"
+             style="opacity:1"
+             id="g212">
+            <g
+               transform="translate(-60.039062,-23.375)"
+               class="label"
+               id="g210">
+              <text
+                 id="text208"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan202">battery cell, Li-ion,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan204">NMC811</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan206">(71.2%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(813.6836,1308.125)"
+             style="opacity:1"
+             id="g226">
+            <g
+               transform="translate(-69.765625,-30.375)"
+               class="label"
+               id="g224">
+              <text
+                 id="text222"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan214">battery management</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan216">system, for Li-ion</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan218">battery</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan220">(5.11%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(471.39844,1099.625)"
+             style="opacity:1"
+             id="g238">
+            <g
+               transform="translate(-60.242187,-23.375)"
+               class="label"
+               id="g236">
+              <text
+                 id="text234"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan228">cathode, NMC811,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan230">for Li-ion battery</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan232">(65.1%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(357.78516,898.125)"
+             style="opacity:1"
+             id="g250">
+            <g
+               transform="translate(-60.242187,-23.375)"
+               class="label"
+               id="g248">
+              <text
+                 id="text246"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan240">cathode, NMC811,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan242">for Li-ion battery</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan244">(65.0%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(705.6875,523.125)"
+             style="opacity:1"
+             id="g262">
+            <g
+               transform="translate(-58.421875,-23.375)"
+               class="label"
+               id="g260">
+              <text
+                 id="text258"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan252">transport, freight,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan254">lorry</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan256">(0.165%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(345.27734,703.625)"
+             style="opacity:1"
+             id="g272">
+            <g
+               transform="translate(-47.734375,-16.375)"
+               class="label"
+               id="g270">
+              <text
+                 id="text268"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan264">NMC811 oxide</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan266">(64.7%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(222.35156,523.125)"
+             style="opacity:1"
+             id="g282">
+            <g
+               transform="translate(-47.734375,-16.375)"
+               class="label"
+               id="g280">
+              <text
+                 id="text278"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan274">NMC811 oxide</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan276">(64.6%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(567.02344,335.625)"
+             style="opacity:1"
+             id="g294">
+            <g
+               transform="translate(-58.421875,-23.375)"
+               class="label"
+               id="g292">
+              <text
+                 id="text290"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan284">transport, freight,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan286">lorry</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan288">(0.102%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(135.01953,335.625)"
+             style="opacity:1"
+             id="g304">
+            <g
+               transform="translate(-57.710937,-16.375)"
+               class="label"
+               id="g302">
+              <text
+                 id="text300"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan296">lithium hydroxide</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan298">(11.2%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(334.58984,335.625)"
+             style="opacity:1"
+             id="g314">
+            <g
+               transform="translate(-62.664062,-16.375)"
+               class="label"
+               id="g312">
+              <text
+                 id="text310"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan306">NMC811 hydroxide</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan308">(52.7%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(261.92578,148.125)"
+             style="opacity:1"
+             id="g324">
+            <g
+               transform="translate(-62.664062,-16.375)"
+               class="label"
+               id="g322">
+              <text
+                 id="text320"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan316">NMC811 hydroxide</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan318">(52.6%)</tspan></text>
+            </g>
+          </g>
+          <g
+             class="edgeLabel"
+             transform="translate(425.9375,148.125)"
+             style="opacity:1"
+             id="g336">
+            <g
+               transform="translate(-58.421875,-23.375)"
+               class="label"
+               id="g334">
+              <text
+                 id="text332"><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan326">transport, freight,</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan328">lorry</tspan><tspan
+                   xml:space="preserve"
+                   dy="1em"
+                   x="1"
+                   id="tspan330">(0.0970%)</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g
+           class="nodes"
+           id="g594">
+          <g
+             class="node demand"
+             id="a6340d3ae1622f5fea25af16af07bbc0"
+             transform="translate(312.52344,1631.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-93.1875"
+               y="-47.375"
+               width="186.375"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect340" />
+            <g
+               class="label"
+               id="g356">
+              <g
+                 transform="translate(-83.1875,-37.375)"
+                 id="g354">
+                <text
+                   id="text352"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan342">market for battery,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan344">Li-ion, NMC811,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan346">rechargeable, prismatic</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan348">GLO</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan350">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="0f8c132a27a299fb959c5e35254f4861"
+             transform="translate(87.507812,1415.875)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-87.507812"
+               y="-47.375"
+               width="175.01562"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect359" />
+            <g
+               class="label"
+               id="g375">
+              <g
+                 transform="translate(-77.507812,-37.375)"
+                 id="g373">
+                <text
+                   id="text371"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan361">battery production,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan363">Li-ion, NMC811,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan365">rechargeable, prismatic</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan367">CN</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan369">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="76d5fbeb2a34f162f3d98c6dacab3281"
+             transform="translate(312.52344,1415.875)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-87.507812"
+               y="-47.375"
+               width="175.01562"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect378" />
+            <g
+               class="label"
+               id="g394">
+              <g
+                 transform="translate(-77.507812,-37.375)"
+                 id="g392">
+                <text
+                   id="text390"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan380">battery production,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan382">Li-ion, NMC811,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan384">rechargeable, prismatic</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan386">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan388">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="072851eccc9f466fa5d4c2fea3c43e11"
+             transform="translate(693.1836,47.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-68.515625"
+               y="-47.375"
+               width="137.03125"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect397" />
+            <g
+               class="label"
+               id="g413">
+              <g
+                 transform="translate(-58.515625,-37.375)"
+                 id="g411">
+                <text
+                   id="text409"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan399">transport, freight,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan401">lorry, unspecified,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan403">regional delivery</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan405">World</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan407">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node market"
+             id="571470e655ae2b37b978020e9c1c28fb"
+             transform="translate(204.48437,1200.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-65.445312"
+               y="-40.375"
+               width="130.89062"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect416" />
+            <g
+               class="label"
+               id="g430">
+              <g
+                 transform="translate(-55.445312,-30.375)"
+                 id="g428">
+                <text
+                   id="text426"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan418">market for metal</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan420">working factory</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan422">GLO</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan424">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="5e8a6fa4a442463434afa4917aa35412"
+             transform="translate(406.15625,1200.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-86.226562"
+               y="-40.375"
+               width="172.45312"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect433" />
+            <g
+               class="label"
+               id="g447">
+              <g
+                 transform="translate(-76.226562,-30.375)"
+                 id="g445">
+                <text
+                   id="text443"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan435">battery cell production,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan437">Li-ion, NMC811</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan439">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan441">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="d299e544e63857535f686957731c89ce"
+             transform="translate(738.91797,1200.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-79.765625"
+               y="-47.375"
+               width="159.53125"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect450" />
+            <g
+               class="label"
+               id="g466">
+              <g
+                 transform="translate(-69.765625,-37.375)"
+                 id="g464">
+                <text
+                   id="text462"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan452">battery management</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan454">system production,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan456">for Li-ion battery</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan458">GLO</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan460">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node market"
+             id="80310b5021efcb8abcf6d15a9f5ce58e"
+             transform="translate(406.15625,998.875)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-75.1875"
+               y="-47.375"
+               width="150.375"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect469" />
+            <g
+               class="label"
+               id="g485">
+              <g
+                 transform="translate(-65.1875,-37.375)"
+                 id="g483">
+                <text
+                   id="text481"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan471">market for cathode,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan473">NMC811, for Li-ion</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan475">battery</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan477">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan479">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="8ed5dce88d25c5cfd32fbc81684a27ab"
+             transform="translate(292.54297,797.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-76.429688"
+               y="-47.375"
+               width="152.85938"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect488" />
+            <g
+               class="label"
+               id="g504">
+              <g
+                 transform="translate(-66.429687,-37.375)"
+                 id="g502">
+                <text
+                   id="text500"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan490">cathode production,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan492">NMC811, for Li-ion</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan494">battery</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan496">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan498">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node market"
+             id="bc62c5330286e6df8bfbcf7d03502b2c"
+             transform="translate(292.54297,616.875)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-74.789062"
+               y="-40.375"
+               width="149.57812"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect507" />
+            <g
+               class="label"
+               id="g521">
+              <g
+                 transform="translate(-64.789062,-30.375)"
+                 id="g519">
+                <text
+                   id="text517"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan509">market for NMC811</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan511">oxide</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan513">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan515">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="980b17ccb891a38585bf05ad3185e9fa"
+             transform="translate(169.61719,429.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-97.5625"
+               y="-40.375"
+               width="195.125"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect524" />
+            <g
+               class="label"
+               id="g538">
+              <g
+                 transform="translate(-87.5625,-30.375)"
+                 id="g536">
+                <text
+                   id="text534"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan526">NMC811 oxide production,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan528">for Li-ion battery</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan530">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan532">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node market"
+             id="464c6360725050e3227a12d9cfb2afeb"
+             transform="translate(72.308594,241.875)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-69.828125"
+               y="-40.375"
+               width="139.65625"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect541" />
+            <g
+               class="label"
+               id="g555">
+              <g
+                 transform="translate(-59.828125,-30.375)"
+                 id="g553">
+                <text
+                   id="text551"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan543">market for lithium</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan545">hydroxide</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan547">GLO</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan549">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node market"
+             id="f81abe2a383b675a23d300859d4ee45e"
+             transform="translate(266.92578,241.875)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-74.789062"
+               y="-40.375"
+               width="149.57812"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect558" />
+            <g
+               class="label"
+               id="g572">
+              <g
+                 transform="translate(-64.789062,-30.375)"
+                 id="g570">
+                <text
+                   id="text568"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan560">market for NMC811</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan562">hydroxide</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan564">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan566">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="c9393ca3e722e156f115e76d554f70e3"
+             transform="translate(194.26172,47.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-72.664062"
+               y="-47.375"
+               width="145.32812"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect575" />
+            <g
+               class="label"
+               id="g591">
+              <g
+                 transform="translate(-62.664062,-37.375)"
+                 id="g589">
+                <text
+                   id="text587"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan577">NMC811 hydroxide</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan579">production, for</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan581">Li-ion battery</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan583">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan585">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

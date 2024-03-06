@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex main"] 1709707362 "main.aux" "main.bbl" "main" 1709707995 0
+["bibtex main"] 1709710253 "main.aux" "main.bbl" "main" 1709710339 0
   "./references.bib" 1709684339 30486 908492c84c359a2b6a587e193784b5bd ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/elsarticle/elsarticle-harv.bst" 1606256092 30002 8c0c5833f37bea3ec214cf315a72975d ""
-  "main.aux" 1709707994 17286 1f011440ffdbe3c369bca0ff485998d2 "pdflatex"
+  "main.aux" 1709710339 17419 e1170dd31c2ae47f8dbf917e2f9930bc "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1709707993 "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex" "main.pdf" "main" 1709707995 0
+["pdflatex"] 1709710337 "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex" "main.pdf" "main" 1709710339 0
   "/home/stew/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700391700 8015625 a5a0154258173577727e1739f831665d ""
-  "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex" 1709707992 10166 19e217a3efcdc18535f8f4d5b41609bc ""
+  "/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/main.tex" 1709710334 11200 df18885d871b0a8d7826673705bf422a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1490131464 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490131464 2933 9ad527ce78d7c5fa0a642dead095f172 ""
@@ -234,14 +234,14 @@
   "figures/top-processes.png" 1706658833 1173562 71f1dd7f228e1790db0b5793a4a0cb3b ""
   "figures/total_waste.png" 1706657333 111851 fd8f27742115953e15fd4045e7fbeef3 ""
   "grabs.jpg" 1709128100 92735 47dd3c4a9aff9caf2b5a71983e177cd7 ""
-  "introduction.tex" 1709700029 11178 5f06139ae5bf1b511ea9943b6eb7a528 ""
-  "main.aux" 1709707994 17286 1f011440ffdbe3c369bca0ff485998d2 "pdflatex"
-  "main.bbl" 1709707362 22838 6f6a12bcbd23a3d1d6a601b5f7876b60 "bibtex main"
-  "main.out" 1709707994 4058 e484a5dd7b4add34284af94d9c43bc18 "pdflatex"
-  "main.spl" 1709707993 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1709707992 10166 19e217a3efcdc18535f8f4d5b41609bc ""
-  "methodology.tex" 1709705527 12131 a0e582c3fa109fe583f9b1f71be3b8bf ""
-  "results.tex" 1709707166 12564 abdb999930434525e7e3baec5af0a505 ""
+  "introduction.tex" 1709709302 11848 3f2ce4c1e04890e2547359c38770f78b ""
+  "main.aux" 1709710339 17419 e1170dd31c2ae47f8dbf917e2f9930bc "pdflatex"
+  "main.bbl" 1709710253 23196 60aadacb81d91449f0c9c8c87d3e4dba "bibtex main"
+  "main.out" 1709710339 4058 e484a5dd7b4add34284af94d9c43bc18 "pdflatex"
+  "main.spl" 1709710337 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1709710334 11200 df18885d871b0a8d7826673705bf422a ""
+  "methodology.tex" 1709710202 12101 981f21468154eeeccec950e6c7b48559 ""
+  "results.tex" 1709710231 12570 8735f4ab8ba1c64a0c552dacda597283 ""
   (generated)
   "main.aux"
   "main.log"

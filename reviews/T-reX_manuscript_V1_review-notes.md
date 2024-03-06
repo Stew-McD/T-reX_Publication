@@ -1,44 +1,48 @@
 # Revision after first internal review (V1)
 
-Date: 2023-03-05
-  
+Date: 2023-03-06
+
+
+Note: I'm still rearranging some things in the introduction
+
 Reviewers:
 
 * SC: Stefano Cucurachi
-* CB: Carlos Felipe Rocha Blanco
+* CB: Carlos Felipe Blanco
 * LL: Elizabeth Lanphear
 
 ## Topics for discussion
 
 1. Everyone okay with the new name "T-reX"? Grrr
+
+### Phrasing 
 2. Nomenclature 1: Tool, method, package.... 
 3. Nomenclature 2: "pseudo LCIA"
 4. Nomenclature 3: "demand footprint" vs "inventory footprint" etc.
 
 ### Introduction
-5. How to split up the the introduction into "background and short introduction"?
+5. How to split up the the introduction into "background and short introduction"
 
 ### Methods
 
-6. Mathematical basis??
-7. New flowchart
+6. Mathematical basis? I am not convinced that it would add much to interest anyone. But
+7. New flowchart. Is it everything you were dreaming of CB?
 8. Removal of the 'codey' stuff to SI
 
 ### Results
 
-9. Sankey diagram.
+9. Sankey diagram. Look through Activity Browser, talk about which to choose. Then I can make it pretty and write the few sentences about it. Probably I can't write code to batch process all of the results (without disappearing for a few weeks). Also, we have a limit on the number of total figures, so some need to be cut. 
 
 ### Discussion
 
-10. "Limitations"
+10. "Limitations" - SC wants to hide the flaws :P
 
 ### Supplementary Information
 
 11. Anything else to include?
 
 
-
-## Actions taken or planned
+## Actions taken or planned by SM since V1 review
 
 ### General
 
@@ -59,13 +63,8 @@ Reviewers:
 * [ ] maybe move the text about Laurenti's method to somewhere earlier
 * [ ] move CSI to later in the intro/background ~122 in V1
 * [ ] add mention of limitations of current approaches in the introduction (regarding the future)
-* [ ] add mention of EDIP in the intro:
-"As discussed in the introduction 1 there are some existing material demand methods in the standard LCIA method
-264 sets, including the ‘crustal scarcity indicator’ (which provides only an aggregated, abstracted endpoint) (Arvidsson
-265 et al., 2020) and the (deprecated) EDIP 2003 material use indicators (which provide endpoints in fundamental
-266 units) (Hauschild and Potting, 2004). In these methods, the material demand is calculated based on the total mass that
-267 is extracted from the environment, thus, their focus is essentially solely on the mining-related exchanges that bring
-268 these materials from the biosphere into the technosphere."
+* [ ] add explicit mention of EDIP in the intro
+
 
 ### Methods
 
