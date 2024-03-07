@@ -4,15 +4,15 @@ The top-level auxiliary file: main.aux
 The style file: elsarticle-harv.bst
 Database file #1: references.bib
 Warning--entry type for "mcdowall2023T-reXpipy" isn't style-file defined
---line 449 of file references.bib
+--line 447 of file references.bib
 Warning--entry type for "mcdowall2023T-reXzenodo" isn't style-file defined
---line 456 of file references.bib
+--line 454 of file references.bib
 Warning--entry type for "mcdowall2024T-reXgithub" isn't style-file defined
---line 464 of file references.bib
+--line 462 of file references.bib
 Warning--entry type for "mutel2016brightway2analyzer" isn't style-file defined
---line 484 of file references.bib
+--line 482 of file references.bib
 Warning--entry type for "sacchi2023premisedocs" isn't style-file defined
---line 597 of file references.bib
+--line 595 of file references.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty chapter and pages in berry2023crm
 Warning--empty pages in berry2023crm
