@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.19)  6 MAR 2024 05:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.19)  8 MAR 2024 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/credit.tex
-(/home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/credit.tex
+**/home/stew/code/gh/T-reX-Publication/latex_files/credit.tex
+(/home/stew/code/gh/T-reX-Publication/latex_files/credit.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/standalone/standalone.cls
@@ -342,14 +342,14 @@ L3 programming layer <2023-11-09>
  ) 
 Here is how much of TeX's memory you used:
  14376 strings out of 475387
- 302108 string characters out of 5769436
+ 302048 string characters out of 5769436
  1954555 words of memory out of 5000000
  36180 multiletter control sequences out of 15000+600000
  559773 words of font info for 38 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 102i,7n,113p,491b,767s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,7n,113p,471b,767s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb>
-Output written on credit.pdf (1 page, 86030 bytes).
+Output written on credit.pdf (1 page, 86029 bytes).
 PDF statistics:
  17 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream

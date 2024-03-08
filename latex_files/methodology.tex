@@ -45,13 +45,13 @@ The workflow of T-reX is divided into several modules, each performing a seperat
     \item Database verification---to ensure that T-reX has manipulated the database correctly
 \end{enumerate}
 
-This workflow creates copy of the original \texttt{brightway} project containing the original biosphere database, a T-reX 'pseudo-biosphere' database along with one or more manipulated technosphere database(s) that can be used to calculate the waste and material inventory footprints of activities in the same way as standard LCIA calculations.
+This workflow creates copy of the original \texttt{brightway} project containing the original biosphere database, a T-reX `pseudo-biosphere' database along with one or more manipulated technosphere database(s) that can be used to calculate the waste and material inventory footprints of activities in the same way as standard LCIA calculations.
 
 A generic flowchart of the T-reX workflow is presented in \autoref{fig:methods-flowchart}. The supplementary material [ADD LINK] contains a more detailed computational flowchart.
 
 \begin{figure}[H]
     \centering
-    \caption{Workflow of the T-reX. Application of T-reX to one or more LCA databases creates a brightway project with customised methods and activities that can be used to calculate waste and material inventory footprints of the activity's supply chain.}
+    \caption{Workflow of the T-reX. Application of T-reX to one or more LCA databases creates a brightway project with customised methods and activities that can be used to calculate waste and material inventory footprints of the activity's supply chain. [TO BE IMPROVED!]}
     \includegraphics[width=0.5\linewidth]{figures/T-reX_method.pdf}
     \label{fig:methods-flowchart}
 \end{figure}
@@ -77,7 +77,7 @@ In addition to the waste and material inventory footprint methods created by the
     \item CSI 2020
 \end{itemize}
 
-The source of the life cycle inventory data for this case study was ecoinvent 3.9.1 cutoff. Additionally, the T-reX tool was used to create prospective database sets using the \mbox{REMIND} model with the following Representative Concentration Pathways (RCPs):
+The source of the life cycle inventory data for this case study was the database ecoinvent, version 3.9.1 with the `cutoff' attributional system model. Additionally, T-reX was used to create prospective database sets using the \mbox{REMIND} model and the baseline scenario SSP2 `middle of the road' with the following Representative Concentration Pathways (RCPs):
 \begin{itemize}
     \item SSP2-base: representing an approximate 3.5°C increase in global temperatures to 2100
     \item SSP2-PkBudg500: representing the achievement of Paris climate goals, ca. 1.3°C increase to 2100

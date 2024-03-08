@@ -2,8 +2,11 @@
 
 This repo contains the manuscript and data associated with the T-reX program for LCA (currently a draft under internal review).
 
-* See the current version of the manuscript [here](https://github.com/Stew-McD/T-reX-Publication/blob/main/reviews/T-reX_Manuscript_V2/T-reX_manuscript_V2.pdf)
+* See the current version of the manuscript [here](https://github.com/Stew-McD/T-reX_Publication/blob/main/reviews/T-reX_Manuscript_V2/T-reX_manuscript_V2.pdf)
+  
 * Commented versions from reviewers are in the `reviews` directory.
+
+* Comments and insults are most welcome. If they are short, use the 'issues' tab or email me, otherwise, please annotate the pdf and send it back to me. Thanks!! x
 
 * Drafted according to the submission guidelines for the journal of Resources Conservation and Recycling [(see summary here)](ResourcesConservationAndRecycling_SubmissionRequirements.pdf)
 

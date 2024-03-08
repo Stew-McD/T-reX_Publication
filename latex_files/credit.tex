@@ -51,9 +51,9 @@
 % column labels
 \foreach \a [count=\n] in {
     SCM,    % Stewart Charles McDowall
-    LL,     % Elizabeth Lanphear
+    EL,     % Elizabeth Lanphear
     SC,      % Stefano Cucurachi
-    CFRB,    % Carlos Felipe Blanco
+    CFB,    % Carlos Felipe Blanco
     % ... (other authors, if any)
 } {
     \node[col header] at (\n,0) {\a};
@@ -78,7 +78,7 @@
 \foreach \y [count=\n] in {
     % Intensity levels for each row label for SCM, LL, SC, CFRB...
     % The intensity values (\hi, \mid, \lo, 0) should correspond to the level of contribution in the order of authors listed above
-    {\lo,\hi,\lo,\hi}, % Conceptualization
+    {\mid,\hi,\lo,\hi}, % Conceptualization
     {\hi,\mid,\lo,\mid},      % Formal analysis
     {\hi,\mid,\lo,\lo},        % Investigation
     {\hi,\mid,\lo,\mid},      % Methodology

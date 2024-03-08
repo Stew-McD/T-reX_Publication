@@ -1,8 +1,8 @@
-PWD /home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files
+PWD /home/stew/code/gh/T-reX-Publication/latex_files
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /home/stew/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /home/stew/code/gh/WasteAndMaterialFootprint-Publication/latex_files/cover_letter.tex
+INPUT /home/stew/code/gh/T-reX-Publication/latex_files/cover_letter.tex
 OUTPUT cover_letter.log
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/letter.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/letter.cls

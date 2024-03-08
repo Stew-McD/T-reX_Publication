@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1709825918 "main.aux" "main.bbl" "main" 1709825920 0
+["bibtex main"] 1709904599 "main.aux" "main.bbl" "main" 1709904601 0
   "./references.bib" 1709822486 31789 466a10f1f848533cf9175c973e3a2411 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/elsarticle/elsarticle-harv.bst" 1606256092 30002 8c0c5833f37bea3ec214cf315a72975d ""
-  "main.aux" 1709825920 18970 8fe577008a34668fa7604a83d771bbd4 "pdflatex"
+  "main.aux" 1709904601 19262 3839b1dd143bde09dcab4a17778d2a39 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1709825918 "main.tex" "main.pdf" "main" 1709825920 0
+["pdflatex"] 1709904599 "main.tex" "main.pdf" "main" 1709904601 0
   "/home/stew/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700391700 8015625 a5a0154258173577727e1739f831665d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1490131464 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
@@ -221,7 +221,7 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1697057529 41009 84b61f42d16d06bedb915f57aa2374cf ""
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705512617 788388 a22dc4bd979e881c0740b8d13c2bbba9 ""
   "/usr/local/texlive/2023/texmf.cnf" 1687433526 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "credit.pdf" 1709698097 86030 a6cd843afb86d2fc7b3f6c5ed803e325 ""
+  "credit.pdf" 1709904584 86029 c1a624c2e84c54a9089ba592882f5df6 ""
   "discussion.tex" 1709823830 3712 f5bec77806c374cb00fcbe69e227a816 ""
   "figures/T-reX_NMC811_WasteTotalSolid.pdf" 1709706155 290661 f31a0565f9c31b9a697ed16f9fc50725 ""
   "figures/T-reX_method.pdf" 1709704969 16170 87ff4f0102cd5c5d917093bd8ddb0155 ""
@@ -233,14 +233,14 @@
   "figures/top-processes.png" 1706658833 1173562 71f1dd7f228e1790db0b5793a4a0cb3b ""
   "figures/total_waste.png" 1706657333 111851 fd8f27742115953e15fd4045e7fbeef3 ""
   "grabs.jpg" 1709128100 92735 47dd3c4a9aff9caf2b5a71983e177cd7 ""
-  "introduction.tex" 1709821589 13953 07c1a507f8c545d1d5ef496201595836 ""
-  "main.aux" 1709825920 18970 8fe577008a34668fa7604a83d771bbd4 "pdflatex"
-  "main.bbl" 1709825918 24662 338766fbc81f511517cd3f4bdfc6bb89 "bibtex main"
-  "main.out" 1709825920 4663 b228c317660e2b2b8311eba60b71fc33 "pdflatex"
-  "main.spl" 1709825918 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1709825893 11587 12dd13f4ff704130e1b3381c3909e3ca ""
-  "methodology.tex" 1709825658 12497 04b8a5abd8f5870f4ad353e77a7f6d7f ""
-  "results.tex" 1709822187 12952 0d66ae6286bd06626601b20dcb0ac907 ""
+  "introduction.tex" 1709903310 14007 a22f29ec2d8acb7d62ef60b5c9592f1e ""
+  "main.aux" 1709904601 19262 3839b1dd143bde09dcab4a17778d2a39 "pdflatex"
+  "main.bbl" 1709904599 24662 338766fbc81f511517cd3f4bdfc6bb89 "bibtex main"
+  "main.out" 1709904601 4663 b228c317660e2b2b8311eba60b71fc33 "pdflatex"
+  "main.spl" 1709904599 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1709904508 12136 4ee796b482dffa69714164826898d816 ""
+  "methodology.tex" 1709902351 12618 9ec0b251253b7c730d38c33f9ad9b243 ""
+  "results.tex" 1709902516 13077 c4f2ed16c717732c08e0da2303cf8363 ""
   (generated)
   "main.aux"
   "main.log"
