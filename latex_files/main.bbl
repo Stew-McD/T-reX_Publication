@@ -1,4 +1,4 @@
-\begin{thebibliography}{53}
+\begin{thebibliography}{68}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -11,6 +11,14 @@
 \providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Book
+\bibitem[{su2(2020)}]{su2020sustainableproddev}
+, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Sustainable Product Development: Tools, Methods and
+  Examples}.
+\newblock \bibinfo{publisher}{Springer International Publishing}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1007/978-3-030-39149-2},
+  \DOIprefix\doi{10.1007/978-3-030-39149-2}.
 %Type = Misc
 \bibitem[{Aboumahboub et~al.(2020)Aboumahboub, Auer, Bauer, Baumstark
   et~al.}]{remind2020model}
@@ -71,6 +79,19 @@
   \bibinfo{pages}{53–75}.
 \newblock \URLprefix \url{http://dx.doi.org/10.1016/j.wasman.2023.11.021},
   \DOIprefix\doi{10.1016/j.wasman.2023.11.021}.
+%Type = Article
+\bibitem[{Blanco et~al.(2020)Blanco, Cucurachi, Guinée, Vijver, Peijnenburg,
+  Trattnig and Heijungs}]{blanco2020exante}
+\bibinfo{author}{Blanco, C.F.}, \bibinfo{author}{Cucurachi, S.},
+  \bibinfo{author}{Guinée, J.B.}, \bibinfo{author}{Vijver, M.G.},
+  \bibinfo{author}{Peijnenburg, W.J.}, \bibinfo{author}{Trattnig, R.},
+  \bibinfo{author}{Heijungs, R.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Assessing the sustainability of emerging
+  technologies: A probabilistic lca method applied to advanced photovoltaics}.
+\newblock \bibinfo{journal}{Journal of Cleaner Production}
+  \bibinfo{volume}{259}, \bibinfo{pages}{120968}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.jclepro.2020.120968},
+  \DOIprefix\doi{10.1016/j.jclepro.2020.120968}.
 %Type = Misc
 \bibitem[{Carrara et~al.(2023)Carrara, Bobba, Blagoeva, Alves~Dias
   et~al.}]{jrc2023supplychain}
@@ -99,6 +120,27 @@
   methods: Case studies in process-based lci databases}.
 \newblock \bibinfo{journal}{Resources, Conservation and Recycling} \URLprefix
   \url{http://dx.doi.org/10.1016/j.resconrec.2021.105678}.
+%Type = Inbook
+\bibitem[{{\v{C}}u{\v{c}}ek et~al.(2015){\v{C}}u{\v{c}}ek, Kleme{\v{s}} and
+  Kravanja}]{cucek2015environmentalfootprints}
+\bibinfo{author}{{\v{C}}u{\v{c}}ek, L.}, \bibinfo{author}{Kleme{\v{s}}, J.J.},
+  \bibinfo{author}{Kravanja, Z.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Overview of environmental footprints}.
+  \bibinfo{publisher}{Elsevier}.
+\newblock p. \bibinfo{pages}{131–193}.
+\newblock \URLprefix
+  \url{http://dx.doi.org/10.1016/B978-0-12-799968-5.00005-1},
+  \DOIprefix\doi{10.1016/b978-0-12-799968-5.00005-1}.
+%Type = Article
+\bibitem[{Cucurachi et~al.(2018)Cucurachi, van~der Giesen and
+  Guinée}]{cucurachi2018exante}
+\bibinfo{author}{Cucurachi, S.}, \bibinfo{author}{van~der Giesen, C.},
+  \bibinfo{author}{Guinée, J.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Ex-ante lca of emerging technologies}.
+\newblock \bibinfo{journal}{Procedia CIRP} \bibinfo{volume}{69},
+  \bibinfo{pages}{463–468}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.procir.2017.11.005},
+  \DOIprefix\doi{10.1016/j.procir.2017.11.005}.
 %Type = Misc
 \bibitem[{Doka(2024)}]{doka2024publications}
 \bibinfo{author}{Doka, G.}, \bibinfo{year}{2024}.
@@ -170,6 +212,15 @@
 \newblock \bibinfo{journal}{database} \bibinfo{volume}{3}, \bibinfo{pages}{10}.
 \newblock \URLprefix
   \url{https://ecoinvent.org/wp-content/uploads/2023/11/Change-Report-v3.10.pdf}.
+%Type = Article
+\bibitem[{Giampietro and Saltelli(2014)}]{giampietro2014footprintstonowhere}
+\bibinfo{author}{Giampietro, M.}, \bibinfo{author}{Saltelli, A.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Footprints to nowhere}.
+\newblock \bibinfo{journal}{Ecological Indicators} \bibinfo{volume}{46},
+  \bibinfo{pages}{610–621}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.ecolind.2014.01.030},
+  \DOIprefix\doi{10.1016/j.ecolind.2014.01.030}.
 %Type = Misc
 \bibitem[{{Government of the Netherlands}(2016)}]{nl2016ceplan}
 \bibinfo{author}{{Government of the Netherlands}}, \bibinfo{year}{2016}.
@@ -208,6 +259,19 @@
   tree}.
 \newblock \bibinfo{journal}{International Journal of Life Cycle Assessment}
   \URLprefix \url{https://doi.org/10.1007/BF02978533}.
+%Type = Article
+\bibitem[{Guinée et~al.(2010)Guinée, Heijungs, Huppes, Zamagni, Masoni,
+  Buonamici, Ekvall and Rydberg}]{guinee2011lca}
+\bibinfo{author}{Guinée, J.B.}, \bibinfo{author}{Heijungs, R.},
+  \bibinfo{author}{Huppes, G.}, \bibinfo{author}{Zamagni, A.},
+  \bibinfo{author}{Masoni, P.}, \bibinfo{author}{Buonamici, R.},
+  \bibinfo{author}{Ekvall, T.}, \bibinfo{author}{Rydberg, T.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Life cycle assessment: Past, present, and future}.
+\newblock \bibinfo{journal}{Environmental Science &amp; Technology}
+  \bibinfo{volume}{45}, \bibinfo{pages}{90–96}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1021/es101316v},
+  \DOIprefix\doi{10.1021/es101316v}.
 %Type = Article
 \bibitem[{Hartley et~al.(2024)Hartley, Baldassarre and
   Kirchherr}]{hartley2024cepolitics}
@@ -253,6 +317,17 @@
 \newblock \bibinfo{journal}{The International Journal of Life Cycle Assessment}
   \URLprefix \url{https://doi.org/10.1007/s11367-016-1246-y}.
 %Type = Article
+\bibitem[{Jiao et~al.(2013)Jiao, Min, Cheng and
+  Li}]{jaio2013wasteabsorbtionfootprint}
+\bibinfo{author}{Jiao, W.}, \bibinfo{author}{Min, Q.}, \bibinfo{author}{Cheng,
+  S.}, \bibinfo{author}{Li, W.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{The waste absorption footprint (waf): A
+  methodological note on footprint calculations}.
+\newblock \bibinfo{journal}{Ecological Indicators} \bibinfo{volume}{34},
+  \bibinfo{pages}{356–360}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.ecolind.2013.05.024},
+  \DOIprefix\doi{10.1016/j.ecolind.2013.05.024}.
+%Type = Article
 \bibitem[{Laurent et~al.(2012)Laurent, Olsen and
   Hauschild}]{laurenti2012carbonfootprint}
 \bibinfo{author}{Laurent, A.}, \bibinfo{author}{Olsen, S.I.},
@@ -280,6 +355,25 @@
 \newblock \bibinfo{journal}{Waste Management \&amp; Research: The Journal for a
   Sustainable Circular Economy} \URLprefix
   \url{https://doi.org/10.1177/0734242x16675686}.
+%Type = Article
+\bibitem[{Lenzen et~al.(2021)Lenzen, Geschke, West, Fry, Malik, Giljum, Milà~i
+  Canals, Piñero, Lutter, Wiedmann, Li, Sevenster, Potočnik, Teixeira,
+  Van~Voore, Nansai and Schandl}]{lenzen2022materialfootprint}
+\bibinfo{author}{Lenzen, M.}, \bibinfo{author}{Geschke, A.},
+  \bibinfo{author}{West, J.}, \bibinfo{author}{Fry, J.},
+  \bibinfo{author}{Malik, A.}, \bibinfo{author}{Giljum, S.},
+  \bibinfo{author}{Milà~i Canals, L.}, \bibinfo{author}{Piñero, P.},
+  \bibinfo{author}{Lutter, S.}, \bibinfo{author}{Wiedmann, T.},
+  \bibinfo{author}{Li, M.}, \bibinfo{author}{Sevenster, M.},
+  \bibinfo{author}{Potočnik, J.}, \bibinfo{author}{Teixeira, I.},
+  \bibinfo{author}{Van~Voore, M.}, \bibinfo{author}{Nansai, K.},
+  \bibinfo{author}{Schandl, H.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Implementing the material footprint to measure
+  progress towards sustainable development goals 8 and 12}.
+\newblock \bibinfo{journal}{Nature Sustainability} \bibinfo{volume}{5},
+  \bibinfo{pages}{157–166}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1038/s41893-021-00811-6},
+  \DOIprefix\doi{10.1038/s41893-021-00811-6}.
 %Type = Misc
 \bibitem[{Mancini et~al.(2013)Mancini, De~Camillis and
   Pennington}]{mancini2013supplysecurity}
@@ -343,6 +437,13 @@
 \newblock \bibinfo{title}{Wurst documentation}.
 \newblock \URLprefix
   \url{https://buildmedia.readthedocs.org/media/pdf/wurst/stable/wurst.pdf}.
+%Type = Article
+\bibitem[{N.~Pellow(2023)}]{pellow2023envjusticewaste}
+\bibinfo{author}{N.~Pellow, D.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Environmental justice} ,
+  \bibinfo{pages}{71–85}\URLprefix
+  \url{http://dx.doi.org/10.4337/9781800881136.00014},
+  \DOIprefix\doi{10.4337/9781800881136.00014}.
 %Type = Misc
 \bibitem[{Pardo and Schweitzer(2018)}]{pardo2018ce}
 \bibinfo{author}{Pardo, R.}, \bibinfo{author}{Schweitzer, J.},
@@ -360,6 +461,16 @@
 \newblock \URLprefix
   \url{https://www.remanufacturing.eu/assets/pdfs/remanufacturing-market-study.pdf}.
 %Type = Article
+\bibitem[{Reike et~al.(2018)Reike, Vermeulen and Witjes}]{reike2018rex}
+\bibinfo{author}{Reike, D.}, \bibinfo{author}{Vermeulen, W.J.},
+  \bibinfo{author}{Witjes, S.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{The circular economy: New or refurbished as ce 3.0?
+  -- exploring controversies in the conceptualization of the circular economy
+  through a focus on history and resource value retention options}.
+\newblock \bibinfo{journal}{Resources, Conservation and Recycling}
+  \DOIprefix\doi{https://doi.org/10.1016/j.resconrec.2017.08.027}.
+  \bibinfo{note}{sustainable Resource Management and the Circular Economy}.
+%Type = Article
 \bibitem[{Reuter and van Schaik(2012)}]{reuter2012recyclinglimits}
 \bibinfo{author}{Reuter, M.}, \bibinfo{author}{van Schaik, A.},
   \bibinfo{year}{2012}.
@@ -367,6 +478,28 @@
   dynamic-model-based analysis}.
 \newblock \bibinfo{journal}{MRS Bulletin} \URLprefix
   \url{https://doi.org/10.1557/mrs.2012.57}.
+%Type = Article
+\bibitem[{Ridoutt et~al.(2010)Ridoutt, Juliano, Sanguansri and
+  Sellahewa}]{ridoutt2010wasteimpacts}
+\bibinfo{author}{Ridoutt, B.}, \bibinfo{author}{Juliano, P.},
+  \bibinfo{author}{Sanguansri, P.}, \bibinfo{author}{Sellahewa, J.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{The water footprint of food waste: case study of
+  fresh mango in australia}.
+\newblock \bibinfo{journal}{Journal of Cleaner Production}
+  \bibinfo{volume}{18}, \bibinfo{pages}{1714–1721}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.jclepro.2010.07.011},
+  \DOIprefix\doi{10.1016/j.jclepro.2010.07.011}.
+%Type = Article
+\bibitem[{Ridoutt and Pfister(2013)}]{ridoutt2013footprints}
+\bibinfo{author}{Ridoutt, B.G.}, \bibinfo{author}{Pfister, S.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Towards an integrated family of footprint
+  indicators}.
+\newblock \bibinfo{journal}{Journal of Industrial Ecology}
+  \bibinfo{volume}{17}, \bibinfo{pages}{337–339}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1111/jiec.12026},
+  \DOIprefix\doi{10.1111/jiec.12026}.
 %Type = Article
 \bibitem[{Sacchi et~al.(2022)Sacchi, Terlouw, Siala, Dirnaichner, Bauer, Cox,
   Mutel, Daioglou and Luderer}]{sacchi2022premise}
@@ -400,6 +533,18 @@
   inorganic materials chemistry}.
 \newblock \bibinfo{journal}{Chemistry – A European Journal} \URLprefix
   \url{https://doi.org/10.1002/chem.202002844}.
+%Type = Article
+\bibitem[{Schaffartzik et~al.(2013)Schaffartzik, Eisenmenger, Krausmann and
+  Weisz}]{schaffartzik2013mfafootprint}
+\bibinfo{author}{Schaffartzik, A.}, \bibinfo{author}{Eisenmenger, N.},
+  \bibinfo{author}{Krausmann, F.}, \bibinfo{author}{Weisz, H.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Consumption‐based material flow accounting:
+  Austrian trade and consumption in raw material equivalents 1995–2007}.
+\newblock \bibinfo{journal}{Journal of Industrial Ecology}
+  \bibinfo{volume}{18}, \bibinfo{pages}{102–112}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1111/jiec.12055},
+  \DOIprefix\doi{10.1111/jiec.12055}.
 %Type = Book
 \bibitem[{Stehfest et~al.(2014)Stehfest, van Vuuren, Bouwman, Kram
   et~al.}]{stehfest2014image}
@@ -444,6 +589,37 @@
 \newblock \URLprefix
   \url{https://www.bafu.admin.ch/bafu/en/home/topics/economy-consumption/economy-and-consumption-publications/publications-economy-and-consumption/eco-factors-switzerland.html}.
 %Type = Article
+\bibitem[{Towa et~al.(2020)Towa, Zeller and Achten}]{towa2020wastefootprint}
+\bibinfo{author}{Towa, E.}, \bibinfo{author}{Zeller, V.},
+  \bibinfo{author}{Achten, W.M.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Input-output models and waste management analysis: A
+  critical review}.
+\newblock \bibinfo{journal}{Journal of Cleaner Production}
+  \bibinfo{volume}{249}, \bibinfo{pages}{119359}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.jclepro.2019.119359},
+  \DOIprefix\doi{10.1016/j.jclepro.2019.119359}.
+%Type = Article
+\bibitem[{Vanham et~al.(2019)Vanham, Leip, Galli, Kastner, Bruckner, Uwizeye,
+  van Dijk, Ercin, Dalin, Brandão, Bastianoni, Fang, Leach, Chapagain, Van~der
+  Velde, Sala, Pant, Mancini, Monforti-Ferrario, Carmona-Garcia, Marques, Weiss
+  and Hoekstra}]{vanham2019footprints}
+\bibinfo{author}{Vanham, D.}, \bibinfo{author}{Leip, A.},
+  \bibinfo{author}{Galli, A.}, \bibinfo{author}{Kastner, T.},
+  \bibinfo{author}{Bruckner, M.}, \bibinfo{author}{Uwizeye, A.},
+  \bibinfo{author}{van Dijk, K.}, \bibinfo{author}{Ercin, E.},
+  \bibinfo{author}{Dalin, C.}, \bibinfo{author}{Brandão, M.},
+  \bibinfo{author}{Bastianoni, S.}, \bibinfo{author}{Fang, K.},
+  \bibinfo{author}{Leach, A.}, \bibinfo{author}{Chapagain, A.},
+  \bibinfo{author}{Van~der Velde, M.}, \bibinfo{author}{Sala, S.},
+  \bibinfo{author}{Pant, R.}, \bibinfo{author}{Mancini, L.},
+  \bibinfo{author}{Monforti-Ferrario, F.}, \bibinfo{author}{Carmona-Garcia,
+  G.}, \bibinfo{author}{Marques, A.}, \bibinfo{author}{Weiss, F.},
+  \bibinfo{author}{Hoekstra, A.Y.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Environmental footprint family to address local to
+  planetary sustainability and deliver on the sdgs}.
+\newblock \bibinfo{journal}{Science of The Total Environment} \URLprefix
+  \url{http://dx.doi.org/10.1016/j.scitotenv.2019.133642}.
+%Type = Article
 \bibitem[{Wackernagel(1994)}]{wackernagel1994ecologicalfootprint}
 \bibinfo{author}{Wackernagel, M.}, \bibinfo{year}{1994}.
 \newblock \bibinfo{title}{Ecological footprint and appropriated carrying
@@ -461,16 +637,17 @@
   and methodology}.
 \newblock \bibinfo{journal}{The International Journal of Life Cycle Assessment}
   \URLprefix \url{{http://dx.doi.org/10.1007/s11367-016-1087-8}}.
-%Type = Inbook
-\bibitem[{Čuček et~al.(2015)Čuček, Klemeš and
-  Kravanja}]{cucek2015environmentalfootprints}
-\bibinfo{author}{Čuček, L.}, \bibinfo{author}{Klemeš, J.J.},
-  \bibinfo{author}{Kravanja, Z.}, \bibinfo{year}{2015}.
-\newblock \bibinfo{title}{Overview of environmental footprints}.
-  \bibinfo{publisher}{Elsevier}.
-\newblock p. \bibinfo{pages}{131–193}.
-\newblock \URLprefix
-  \url{http://dx.doi.org/10.1016/B978-0-12-799968-5.00005-1},
-  \DOIprefix\doi{10.1016/b978-0-12-799968-5.00005-1}.
+%Type = Article
+\bibitem[{Wiedmann et~al.(2013)Wiedmann, Schandl, Lenzen, Moran, Suh, West and
+  Kanemoto}]{weidmann2013materialfootprint}
+\bibinfo{author}{Wiedmann, T.O.}, \bibinfo{author}{Schandl, H.},
+  \bibinfo{author}{Lenzen, M.}, \bibinfo{author}{Moran, D.},
+  \bibinfo{author}{Suh, S.}, \bibinfo{author}{West, J.},
+  \bibinfo{author}{Kanemoto, K.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{The material footprint of nations}.
+\newblock \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \bibinfo{volume}{112}, \bibinfo{pages}{6271–6276}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1073/pnas.1220362110},
+  \DOIprefix\doi{10.1073/pnas.1220362110}.
 
 \end{thebibliography}

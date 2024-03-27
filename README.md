@@ -2,7 +2,7 @@
 
 This repo contains the manuscript and data associated with the T-reX program for LCA (currently a draft under internal review).
 
-* See the current version of the manuscript [here](https://github.com/Stew-McD/T-reX_Publication/blob/main/reviews/T-reX_Manuscript_V2/T-reX_manuscript_V2.pdf)
+* See the current version of the manuscript [here](https://github.com/Stew-McD/T-reX_Publication/blob/main/reviews/T-reX_Manuscript_V2/T-reX_manuscript_V3.pdf)
   
 * Commented versions from reviewers are in the `reviews` directory.
 

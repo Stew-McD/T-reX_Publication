@@ -1,67 +1,74 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2024)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: elsarticle-harv.bst
 Database file #1: references.bib
+Repeated entry---line 362 of file references.bib
+ : @article{guinee2021wasteisnotaservice
+ :                                      ,
+I'm skipping whatever remains of this entry
 Warning--entry type for "mcdowall2023T-reXpipy" isn't style-file defined
---line 447 of file references.bib
+--line 566 of file references.bib
 Warning--entry type for "mcdowall2023T-reXzenodo" isn't style-file defined
---line 454 of file references.bib
+--line 573 of file references.bib
 Warning--entry type for "mcdowall2024T-reXgithub" isn't style-file defined
---line 462 of file references.bib
+--line 581 of file references.bib
 Warning--entry type for "mutel2016brightway2analyzer" isn't style-file defined
---line 482 of file references.bib
+--line 601 of file references.bib
 Warning--entry type for "sacchi2023premisedocs" isn't style-file defined
---line 595 of file references.bib
+--line 759 of file references.bib
+Warning--to sort, need author, editor, or key in su2020sustainableproddev
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty author and editor in su2020sustainableproddev
 Warning--empty chapter and pages in berry2023crm
 Warning--empty pages in berry2023crm
+Warning--empty chapter and pages in cucek2015environmentalfootprints
 Warning--missing institution in eu2022ecodesign
 Warning--empty booktitle in hauschild2003edip
 Warning--empty pages in hauschild2003edip
 Warning--empty journal in laurenti2012carbonfootprint
+Warning--empty journal in pellow2023envjusticewaste
 Warning--missing institution in foen2021ecofactors
 Warning--empty journal in wackernagel1994ecologicalfootprint
-Warning--empty chapter and pages in cucek2015environmentalfootprints
-You've used 53 entries,
+You've used 68 entries,
             2990 wiz_defined-function locations,
-            901 strings with 17694 characters,
-and the built_in function-call counts, 31000 in all, are:
-= -- 2296
-> -- 1442
-< -- 25
-+ -- 576
-- -- 501
-* -- 3239
-:= -- 4764
-add.period$ -- 163
-call.type$ -- 53
-change.case$ -- 419
-chr.to.int$ -- 51
-cite$ -- 62
-duplicate$ -- 2374
-empty$ -- 2100
-format.name$ -- 636
-if$ -- 5656
+            1009 strings with 22388 characters,
+and the built_in function-call counts, 43902 in all, are:
+= -- 3225
+> -- 2174
+< -- 28
++ -- 863
+- -- 765
+* -- 4872
+:= -- 6653
+add.period$ -- 219
+call.type$ -- 68
+change.case$ -- 582
+chr.to.int$ -- 66
+cite$ -- 82
+duplicate$ -- 3205
+empty$ -- 2907
+format.name$ -- 944
+if$ -- 8007
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 432
-newline$ -- 284
-num.names$ -- 212
-pop$ -- 969
+missing$ -- 618
+newline$ -- 370
+num.names$ -- 268
+pop$ -- 1238
 preamble$ -- 1
-purify$ -- 366
+purify$ -- 514
 quote$ -- 0
-skip$ -- 799
+skip$ -- 1016
 stack$ -- 0
-substring$ -- 676
-swap$ -- 1514
+substring$ -- 1159
+swap$ -- 2235
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 468
-warning$ -- 9
-while$ -- 163
+type$ -- 600
+warning$ -- 12
+while$ -- 217
 width$ -- 0
-write$ -- 745
-(There were 14 warnings)
+write$ -- 989
+(There was 1 error message)
