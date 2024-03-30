@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1711537774.8345 "main.aux" "main.bbl" "main" 1711537774.94008 2
-  "./references.bib" 1711534895.72801 41288 1526fd7608bc63d435e435f51f8a77c9 ""
+["bibtex main"] 1711543581.47133 "main.aux" "main.bbl" "main" 1711543583.49734 0
+  "./references.bib" 1711542953.94116 37766 d200bc4702c9b8acf21eae96f977cf16 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/elsarticle/elsarticle-harv.bst" 1606256092 30002 8c0c5833f37bea3ec214cf315a72975d ""
-  "main.aux" 1711537774.46344 15373 d2ad39fda302bddcf540a89b9f46364c "pdflatex"
+  "main.aux" 1711543583.19074 21451 29174b977c21879ffb3f67c6fb11f23c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1711537772.99121 "main.tex" "main.pdf" "main" 1711537774.94024 0
+["pdflatex"] 1711543581.57868 "main.tex" "main.pdf" "main" 1711543583.49748 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1490131464 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490131464 2933 9ad527ce78d7c5fa0a642dead095f172 ""
@@ -16,6 +16,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc" 1490131464 2933 8d808fcabf70c6c809bb14c283ece4da ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt0800.tfm" 1136768653 1536 0b0b8ca286de6a006b681926403f35cd ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt0900.tfm" 1136768653 1536 ae7aab2f8a4bc9edfce2899f53ba88c3 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -48,6 +49,8 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm" 1490131464 19920 63bb3db95807ffe45b0900d104896325 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb" 1215737283 175641 e30a691dc1402b08fd6535cf8a31e5b7 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb" 1215737283 170827 2e4b634de7b58578eae1dc93e51dfe48 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb" 1354061736 548786 1e51d517556d29f2841d57da58668a69 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb" 1354061736 614791 ea39341e4db76f25cb20c361802d3cd5 ""
@@ -217,7 +220,7 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1711499893 5474190 6dcabce74a8cc1ac6c708b578cc057af ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1711499934 8222924 47a915f27dfb6f4306360792457d2ad6 ""
   "/usr/local/texlive/2024/texmf.cnf" 1711499889.33035 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "credit.pdf" 1711537643.44948 86029 994beb4c56b57831d59973e97482cbed ""
+  "credit.pdf" 1711543574.73061 86029 4faf9cb46671b62f0dabf7616e659a23 ""
   "discussion.tex" 1711496904.14765 3759 4c406dd75ca283adcd5359707f24529f ""
   "figures/T-reX_NMC811_WasteTotalSolid.pdf" 1709706155.07315 290661 f31a0565f9c31b9a697ed16f9fc50725 ""
   "figures/T-reX_method.pdf" 1709704969.85516 16170 87ff4f0102cd5c5d917093bd8ddb0155 ""
@@ -229,12 +232,13 @@
   "figures/top-processes.png" 1706658833.97826 1173562 71f1dd7f228e1790db0b5793a4a0cb3b ""
   "figures/total_waste.png" 1706657333.63589 111851 fd8f27742115953e15fd4045e7fbeef3 ""
   "grabs.jpg" 1709128100.58474 92735 47dd3c4a9aff9caf2b5a71983e177cd7 ""
-  "introduction.tex" 1711536451.7596 16988 260410f5f86a1dcb0cc386cb6af2f1e7 ""
-  "main.aux" 1711537774.46344 15373 d2ad39fda302bddcf540a89b9f46364c "pdflatex"
-  "main.bbl" 1711537774.93145 34498 e485dae9a1eb4e9aa6b912f0e2194c8f "bibtex main"
-  "main.out" 1711537774.46344 4602 c61ffd730404d9afb22e5dd75850df14 "pdflatex"
+  "introduction.tex" 1711543478.41315 16964 4946d0b96a23fce977529b1da1b73aed ""
+  "main.aux" 1711543583.19074 21451 29174b977c21879ffb3f67c6fb11f23c "pdflatex"
+  "main.bbl" 1711543581.57072 31428 c2e352d9e1522347b4df1c8a418dcb7a "bibtex main"
+  "main.out" 1711543583.19074 4602 c61ffd730404d9afb22e5dd75850df14 "pdflatex"
+  "main.spl" 1711543581.79472 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1711537406.36993 14374 d6cb6621d30b1da0929387846cfa5839 ""
-  "methodology.tex" 1711496101.43076 12979 c002940ff8654c622aa81501febdf0a8 ""
+  "methodology.tex" 1711542701.25732 13001 7ffca8d05a6bb981df7eb2a52b93b306 ""
   "results.tex" 1711496225.35529 13132 4b8662f1b0b4c05b4d3de94319ea632b ""
   (generated)
   "main.aux"

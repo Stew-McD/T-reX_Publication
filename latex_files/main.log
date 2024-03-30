@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.27)  27 MAR 2024 12:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.27)  27 MAR 2024 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -86,7 +86,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \@sep=\skip50
 \@@sep=\skip51
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty
+(./main.spl) (/usr/local/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip52
 \bibsep=\skip53
@@ -877,8 +877,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 \c@mv@tabular=\count335
 \c@mv@boldtabular=\count336
 Package hyperref Info: Link coloring ON on input line 55.
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
+
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -921,7 +923,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 74.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 74.
-<grabs.jpg, id=15, 282.05376pt x 408.52625pt>
+<grabs.jpg, id=111, 282.05376pt x 408.52625pt>
 File: grabs.jpg Graphic file (type jpg)
 <use grabs.jpg>
 Package pdftex.def Info: grabs.jpg  used on input line 75.
@@ -978,6 +980,16 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 6.0pt on input line 124.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 124.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+24.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 Overfull \hbox (1.667pt too wide) has occurred while \output is active
 [] 
@@ -993,8 +1005,8 @@ l.171
 
 
 
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
-
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{
+/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -1002,144 +1014,7 @@ been already used, duplicate ignored
 l.175 \cbox{Section word count: 1700}
                                       [2] (./introduction.tex
 
-Package natbib Warning: Citation `eu2019greendeal' on page 3 undefined on input
- line 9.
-
-
-Package natbib Warning: Citation `eu2020circ' on page 3 undefined on input line
- 9.
-
-
-Package natbib Warning: Citation `nl2023ceplan' on page 3 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `nl2016ceplan' on page 3 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `pardo2018ce' on page 3 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `ellenmacarthur2015ce' on page 3 undefined on 
-input line 9.
-
-
-Package natbib Warning: Citation `reike2018rex' on page 3 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `eu2022ecodesign' on page 3 undefined on input
- line 9.
-
-
-Package natbib Warning: Citation `eu2022repair' on page 3 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `eu2015reman' on page 3 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `jrc2023supplychain' on page 3 undefined on in
-put line 9.
-
-
-Package natbib Warning: Citation `hartley2024cepolitics' on page 3 undefined on
- input line 9.
-
-
-Package natbib Warning: Citation `berry2023crm' on page 3 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `wackernagel1994ecologicalfootprint' on page 3
- undefined on input line 11.
-
-
-Package natbib Warning: Citation `cucek2015environmentalfootprints' on page 3 u
-ndefined on input line 11.
-
-
-Package natbib Warning: Citation `giampietro2014footprintstonowhere' on page 3 
-undefined on input line 11.
-
-
-Package natbib Warning: Citation `vanham2019footprints' on page 3 undefined on 
-input line 11.
-
-
-Package natbib Warning: Citation `ridoutt2013footprints' on page 3 undefined on
- input line 11.
-
-
-Package natbib Warning: Citation `weidmann2013materialfootprint' on page 3 unde
-fined on input line 11.
-
-
-Package natbib Warning: Citation `lenzen2022materialfootprint' on page 3 undefi
-ned on input line 11.
-
-
-Package natbib Warning: Citation `schaffartzik2013mfafootprint' on page 3 undef
-ined on input line 11.
-
-
-Package natbib Warning: Citation `steinmann2017resourcefootprints' on page 3 un
-defined on input line 11.
-
-
-Package natbib Warning: Citation `lenzen2022materialfootprint' on page 3 undefi
-ned on input line 11.
-
-
-Package natbib Warning: Citation `laurenti2016wastefootprint' on page 3 undefin
-ed on input line 13.
-
-
-Package natbib Warning: Citation `towa2020wastefootprint' on page 3 undefined o
-n input line 13.
-
-
-Package natbib Warning: Citation `ellenmacarthur2015ce' on page 3 undefined on 
-input line 13.
-
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 3 undefin
-ed on input line 13.
-
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 3 undefin
-ed on input line 14.
-
-
-Package natbib Warning: Citation `doka2024publications' on page 3 undefined on 
-input line 14.
-
-
-Package natbib Warning: Citation `ridoutt2010wasteimpacts' on page 3 undefined 
-on input line 14.
-
-
-Package natbib Warning: Citation `jaio2013wasteabsorbtionfootprint' on page 3 u
-ndefined on input line 14.
-
-
-Package natbib Warning: Citation `pellow2023envjusticewaste' on page 3 undefine
-d on input line 14.
-
-
-Package natbib Warning: Citation `pellow2023envjusticewaste' on page 3 undefine
-d on input line 14.
-
-
-Package natbib Warning: Citation `bisinella2024wastelca' on page 3 undefined on
- input line 16.
-
-
-Package natbib Warning: Citation `towa2020wastefootprint' on page 3 undefined o
-n input line 16.
+Package natbib Warning: Citation `' on page 3 undefined on input line 14.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
@@ -1147,538 +1022,111 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.17 
-      [3]
-
-Package natbib Warning: Citation `guinee2011lca' on page 4 undefined on input l
-ine 21.
-
-
-Package natbib Warning: Citation `huijbregts2016recipe' on page 4 undefined on 
-input line 21.
-
-
-Package natbib Warning: Citation `guinee2002cml' on page 4 undefined on input l
-ine 21.
-
-
-Package natbib Warning: Citation `cucurachi2018exante' on page 4 undefined on i
-nput line 21.
-
-
-Package natbib Warning: Citation `blanco2020exante' on page 4 undefined on inpu
-t line 21.
-
-
-Package natbib Warning: Citation `foen2021ecofactors' on page 4 undefined on in
-put line 23.
-
-
-Package natbib Warning: Citation `hauschild2003edip' on page 4 undefined on inp
-ut line 23.
-
-
-Package natbib Warning: Citation `cen2019en15804' on page 4 undefined on input 
-line 23.
-
-
-Package natbib Warning: Citation `arvidsson2020csi' on page 4 undefined on inpu
-t line 23.
-
-
-Package natbib Warning: Citation `foen2021ecofactors' on page 4 undefined on in
-put line 23.
-
-
-Package natbib Warning: Citation `su2020sustainableproddev' on page 4 undefined
- on input line 23.
-
-
-Package natbib Warning: Citation `guinee2004economicallocation' on page 4 undef
-ined on input line 28.
-
-
-Package natbib Warning: Citation `bisinella2024wastelca' on page 4 undefined on
- input line 28.
-
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 4 undefin
-ed on input line 30.
-
-
-Package natbib Warning: Citation `guinee2021wasteisnotaservice' on page 4 undef
-ined on input line 33.
-
-
-Package natbib Warning: Citation `beylot2018' on page 4 undefined on input line
- 33.
-
-
-Package natbib Warning: Citation `guinee2021wasteisnotaservice' on page 4 undef
-ined on input line 33.
-
-
-Package natbib Warning: Citation `doka2024publications' on page 4 undefined on 
-input line 33.
-
-[4]
-
-Package natbib Warning: Citation `laurenti2016wastefootprint' on page 5 undefin
-ed on input line 35.
-
-
-Package natbib Warning: Citation `bisinella2024wastelca' on page 5 undefined on
- input line 35.
-
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 5 undefin
-ed on input line 35.
-
-
-Package natbib Warning: Citation `steinmann2017resourcefootprints' on page 5 un
-defined on input line 35.
-
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 5 undefin
-ed on input line 35.
-
-
-Package natbib Warning: Citation `laurenti2012carbonfootprint' on page 5 undefi
-ned on input line 35.
-
-
-Package natbib Warning: Citation `chen2021methoduncertainty' on page 5 undefine
-d on input line 35.
-
-
-Package natbib Warning: Citation `huijbregts2010energyfootprint' on page 5 unde
-fined on input line 35.
-
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 5 undefin
-ed on input line 39.
-
-
-Package natbib Warning: Citation `eu2023crmstudy' on page 5 undefined on input 
-line 43.
-
-
-Package natbib Warning: Citation `hool2023crm' on page 5 undefined on input lin
-e 43.
-
-
-Package natbib Warning: Citation `mancini2013supplysecurity' on page 5 undefine
-d on input line 43.
-
-
-Package natbib Warning: Citation `jrc2023supplychain' on page 5 undefined on in
-put line 43.
-
-
-Package natbib Warning: Citation `hartley2024cepolitics' on page 5 undefined on
- input line 43.
-
-
-Package natbib Warning: Citation `salviulo2021supplychain' on page 5 undefined 
-on input line 43.
-
-[5]
-
-Package natbib Warning: Citation `arvidsson2020csi' on page 6 undefined on inpu
-t line 45.
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-1.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-Package natbib Warning: Citation `mutel2017brightway' on page 6 undefined on in
-put line 51.
-
-
-Package natbib Warning: Citation `foen2021ecofactors' on page 6 undefined on in
-put line 51.
-
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 6 undefin
-ed on input line 51.
-
-
-Package natbib Warning: Citation `sacchi2022premise' on page 6 undefined on inp
-ut line 53.
-
-
-Package natbib Warning: Citation `sacchi2023premisedocs' on page 6 undefined on
- input line 53.
-
-
-Package natbib Warning: Citation `bisinella2024wastelca' on page 6 undefined on
- input line 53.
-
-
-Package natbib Warning: Citation `ayres1998recycling' on page 6 undefined on in
-put line 55.
-
-
-Package natbib Warning: Citation `reuter2012recyclinglimits' on page 6 undefine
-d on input line 55.
-
-[6{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-]) (./methodology.tex
-
-LaTeX Warning: Reference `sec:method-T-reX_tool' on page 7 undefined on input l
-ine 1.
-
-
-LaTeX Warning: Reference `sec:method-case_study' on page 7 undefined on input l
-ine 1.
-
-
-Package natbib Warning: Citation `mutel2017brightway' on page 7 undefined on in
-put line 7.
-
-
-Package natbib Warning: Citation `mutel2017wurst' on page 7 undefined on input 
-line 7.
-
-
-Package natbib Warning: Citation `sacchi2022premise' on page 7 undefined on inp
-ut line 7.
-
-
-Package natbib Warning: Citation `steubing2020activitybrowser' on page 7 undefi
-ned on input line 7.
-
-
-Package natbib Warning: Citation `mcdowall2023T-reXpipy' on page 7 undefined on
- input line 7.
-
-
-Package natbib Warning: Citation `mcdowall2023T-reXzenodo' on page 7 undefined 
-on input line 7.
-
-
-Package natbib Warning: Citation `mcdowall2024T-reXgithub' on page 7 undefined 
-on input line 7.
-
-
-Package natbib Warning: Citation `ecoinvent2016version3' on page 7 undefined on
- input line 7.
-
-
-Package natbib Warning: Citation `ecoinvent2016version3' on page 7 undefined on
- input line 7.
-
-
-LaTeX Warning: Reference `sec:supplementary' on page 7 undefined on input line 
-11.
-
-
-Package natbib Warning: Citation `mcdowall2024T-reXgithub' on page 7 undefined 
-on input line 11.
-
-
-Package natbib Warning: Citation `mcdowall2023T-reXdocs' on page 7 undefined on
- input line 11.
-
-[7]
-
-Package natbib Warning: Citation `stehfest2014image' on page 8 undefined on inp
-ut line 17.
-
-
-Package natbib Warning: Citation `remind2020model' on page 8 undefined on input
- line 17.
-
-
-Package natbib Warning: Citation `ssp2020ghg' on page 8 undefined on input line
- 17.
-
-
-LaTeX Warning: Reference `sec:supplementary' on page 8 undefined on input line 
-21.
-
-
-Package natbib Warning: Citation `guinee2021wasteisnotaservice' on page 8 undef
-ined on input line 21.
-
-
-Package natbib Warning: Citation `eu2023crmstudy' on page 8 undefined on input 
-line 23.
-
-
-LaTeX Warning: Reference `sec:supplementary' on page 8 undefined on input line 
-23.
-
-[8]
-
-LaTeX Warning: Reference `sec:intro-background,sec:intro-waste,sec:intro-materi
-al' on page 9 undefined on input line 27.
-
-
-Package natbib Warning: Citation `arvidsson2020csi' on page 9 undefined on inpu
-t line 27.
-
-
-Package natbib Warning: Citation `hauschild2003edip' on page 9 undefined on inp
-ut line 27.
-
-
-LaTeX Warning: Reference `sec:results-case_study' on page 9 undefined on input 
-line 29.
-
-[9]
-
-LaTeX Warning: Reference `fig:methods-flowchart' on page 10 undefined on input 
-line 52.
-
-
-LaTeX Warning: Reference `sec:supplementary' on page 10 undefined on input line
- 52.
-
-<figures/T-reX_method.pdf, id=87, 253.90858pt x 580.08719pt>
+      [3] [4] [5] [6]) (./methodology.tex [7] [8] [9]
+<figures/T-reX_method.pdf, id=448, 253.90858pt x 580.08719pt>
 File: figures/T-reX_method.pdf Graphic file (type pdf)
 <use figures/T-reX_method.pdf>
 Package pdftex.def Info: figures/T-reX_method.pdf  used on input line 57.
 (pdftex.def)             Requested size: 234.0pt x 534.59839pt.
-[10] [11 <./figures/T-reX_method.pdf>]
-
-Package natbib Warning: Citation `sacchi2022premise' on page 12 undefined on in
-put line 88.
-
-
-Package natbib Warning: Citation `mutel2016brightway2analyzer' on page 12 undef
-ined on input line 91.
-
-) (./results.tex [12]
-
-Package natbib Warning: Citation `mcdowall2023T-reXdocs' on page 13 undefined o
-n input line 3.
-
-
-LaTeX Warning: Reference `sec:method-case_study' on page 13 undefined on input 
-line 7.
-
-
-LaTeX Warning: Reference `sec:supplementary' on page 13 undefined on input line
- 7.
-
-
-LaTeX Warning: Reference `fig:sankey_waste' on page 13 undefined on input line 
-12.
-
-<figures/T-reX_NMC811_WasteTotalSolid.pdf, id=115, 273.5449pt x 454.00647pt>
+ [10] [11 <./figures/T-reX_method.pdf>]) (./results.tex [12]
+<figures/T-reX_NMC811_WasteTotalSolid.pdf, id=490, 273.5449pt x 454.00647pt>
 File: figures/T-reX_NMC811_WasteTotalSolid.pdf Graphic file (type pdf)
 <use figures/T-reX_NMC811_WasteTotalSolid.pdf>
 Package pdftex.def Info: figures/T-reX_NMC811_WasteTotalSolid.pdf  used on inpu
 t line 20.
 (pdftex.def)             Requested size: 280.80286pt x 466.07318pt.
-[13]
-
-LaTeX Warning: Reference `fig:sankey_material' on page 14 undefined on input li
-ne 24.
-
+ [13]
 File: figures/T-reX_NMC811_WasteTotalSolid.pdf Graphic file (type pdf)
 <use figures/T-reX_NMC811_WasteTotalSolid.pdf>
 Package pdftex.def Info: figures/T-reX_NMC811_WasteTotalSolid.pdf  used on inpu
 t line 28.
 (pdftex.def)             Requested size: 327.59857pt x 543.74512pt.
-[14 <./figures/T-reX_NMC811_WasteTotalSolid.pdf>]
-
-LaTeX Warning: Reference `fig:waste_total' on page 15 undefined on input line 3
-5.
-
-[15]
-<figures/total_waste.png, id=232, 1262.7175pt x 902.37125pt>
+ [14 <./figures/T-reX_NMC811_WasteTotalSolid.pdf>] [15]
+<figures/total_waste.png, id=608, 1262.7175pt x 902.37125pt>
 File: figures/total_waste.png Graphic file (type png)
 <use figures/total_waste.png>
 Package pdftex.def Info: figures/total_waste.png  used on input line 39.
 (pdftex.def)             Requested size: 327.59857pt x 234.1153pt.
-
-
-LaTeX Warning: Reference `fig:carbondioxide' on page 16 undefined on input line
- 43.
-
-
-Package natbib Warning: Citation `dziejarski2023ccs' on page 16 undefined on in
-put line 43.
-
-
-Package natbib Warning: Citation `sacchi2023premisedocs' on page 16 undefined o
-n input line 43.
-
-<figures/carbondioxide.png, id=234, 1260.71pt x 914.41624pt>
+<figures/carbondioxide.png, id=615, 1260.71pt x 914.41624pt>
 File: figures/carbondioxide.png Graphic file (type png)
 <use figures/carbondioxide.png>
 Package pdftex.def Info: figures/carbondioxide.png  used on input line 47.
 (pdftex.def)             Requested size: 327.59857pt x 237.60309pt.
-[16 <./figures/total_waste.png>]
-
-LaTeX Warning: Reference `fig:phosphate' on page 17 undefined on input line 51.
-
-
-<figures/phosphate.png, id=243, 1304.875pt x 916.42375pt>
+ [16 <./figures/total_waste.png>]
+<figures/phosphate.png, id=626, 1304.875pt x 916.42375pt>
 File: figures/phosphate.png Graphic file (type png)
 <use figures/phosphate.png>
 Package pdftex.def Info: figures/phosphate.png  used on input line 55.
 (pdftex.def)             Requested size: 327.59857pt x 230.07024pt.
-[17 <./figures/carbondioxide.png>]
-
-LaTeX Warning: Reference `fig:top_contribution' on page 18 undefined on input l
-ine 61.
-
-<figures/top-processes.png, id=250, 608.2725pt x 639.38875pt>
+ [17 <./figures/carbondioxide.png>]
+<figures/top-processes.png, id=634, 608.2725pt x 639.38875pt>
 File: figures/top-processes.png Graphic file (type png)
 <use figures/top-processes.png>
 Package pdftex.def Info: figures/top-processes.png  used on input line 65.
 (pdftex.def)             Requested size: 280.80286pt x 295.17607pt.
-[18 <./figures/phosphate.png>]
-
-LaTeX Warning: Reference `fig:cpc_contribution' on page 19 undefined on input l
-ine 71.
-
-<figures/cpc_contribution.png, id=258, 834.11626pt x 921.4425pt>
+ [18 <./figures/phosphate.png>]
+<figures/cpc_contribution.png, id=642, 834.11626pt x 921.4425pt>
 File: figures/cpc_contribution.png Graphic file (type png)
 <use figures/cpc_contribution.png>
 Package pdftex.def Info: figures/cpc_contribution.png  used on input line 76.
 (pdftex.def)             Requested size: 280.80286pt x 310.20715pt.
-[19 <./figures/top-processes.png>]
-
-LaTeX Warning: Reference `fig:comparison_methods' on page 20 undefined on input
- line 83.
-
-[20 <./figures/cpc_contribution.png>]
-<figures/comparison_methods2.png, id=272, 1143.27126pt x 826.08624pt>
+ [19 <./figures/top-processes.png>] [20 <./figures/cpc_contribution.png>]
+<figures/comparison_methods2.png, id=655, 1143.27126pt x 826.08624pt>
 File: figures/comparison_methods2.png Graphic file (type png)
 <use figures/comparison_methods2.png>
 Package pdftex.def Info: figures/comparison_methods2.png  used on input line 88
 .
 (pdftex.def)             Requested size: 374.40143pt x 270.52946pt.
-<figures/comparison_methods1.png, id=273, 1176.395pt x 828.09375pt>
+<figures/comparison_methods1.png, id=656, 1176.395pt x 828.09375pt>
 File: figures/comparison_methods1.png Graphic file (type png)
 <use figures/comparison_methods1.png>
 Package pdftex.def Info: figures/comparison_methods1.png  used on input line 93
 .
 (pdftex.def)             Requested size: 374.40143pt x 263.54231pt.
  [21] [22 <./figures/comparison_methods2.png> <./figures/comparison_methods1.pn
-g>]
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 23 undefi
-ned on input line 101.
-
-
-LaTeX Warning: Reference `tab:results-case_study-comparison' on page 23 undefin
-ed on input line 101.
-
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 106.
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 23 undefi
-ned on input line 106.
-
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 23 undefi
-ned on input line 106.
-
-) (./discussion.tex
-
-Package natbib Warning: Citation `laurenti2023wastefootprint' on page 23 undefi
-ned on input line 1.
-
-
-Package natbib Warning: Citation `steinmann2017resourcefootprints' on page 23 u
-ndefined on input line 1.
-
-
-Package natbib Warning: Citation `foen2021ecofactors' on page 23 undefined on i
-nput line 1.
-
-
-Package natbib Warning: Citation `hauschild2003edip' on page 23 undefined on in
-put line 1.
-
-
-Package natbib Warning: Citation `cen2019en15804' on page 23 undefined on input
- line 1.
-
-
-Package natbib Warning: Citation `arvidsson2020csi' on page 23 undefined on inp
-ut line 1.
-
-
-Package natbib Warning: Citation `foen2021ecofactors' on page 23 undefined on i
-nput line 1.
-
-[23]
-
-Package natbib Warning: Citation `fitzgerald2023ecoinventdocumentation' on page
- 24 undefined on input line 9.
-
-
-Package natbib Warning: Citation `sacchi2023premisedocs' on page 24 undefined o
-n input line 11.
-
-
-Package natbib Warning: Citation `bisinella2024wastelca' on page 24 undefined o
-n input line 11.
-
-) [24]
-<credit.pdf, id=301, 190.73358pt x 221.63704pt>
+g>]) (./discussion.tex [23]) [24]
+<credit.pdf, id=710, 190.73358pt x 221.63704pt>
 File: credit.pdf Graphic file (type pdf)
 <use credit.pdf>
 Package pdftex.def Info: credit.pdf  used on input line 225.
 (pdftex.def)             Requested size: 171.40543pt x 199.17725pt.
- [25 <./credit.pdf>]
-No file main.bbl.
+ [25 <./credit.pdf>] (./main.bbl [26] [27]
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 387.
+ [28] [29])
 
 Package natbib Warning: There were undefined citations.
 
-[26] (./main.aux)
+[30] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C61FFD730404D9AFB22E5DD75850DF14;4602.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C61FFD730404D9AFB22E5DD75850DF14;4602.
  ) 
 Here is how much of TeX's memory you used:
- 28183 strings out of 474104
- 530093 string characters out of 5743473
- 1941493 words of memory out of 5000000
- 49677 multiletter control sequences out of 15000+600000
- 666719 words of font info for 290 fonts, out of 8000000 for 9000
+ 28506 strings out of 474104
+ 538166 string characters out of 5743473
+ 1982493 words of memory out of 5000000
+ 49927 multiletter control sequences out of 15000+600000
+ 661426 words of font info for 284 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,9n,87p,1814b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,9n,87p,1800b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinBiolinumT
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinLibert
 ineT.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinLi
 bertineTB.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/
 LinLibertineTI.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/s
-ftt0900.pfb>
-Output written on main.pdf (29 pages, 1404298 bytes).
+/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sft
+t0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0
+900.pfb>
+Output written on main.pdf (33 pages, 1494466 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
- 59460 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 999 PDF objects out of 1000 (max. 8388607)
+ 883 compressed objects within 9 object streams
+ 157 named destinations out of 1000 (max. 500000)
+ 60164 words of extra memory for PDF output out of 61914 (max. 10000000)
 
