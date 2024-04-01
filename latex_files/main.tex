@@ -1,3 +1,4 @@
+
 %% Use the option review to obtain double line spacing
 %% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
 
@@ -54,24 +55,28 @@
 
 \begin{document}
 
+\linenumbers{}
 
-\linenumbers
-% add something about the future stuffg
 % SPOTLIGHTS (5 bullet points, max 120 characters each)
+
 {\Large Spotlights}
 \vspace{1em}
-\begin{description}[style=nextline]
-    \item[Bullet 1: Critical context and background information on the problem addressed] Tracking waste and material flows is essential for developing the circular economy and supply chain resilience
-    \item[Bullet 2: A brief overview of the key finding of the study (or findings if necessary)] A tool was developed to quantify waste and material footprints of activities in life cycle assessment (LCA) databases
-    \item[Bullet 3: The most radical, creative, disruptive or innovative aspect of the manuscript] Built to complement the Brightway LCA framework and ActivityBrowser, the tool is customisable and easy to use
-    \item[Bullet 4: The significance of the results to the environment, economics, or society] The tool can be used to identify pre-consumer waste and material hotspots that are often hidden in supply chains
-    \item[Bullet 5: Future vision or the most important implications for continued research] Improved data availability and quality would enable more detailed and accurate waste and material footprinting
-\end{description}
+\begin{itemize}
+    % Bullet 1: Critical context and background information on the problem addressed
+    \item Tracking waste and material flows is essential for developing the circular economy and supply chain resilience
+    % Bullet 2: A brief overview of the key finding of the study (or findings if necessary)
+    \item A tool was developed to quantify waste and material footprints of activities in life cycle assessment (LCA) databases
+    % Bullet 3: The most radical, creative, disruptive or innovative aspect of the manuscript
+    \item Built to complement the Brightway LCA framework and ActivityBrowser, the tool is customisable and easy to use
+    % Bullet 4: The significance of the results to the environment, economics, or society
+    \item The tool can be used to identify pre-consumer waste and material hotspots that are often hidden in supply chains
+    % Bullet 5: Future vision or the most important implications for continued research
+    \item Improved data availability and quality would enable more detailed and accurate waste and material footprinting
+\end{itemize}
 
 \newpage
 %% GRAPHICAL ABSTRACT
 \begin{graphicalabstract}
-    \cbox{to be improved :D}
     \includegraphics{grabs.jpg}
 \end{graphicalabstract}
 
@@ -105,7 +110,7 @@
         country={The Netherlands}}
 
     \begin{abstract}
-        \cbox{Abstract word count: 155, Limit: 150}
+        % \cbox{Abstract word count: 155, Limit: 150}
         The quintessential principle of the `circular economy' is to minimise material consumption and waste generation.
         Thus, identifying and quantifying waste and material flows are of fundamental importance. Life Cycle Assessment (LCA) is a powerful method for this, given its capacity to pinpoint hotspots of environmental impact throughout the life cycle of activities, where the implementation of circular principles could be most effective.
 
@@ -118,7 +123,7 @@
 
     % KEYWORDS (max 6)
     \begin{keyword}
-        circular economy \sep waste \sep material \sep life cycle assessment \sep critical raw material \sep supply chain
+        circular economy \sep{}waste \sep{}material \sep{}life cycle assessment \sep{}critical raw material \sep{}supply chain
     \end{keyword}
 
 \end{frontmatter}
@@ -130,8 +135,7 @@
 % list of abbreviations
 \begin{table}[H]
     \centering
-    \caption{List of abbreviations}
-    \label{tab:abbreviations}
+    \caption{List of abbreviations}\label{tab:abbreviations}
     \begin{tabular}{ll}
         \toprule
         CF            & Carbon Footprint                                                    \\
@@ -152,7 +156,7 @@
         LCIA          & Life Cycle Impact Assessment                                        \\
         LFP           & Lithium Iron Phosphate                                              \\
         Li-ion        & Lithium ion                                                         \\
-        LiMn$_2$O$_4$ & Lithium Manganese Oxide                                             \\
+        LiMn\(_2\)O\(_4\) & Lithium Manganese Oxide                                             \\
         MF            & Material Footprint                                                  \\
         MFA           & Material Flow Analysis                                              \\
         NCA           & Nickel Cobalt Aluminum                                              \\
@@ -170,29 +174,24 @@
 \end{table}
 
 %% main text
-\section{Introduction}
-\label{sec:introduction}
-\cbox{Section word count: 2000}
+\section{Introduction}\label{sec:introduction}
+%\cbox{Section word count: 2000}
 \input{introduction.tex}
 
-\section{Methodology}
-\label{sec:methodology}
-\cbox{Section word count: 1700}
+\section{Methodology}\label{sec:methodology}
+%\cbox{Section word count: 1700}
 \input{methodology.tex}
 
-\section{Results}
-\cbox{Section word count: 1200}
-\label{sec:results}
+\section{Results}\label{sec:results}
+% \cbox{Section word count: 1200}
 \input{results.tex}
 
-\section{Discussion}
-\label{sec:discussion}
-\cbox{Section word count: 450}
+\section{Discussion}\label{sec:discussion}
+% \cbox{Section word count: 450}
 \input{discussion.tex}
 
-\section{Conclusions}
-\label{sec:conclusions}
-\cbox{Section word count: 150}
+\section{Conclusions}\label{sec:conclusions}
+% \cbox{Section word count: 150}
 
 We have created `T-reX', an extension to the \texttt{brightway} ecosystem that enables users to calculate the waste and material footprints of a product or service in an LCA database. It explodes the database, identifies upstream waste and material exchanges, edits them, and writes matching custom `pseudo' LCIA methods. These exchanges become pseudo-biosphere flows and thus, the footprint can be calculated as with the existing LCIA methods. T-reX can be easily customised by the user to calculate the footprints of other supply chain flows such as water, gas, and critical raw materials.
 
@@ -230,7 +229,7 @@ The authors declare that they have no known competing financial interests or per
 \section*{Acknowledgements}
 Part of this research project was financially supported by the European Union's Horizon 2020 research and innovation programme under the grant agreement No. 101058522 (project FutuRaM --- futuram.eu). The authors would like to thank the reviewers for their valuable comments and suggestions.
 
-The authors would like to acknowledge XXXX, XXXX, XXXX, XXX, who were part of the futures thinking small group session at the FutuRaM consortium meeting in Berlin in June 2023 in which the term `T-reX/T(ool)-reX' was coined to name the vision presented by Stewart Charles McDowall of a comprehensive opensource software framework for the study and development of secondary raw material systems. The authors hope to continue the development of T-reX toward this vision.
+The authors would like to acknowledge those who were part of the futures thinking small group session at the FutuRaM consortium meeting in Berlin in June 2023 in which the term `T-reX/T(ool)-reX' was coined to name the vision presented by Stewart Charles McDowall of a comprehensive opensource software framework for the study and development of secondary raw material systems. The authors hope to continue the development of T-reX toward this vision.
 
 \section*{Supplementary material}\label{sec:supplementary}
 The supplementary material contains the following:

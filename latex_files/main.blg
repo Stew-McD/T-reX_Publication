@@ -3,69 +3,45 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: elsarticle-harv.bst
 Database file #1: references.bib
-Warning--entry type for "mcdowall2023T-reXpipy" isn't style-file defined
---line 512 of file references.bib
-Warning--entry type for "mcdowall2023T-reXzenodo" isn't style-file defined
---line 519 of file references.bib
-Warning--entry type for "mcdowall2024T-reXgithub" isn't style-file defined
---line 527 of file references.bib
-Warning--entry type for "mutel2016brightway2analyzer" isn't style-file defined
---line 547 of file references.bib
-Warning--entry type for "sacchi2023premisedocs" isn't style-file defined
---line 689 of file references.bib
-Warning--I didn't find a database entry for ""
-Warning--to sort, need author, editor, or key in su2020sustainableproddev
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty author and editor in su2020sustainableproddev
-Warning--empty chapter and pages in berry2023crm
-Warning--empty pages in berry2023crm
-Warning--empty chapter and pages in cucek2015environmentalfootprints
-Warning--missing institution in eu2022ecodesign
-Warning--empty booktitle in hauschild2003edip
-Warning--empty pages in hauschild2003edip
-Warning--empty journal in laurenti2012carbonfootprint
-Warning--empty journal in pellow2023envjusticewaste
-Warning--missing institution in foen2021ecofactors
-Warning--empty journal in wackernagel1994ecologicalfootprint
-You've used 68 entries,
+You've used 70 entries,
             2990 wiz_defined-function locations,
-            994 strings with 21123 characters,
-and the built_in function-call counts, 40623 in all, are:
-= -- 3118
-> -- 1750
-< -- 28
-+ -- 704
-- -- 606
-* -- 4284
-:= -- 6167
-add.period$ -- 204
-call.type$ -- 68
-change.case$ -- 519
-chr.to.int$ -- 66
-cite$ -- 82
-duplicate$ -- 3074
-empty$ -- 2854
-format.name$ -- 785
-if$ -- 7516
+            1017 strings with 21985 characters,
+and the built_in function-call counts, 42173 in all, are:
+= -- 3311
+> -- 1797
+< -- 34
++ -- 720
+- -- 620
+* -- 4437
+:= -- 6396
+add.period$ -- 209
+call.type$ -- 70
+change.case$ -- 544
+chr.to.int$ -- 68
+cite$ -- 70
+duplicate$ -- 3192
+empty$ -- 2941
+format.name$ -- 806
+if$ -- 7821
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 552
-newline$ -- 355
-num.names$ -- 268
-pop$ -- 1182
+missing$ -- 564
+newline$ -- 364
+num.names$ -- 285
+pop$ -- 1181
 preamble$ -- 1
-purify$ -- 451
+purify$ -- 463
 quote$ -- 0
-skip$ -- 1039
+skip$ -- 1081
 stack$ -- 0
-substring$ -- 1192
-swap$ -- 1963
-text.length$ -- 1
+substring$ -- 1260
+swap$ -- 2055
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 600
-warning$ -- 12
-while$ -- 218
+type$ -- 627
+warning$ -- 0
+while$ -- 250
 width$ -- 0
-write$ -- 960
-(There were 18 warnings)
+write$ -- 998

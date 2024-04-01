@@ -1,4 +1,4 @@
-# Revision after second internal review (V2)
+# Revision after second internal review (V3)
 
 Date: 2023-03-15
 
@@ -9,39 +9,35 @@ Reviewers:
 * CB: Carlos Felipe Blanco
 * LL: Elizabeth Lanphear
 * PJ: Pierre Jouannais
-* DB: Deborah Bozzato
-* KM: Katrina McDowall
 
-## Topics for discussion
+## Main changes
 
+## Graphical abstract
 
-### Phrasing
-
-2. Nomenclature 1: Tool, method, package....  *Tool is now embedded as T(ool)-reX, it seems, but it is all three, I think*
-3. Nomenclature 2: "pseudo LCIA", "pseudo biosphere"
-4. Nomenclature 3: "demand footprint" vs "inventory footprint" etc.
+* [] Talk to LL about the graphical abstract
 
 ### Introduction
 
-5. How to split up the the introduction into "background and short introduction" (I think I managed that now, we'll see)
+* [] better explanation of why?
 
 ### Methods
 
-6. Mathematical basis? 
-7. New flowchart. Is it everything you were dreaming of CB?
+* [] Mathematical basis - possible, wait on LL 
+* [] New flowchart
 
 ### Results
 
-8. Premise problem
-9. Sankey diagram. Look through Activity Browser, talk about which to choose.
+* [] Sankey diagram
+* [] Total waste figure
+* [] Comparison figure
+* [] Contribution figure
 
 ### Discussion
 
-
 ### Supplementary Information
 
-11. Anything else to include?
-
+* [] Add remaining figures
+* [] Check for completeness
 
 ## Actions taken or planned by SM since V2 review
 
@@ -78,11 +74,11 @@ Reviewers:
 
 ### Results
 
-* [ ] find problem with premise
+* [x] find problem with premise
 * [x] revised the results
 * [x] included a sankey from ActivityBrowser
-* [ ] coded a better sankey diagram
-* [ ] recalculated everything with the new name (will take some days - but same results)
+* [ ] improved sankey diagram
+* [x] recalculated everything with the new name (will take some days - but same results)
 
 ### Discussion
 
@@ -98,8 +94,20 @@ Reviewers:
 * [x] compiled the supplementary information pdf
 * [ ] final check to see if all correct and complete
 
+### Other
 
-## Comments from reviewers
+* [ ] update package
+* [ ] update documentation
+* [ ] update github
+* [ ] update pip
+* [ ] update zenodo
+* [ ] update website
+* [ ] email to supervisors
+* [ ] 3rd reviewer
+* [ ] check elsevier
+
+
+## Main comments from reviewers V2
 
 ### PJ: General comments
 
@@ -121,28 +129,6 @@ instance how do you deal with market vs production activities? This would help t
 #### PJ: suggested diagram
 
 ![alt text](PJ_DB/PJ_suggested_diagram.jpg)
-
-
-## Replies to comments from reviewers
-
-* list numbering refers to the line number in V2 of the manuscript
-* Bold text generally denotes something that needs to be discussed further
-
-### Highlights and Spotlight
-
-### Abstract
-
-### Introduction
-
-### Methods
-
-### Results
-
-### Discussion
-
-### Credit statement
-
-
 
 ## **The following is from the V1 revision**
 
@@ -176,8 +162,6 @@ instance how do you deal with market vs production activities? This would help t
 ### Supplementary Information
 
 11. Anything else to include?
-
-
 
 ## Actions taken or planned by SM since V1 review
 
