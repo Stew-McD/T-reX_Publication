@@ -29,7 +29,6 @@
 \definecolor{blue}{RGB}{33,150,209}
 \definecolor{red}{RGB}{255,0,0}
 \usepackage{xurl}
-\usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \usepackage{pdfpages}
 \usepackage{enumitem}
 \usepackage{lineno}
@@ -47,12 +46,13 @@
     \begin{tcolorbox}[hbox, colback=red!5!white, colframe=red!65!black, boxrule=0.25pt, boxsep=2pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
         \small\sffamily #1
     \end{tcolorbox}
-}
-
-% ------------------------------------------------------
-
-\journal{Resources, Conservation and Recycling}
-
+    }
+    
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+    % ------------------------------------------------------
+    
+    \journal{Resources, Conservation and Recycling}
+    
 \begin{document}
 
 \linenumbers{}
@@ -63,14 +63,14 @@
 \vspace{1em}
 \begin{itemize}
     % Bullet 1: Critical context and background information on the problem addressed
-    \item Tracking waste and material flows is essential for developing the circular economy and supply chain resilience
-    % Bullet 2: A brief overview of the key finding of the study (or findings if necessary)
-    \item A tool was developed to quantify waste and material footprints of activities in life cycle assessment (LCA) databases
-    % Bullet 3: The most radical, creative, disruptive or innovative aspect of the manuscript
-    \item Built to complement the Brightway LCA framework and ActivityBrowser, the tool is customisable and easy to use
-    % Bullet 4: The significance of the results to the environment, economics, or society
-    \item The tool can be used to identify pre-consumer waste and material hotspots that are often hidden in supply chains
-    % Bullet 5: Future vision or the most important implications for continued research
+    \item Tracking waste and material flows is essential for developing supply chain resilience and the circular economy
+          % Bullet 2: A brief overview of the key finding of the study (or findings if necessary)
+    \item T-reX was developed to quantify waste and material footprints of activities in life cycle assessment (LCA) databases
+          % Bullet 3: The most radical, creative, disruptive or innovative aspect of the manuscript
+    \item T-reX is an adaptable and extensible open-source Python tool complementing the \texttt{brightway} LCA framework and \texttt{ActivityBrowser},
+          % Bullet 4: The significance of the results to the environment, economics, or society
+    \item T-reX can be used to identify pre-consumer waste generation and material demand hotspots often hidden in supply chains
+          % Bullet 5: Future vision or the most important implications for continued research
     \item Improved data availability and quality would enable more detailed and accurate waste and material footprinting
 \end{itemize}
 
@@ -82,17 +82,17 @@
 
 %% RESEARCH HIGHLIGHTS (3-5 bullet points, max 85 characters each)
 \begin{highlights}
-    \item T-reX, a new software tool for quantifying waste and material flows in LCA
-    \item Assesses supply risks by calculating demand for critical materials
-    \item Simplifies quantification of user-specified waste and material categories
-    \item Rapidly identifies waste and material demand hotspots
-    \item Presents a case study of five Li-ion battery supply chains
+    \item T-reX, a new open-source tool for quantifying waste and material flows in Life Cycle Assessment (LCA)
+    \item Assesses supply risks by calculating demand inventories for critical materials
+    \item Simplifies quantification of user-specified waste and material footprint categories
+    \item Rapidly identifies hotspots of waste generation and material demand in supply chains
+    \item Presents a case study of five lithium-ion batteries to demonstrate T-reX's utility
 \end{highlights}
 
 
 \begin{frontmatter}
 
-    \title{T-reX: A tool to quantify waste and material footprints in current and future Life Cycle Assessment (LCA) databases}
+    \title{T-reX: Quantifying waste and material footprints in current and future Life Cycle Assessment (LCA) databases}
     \author[1]{Stewart Charles McDowall\corref{cor1}}
     \ead{s.c.mcdowall@cml.leidenuniv.nl}
     \author[1]{Elizabeth Lanphear}
@@ -116,7 +116,7 @@
 
         Introducing T-reX, a Python tool extending the brightway ecosystem, allowing facile quantification of user-defined supply chain demands in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
 
-        A case study of five lithium ion batteries demonstrates T-reX's utility, quantifying categorised waste and material inventory footprints, and thus, their potential environmental burdens. T-reX can aid sustainable decision-making and contribute to the development of the `circular economy' by facilitating analysis of material consumption and waste generation in LCA.
+        A case study of five lithium-ion batteries demonstrates T-reX's utility, quantifying categorised waste and material inventory footprints, and thus, their potential environmental burdens. T-reX can aid sustainable decision-making and contribute to the development of the `circular economy' by facilitating analysis of material consumption and waste generation in LCA.
 
     \end{abstract}
 
@@ -127,48 +127,49 @@
     \end{keyword}
 
 \end{frontmatter}
-\cbox{Total word count: ca. 5200, Limit: 5000}
-\cbox{Note for reviewers: please annotate the pdf and email it to me at \href{mailto:sc.mcdowall@cml.leidenuniv.nl}{sc.mcdowall@cml.leidenuniv.nl}}
-\cbox{Supplementary material is available \href{https://github.com/Stew-McD/T-reX_Publication/blob/main/reviews/T-reX_Manuscript_V3/T-reX_manuscript_V3_SupplementaryMaterial.pdf}{here}}
-\cbox{Style guide for the journal: \href{https://www.sciencedirect.com/journal/resources-conservation-and-recycling/publish/guide-for-authors}{here}}
+% \cbox{Total word count: ca. 5200, Limit: 5000}
+% \cbox{Note for reviewers: please annotate the pdf and email it to me at \href{mailto:sc.mcdowall@cml.leidenuniv.nl}{sc.mcdowall@cml.leidenuniv.nl}}
+% \cbox{Supplementary material is available \href{https://github.com/Stew-McD/T-reX_Publication/blob/main/reviews/T-reX_Manuscript_V3/T-reX_manuscript_V3_SupplementaryMaterial.pdf}{here}}
+% \cbox{Style guide for the journal: \href{https://www.sciencedirect.com/journal/resources-conservation-and-recycling/publish/guide-for-authors}{here}}
 
 % list of abbreviations
 \begin{table}[H]
     \centering
-    \caption{List of abbreviations}\label{tab:abbreviations}
+    \caption{List of abbreviations and terminology}\label{tab:abbreviations}
     \begin{tabular}{ll}
         \toprule
-        CF            & Carbon Footprint                                                    \\
-        EF            & Ecological Footprint                                                \\
-        CML           & Centrum voor Milieuwetenschappen (Centre for Environmental Science) \\
-        CRM           & Critical Raw Material                                               \\
-        CPC           & Cooperative Patent Classification                                   \\
-        CSI           & Crustal Scarcity Indicator                                          \\
-        CSP           & Crustal Scarcity Potential                                          \\
-        EDIP          & Environmental Design of Industrial Products                         \\
-        EEIOA         & Environmentally Extended Input-Output Analysis                      \\
-        EOL           & End-of-Life                                                         \\
-        FOEN          & Swiss Federal Office for the Environment                            \\
-        IAM           & Integrated Assessment Model                                         \\
-        IE            & Industrial Ecology                                                  \\
-        LCA           & Life Cycle Assessment                                               \\
-        LCI           & Life Cycle Inventory                                                \\
-        LCIA          & Life Cycle Impact Assessment                                        \\
-        LFP           & Lithium Iron Phosphate                                              \\
-        Li-ion        & Lithium ion                                                         \\
+        CF                & Carbon Footprint                                                    \\
+        EF                & Ecological Footprint                                                \\
+        CML               & Centrum voor Milieuwetenschappen (Centre for Environmental Science) \\
+        CRM               & Critical Raw Material                                               \\
+        CPC               & Cooperative Patent Classification                                   \\
+        CSI               & Crustal Scarcity Indicator                                          \\
+        CSP               & Crustal Scarcity Potential                                          \\
+        EDIP              & Environmental Design of Industrial Products                         \\
+        EEIOA             & Environmentally Extended Input-Output Analysis                      \\
+        EOL               & End-of-Life                                                         \\
+        FOEN              & Swiss Federal Office for the Environment                            \\
+        IAM               & Integrated Assessment Model                                         \\
+        IE                & Industrial Ecology                                                  \\
+        LCA               & Life Cycle Assessment                                               \\
+        LCI               & Life Cycle Inventory                                                \\
+        LCIA              & Life Cycle Impact Assessment                                        \\
+        LFP               & Lithium Iron Phosphate                                              \\
+        Li-ion            & Lithium-ion                                                         \\
         LiMn\(_2\)O\(_4\) & Lithium Manganese Oxide                                             \\
-        MF            & Material Footprint                                                  \\
-        MFA           & Material Flow Analysis                                              \\
-        NCA           & Nickel Cobalt Aluminum                                              \\
-        NMC           & Nickel Manganese Cobalt                                             \\
-        PWF           & Product Waste Footprint                                             \\
-        RCP           & Representative Concentration Pathway                                \\
-        ReCiPe        & A standard LCIA method set                                          \\
-        SSPs          & Shared Socioeconomic Pathways                                       \\
-        T-reX         & Tool for re-X in LCA                                                \\
-        UBP           & Umweltbelastungspünkte (Environmental Impact Points)                \\
-        UN            & United Nations                                                      \\
-        WF            & Waste Footprint                                                     \\
+        MF                & Material Footprint                                                  \\
+        MFA               & Material Flow Analysis                                              \\
+        NCA               & Nickel Cobalt Aluminum                                              \\
+        NMC               & Nickel Manganese Cobalt                                             \\
+        PWF               & Product Waste Footprint                                             \\
+        RCP               & Representative Concentration Pathway                                \\
+        ReCiPe            & A standard LCIA method set                                          \\
+        SDG               & Sustainable Development Goals                                       \\
+        SSPs              & Shared Socioeconomic Pathways                                       \\
+        T-reX             & The Tool for analysing re-X in LCA                                  \\
+        UBP               & Umweltbelastungspünkte (Environmental Impact Points)                \\
+        UN                & United Nations                                                      \\
+        WF                & Waste Footprint                                                     \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -179,7 +180,7 @@
 \input{introduction.tex}
 
 \section{Methodology}\label{sec:methodology}
-%\cbox{Section word count: 1700}
+%\cbox{Section word count: 1600}
 \input{methodology.tex}
 
 \section{Results}\label{sec:results}
@@ -187,16 +188,15 @@
 \input{results.tex}
 
 \section{Discussion}\label{sec:discussion}
-% \cbox{Section word count: 450}
+% \cbox{Section word count: 500}
 \input{discussion.tex}
 
 \section{Conclusions}\label{sec:conclusions}
 % \cbox{Section word count: 150}
 
-We have created `T-reX', an extension to the \texttt{brightway} ecosystem that enables users to calculate the waste and material footprints of a product or service in an LCA database. It explodes the database, identifies upstream waste and material exchanges, edits them, and writes matching custom `pseudo' LCIA methods. These exchanges become pseudo-biosphere flows and thus, the footprint can be calculated as with the existing LCIA methods. T-reX can be easily customised by the user to calculate the footprints of other supply chain flows such as water, gas, and critical raw materials.
+We have created `T-reX', an extension to the open-source \texttt{brightway} ecosystem that enables users to calculate the waste and material footprints of any product or service in an LCA database. It `explodes' and reconstructs the database to identify waste and material exchanges, edits these, and writes matching custom `pseudo' LCIA methods. These exchanges are mirrored in the \texttt{brightway} project as `pseudo-biosphere' flows and thus, the waste and material footprints can be calculated like existing LCIA methods (such as carbon dioxide emissions). T-reX can be easily customised by the user to calculate the footprints of any other supply chain flow of interest, such as water, gas, or critical raw materials (CRMs).
 
-This work extends the state of knowledge by exploring the relationship between various waste aggregation methods and environmental damage indicators, contributing to a deeper understanding of life cycle waste inventories and their association with supply chain risk and potential environmental damage.
-
+This work advances the state-of-the-art by introducing an instrument to help elucidate the complex relationships between material demand, waste generation, and environmental impacts. T-reX enables the detailed exploration of 'footprints' and life cycle inventories---modelled externalities of human activities---and examines their connections to supply chain risks and potential environmental damage. T-reX hopes to provide a step towards a better understanding of these factors that are so crucial for the attainment of `sustainability' and the aspired `circular economy'.
 
 % Back matter
 \section*{Data availability}
@@ -229,7 +229,7 @@ The authors declare that they have no known competing financial interests or per
 \section*{Acknowledgements}
 Part of this research project was financially supported by the European Union's Horizon 2020 research and innovation programme under the grant agreement No. 101058522 (project FutuRaM --- futuram.eu). The authors would like to thank the reviewers for their valuable comments and suggestions.
 
-The authors would like to acknowledge those who were part of the futures thinking small group session at the FutuRaM consortium meeting in Berlin in June 2023 in which the term `T-reX/T(ool)-reX' was coined to name the vision presented by Stewart Charles McDowall of a comprehensive opensource software framework for the study and development of secondary raw material systems. The authors hope to continue the development of T-reX toward this vision.
+The authors would like to acknowledge those who were part of the futures thinking small group session at the FutuRaM consortium meeting in Berlin in June 2023 in which the term `T-reX/T(ool)-reX' was coined to name the vision presented by Stewart Charles McDowall of a comprehensive open-source software framework for the study and development of secondary raw material systems. The authors hope to continue the development of T-reX in the service of our shared ideals.
 
 \section*{Supplementary material}\label{sec:supplementary}
 The supplementary material contains the following:
@@ -239,8 +239,9 @@ The supplementary material contains the following:
     \item Description of the computational workflow
     \item Modular flowchart of T-reX
     \item Example of the terminal output of T-reX
+    \item Example of the terminal output of the case study
     \item Complete tabulated results of the case study
-    \item Complete visualisations of the case study
+    \item Complete visualisations from the case study
 \end{enumerate}
 
 \bibliographystyle{elsarticle-harv}

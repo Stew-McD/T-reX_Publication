@@ -1,65 +1,52 @@
 \subsection{T-reX tool}\label{sec:results-T-reX}
 
-An example of the output from the application of T-reX has been included in the supplementary material. The manipulated ecoinvent databases, which are the main product of T-reX can be recreated by following the instructions in the package documentation~\citep{mcdowall2023T-reXdocs}.
+An example of the output from the application of T-reX has been included in the supplementary material\autoref{sec:supplementary}. The manipulated \texttt{ecoinvent} databases, which are the main product of T-reX can be recreated by following the instructions in the package documentation~\citep{mcdowall2023T-reXdocs}.
 
-\subsection{Case study: Li-ion batteries}\label{sec:results-case_study}
+\subsection{Case study: Li-ion batteries}\label{sec:results-casestudy}
 
-As described in~\autoref{sec:method-case-study}, this case study calculated the waste and material footprints (with a variety of other indicators) for the unaltered inventories of five Li-ion batteries with the functional unit being 1~kg of the battery at the global market. The purpose of this simple case study was to test, verify, and demonstrate the functionality and limitations of T-reX. This section includes some highlights of the results with full results included in the supplementary material\autoref{sec:supplementary}. Because the `pseudo LCIA' T-reX methods are integrated into the brightway project as if they were LCIA methods, the LCA calculations can be performed in the customary way. In the supplementary material, there are screenshots of selected results obtained using the \texttt{ActivityBrowser} software, including contribution analysis and a Sankey diagram that disaggregates the final footprint result over the activities in the supply chain.
+As described in~\autoref{sec:method-casestudy}, this case study calculated the waste and material footprints (with a variety of other indicators) for the unaltered inventories of five Li-ion batteries with the functional unit being 1~kg of the battery at the global market. The purpose of this simple case study was to test, verify, and demonstrate the functionality and limitations of T-reX. This section includes some highlights of the results with full results included in the supplementary material (\autoref{sec:supplementary}). Because the `pseudo-LCIA' methods created by T-reX are integrated into the user's \texttt{brightway} project as if they were standard LCIA methods, the footprint calculations can be performed in the customary way. In the supplementary material, there are screenshots of selected results obtained using the \texttt{ActivityBrowser} software, including contribution analysis and a Sankey diagram that disaggregates the final footprint result over the activities in the supply chain.
 
 \subsubsection{Sankey visualisation of flows in waste and material inventory footprints}\label{sec:results-case_study-sankey}
 
 %!@@!!!!!!!!!!
-\autoref{fig:sankey_waste} presents a Sankey diagram depicting the supply chain flows of `total solid waste' for the NMC 811 Li-ion battery at the global market in the ecoinvent database version 3.9.1
+\autoref{fig:sankey_waste} presents a Sankey diagram depicting the supply chain flows of `total solid waste' for the NMC 811 Li-ion battery at the global market in the \texttt{ecoinvent} database version 3.9.1
 
 %!!!!!!!!!!!
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{figures/T-reX\_NMC811\_WasteTotalSolid.pdf}
-    \caption{A Sankey diagram of the total solid waste footprint flows for the NMC 811 battery at the global market in the ecoinvent database version 3.9.1 [TO BE IMPROVED!]}\label{fig:sankey_waste}
+    \caption{A Sankey diagram of the total solid waste footprint flows for the NMC 811 battery at the global market in the \texttt{ecoinvent} database version 3.9.1 [TO BE IMPROVED!]}\label{fig:sankey_waste}
 \end{figure}
 
-% \autoref{fig:sankey_material} presents a Sankey diagram depicting the supply chain flows of elemental chromium for 1~kg of the LFP (lithium iron phosphate) battery in the case study at the global market in the ecoinvent database version 3.9.1. 
+% \autoref{fig:sankey_material} presents a Sankey diagram depicting the supply chain flows of elemental chromium for 1~kg of the LFP (lithium iron phosphate) battery in the case study at the global market in the \texttt{ecoinvent} database version 3.9.1. 
 
 % \begin{figure}[H]
 %     \centering
 %     \includegraphics[width=0.7\linewidth]{figures/T-reX\_NMC811\_WasteTotalSolid.pdf}
-%     \caption{Sankey diagram depicting the supply chain flows of elemental chromium for 1~kg of the LFP (lithium iron phosphate) battery in the case study at the global market in the ecoinvent database version 3.9.1 [TO BE IMPROVED!]}\label{fig:sankey_material}
+%     \caption{Sankey diagram depicting the supply chain flows of elemental chromium for 1~kg of the LFP (lithium iron phosphate) battery in the case study at the global market in the \texttt{ecoinvent} database version 3.9.1 [TO BE IMPROVED!]}\label{fig:sankey_material}
 % \end{figure}
 
 
-\subsubsection{Temporal and scenario variation in waste and material inventory footprints}\label{sec:results-case_study-total_footprints}
+\subsubsection{Temporal and scenario variation in waste and material inventory footprints}
+%\label{sec:results-case_study-total_footprints}
 
-\autoref{fig:waste_total} shows the `total solid waste' inventory footprint for the five Li-ion batteries in the case study from 2020 to 2100 under the SSP2 scenario using the baseline and PkBudg500 RCPs of the REMIND model. The NMC811 battery has the largest footprint, producing over 50~kg of waste per kilogram of battery produced. The LiMn2O4 battery has the smallest footprint, producing less than 4~kg of waste per kilogram of battery. In each case there was a slight downward trend in the waste footprints between 2020 and 2100. This is most notable in the period between 2020 and 2040 and is attributable to the relatively rapid decrease in fossil-fuel use that is included in the models over this time (which can large amounts of waste in its extraction and combustion phases). For the total waste generated by these batteries, there was very little difference observed between the baseline and PkBudg500 RCPs.
+%! total
+\autoref{fig:waste_total} (a) shows the `total solid waste' inventory footprint for the five Li-ion batteries in the case study from 2020 to 2100 under the SSP2 scenario using the baseline and PkBudg500 RCPs of the REMIND model. The NMC811 battery has the largest footprint, producing over 50~kg of waste per kilogram of battery produced. The LiMn2O4 battery has the smallest footprint, producing less than 4~kg of waste per kilogram of battery. In each case, there was a slight downward trend in the waste footprints between 2020 and 2100. This is most notable in the period between 2020 and 2040 and is attributable to the relatively rapid decrease in fossil-fuel use that is factored into the models over this time (since many produce relatively large amounts of waste during extraction and combustion). For the total waste generated by these batteries, there was very little difference observed between the baseline and PkBudg500 RCPs.
 
-%!!!!
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{figures/total_waste.png}
-    \caption{Total solid waste footprints for the five Li-ion batteries in the case study from 2020 to 2100 under the SSP2 scenario using the baseline and PkBudg500 RCPs of the REMIND model.}\label{fig:waste_total}
-\end{figure}
+%! CO2
+The inclusion of carbon capture and storage (CCS) in the prospective databases is apparent in~\autoref{fig:waste_totalANDcarbon} (b), with the rapid increase in the production of carbon dioxide `waste' over the period from 2020--2040 that is not seen in the baseline scenario. This result highlights the fact that the (often) downward trends in global warming impacts calculated with prospective databases using standard LCIA methods are dependent on the assumptions made about the introduction of CCS technology. The actual deployment of these technologies was only around 37~Mt CO$_2$/yr as of 2023~\citep{dziejarski2023ccs}, far short of the levels projected in many of the RCP scenarios~\citep{sacchi2023premisedocs}.
 %!!!!
 
-The inclusion of carbon capture and storage (CCS) in the prospective databases using the PkBudg500 RCP is evident in~\autoref{fig:carbondioxide}, which shows a rapid increase in the production of carbon dioxide `waste' over the period from 2020--2040 that is not seen in the baseline scenario. This result highlights the fact that the (often) downward trends in global warming impacts calculated with prospective databases using standard LCIA methods are dependent on the assumptions made about the introduction of CCS technology. The actual deployment of these technologies was only around 37~Mt CO$_2$/yr as of 2023~\citep{dziejarski2023ccs}, far short of the levels projected in many of the RCP scenarios~\citep{sacchi2023premisedocs}.
-
-
-%!!!!!!
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{figures/carbondioxide.png}
-    \caption{Carbon dioxide waste (from carbon capture and storage) footprints for the five Li-ion batteries in the case study from 2020 to 2100 under the SSP2 scenario using the baseline and PkBudg500 RCPs of the REMIND model. [TO BE IMPROVED!]}\label{fig:carbondioxide}
+    \includegraphics[width=0.7\linewidth]{figures/T-reX-wastefootprint-totalANDcarbon.pdf}
+    \caption{T-reX calculated supply chain inventories for the five Li-ion batteries in the case study, showing their `footprints' for: (a) total solid waste, and (b) carbon dioxide waste (from carbon capture and storage (CCS) only). The footprints were modelled with prospective LCA databases from 2020 to 2100 under the SSP2 scenario using the baseline and PkBudg500 RCPs of the REMIND model.}\label{fig:waste_totalANDcarbon}
 \end{figure}
+%!!!!
 
-For the phosphate demand footprints that are depicted in~\autoref{fig:phosphate}, the LFP (lithium iron phosphate) battery has a much larger footprint than the other batteries, consistent with its composition. In this case, the phosphate footprint of all batteries is shown to decrease over the period from 2020--2100, and the RCP scenarios are seen to converge between 2020 and 2040.
+\subsubsection{Contribution of `top-processes' in the supply chain}%\label{sec:results-case_study-topprocesses}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{figures/phosphate.png}
-    \caption{Phosphate material demand footprints for the five Li-ion batteries in the case study from 2020 to 2100 under the SSP2 scenario using the baseline and PkBudg500 RCPs of the REMIND model. [TO BE IMPROVED!]}\label{fig:phosphate}
-\end{figure}
-
-\subsubsection{Contribution of `top-processes' in the supply chain}\label{sec:results-case_study-topprocesses}
-
-\autoref{fig:top_contribution} shows the contribution of the `top-processes' to the cobalt footprint of the LiMn2O4 battery under the baseline scenario from 2020--2100. The total footprint is seen to almost triple, from 2.2~kg/kg in 2020 to 6.2~kg/kg in 2100. This result is likely a reflection of the electrification of the transport sector that is included in the REMIND model. The fractional contributions of the top processes remains relatively steady over the coming century in this case. 
+\autoref{fig:top_contribution} shows the contribution of the `top-processes' to the cobalt footprint of the LiMn2O4 battery under the baseline scenario from 2020--2100. The total footprint is seen to almost triple, from 2.2~kg/kg in 2020 to 6.2~kg/kg in 2100. This result is likely a reflection of the electrification of the transport sector that is included in the REMIND model. The fractional contributions of the top processes remain relatively steady over the coming century in this case.
 
 \begin{figure}[H]
     \centering
@@ -71,7 +58,7 @@ For the phosphate demand footprints that are depicted in~\autoref{fig:phosphate}
 
 \subsubsection{Contribution of industrial sectors in the supply chain}\label{sec:results-case_study-topsectors}
 
-\autoref{fig:cpc_contribution} shows the contribution of sectors (grouped by CPC) to the total natural gas footprint of the LFP battery under the PkBudg500 pathway. In this example, the relative contribution of the sector `47160: Electronic integrated circuits' is seen to decrease from 11\% in 2020 to 6\% in 2100, while over the same period the contribution of the sector `46430: Parts of primary cells, primary batteries and electrodes' increases from 29\% to 38\%. The method used to calculate these contributions involves traversing the supply chain branches to a certain level (max. 4, in this case), cutting a specified point (5\% in this case), and grouping the value of the `leaves' by their CPC code. The results, therefore, will depend on how deeply the user would like to inspect the supply chain. Additionally, the utility of these results is dependent on how well the CPC codes define the processes in the supply chain for the particular case. 
+\autoref{fig:cpc_contribution} shows the contribution of sectors (grouped by CPC) to the total natural gas footprint of the LFP battery under the PkBudg500 pathway. In this example, the relative contribution of the sector `47160: Electronic integrated circuits' is seen to decrease from 11\% in 2020 to 6\% in 2100, while over the same period the contribution of the sector `46430: Parts of primary cells, primary batteries and electrodes' increases from 29\% to 38\%. The method used to calculate these contributions involves traversing the supply chain branches to a certain level (max. 4, in this case), cutting a specified point (5\% in this case), and grouping the value of the `leaves' by their CPC code. The results, therefore, will depend on how deeply the user would like to inspect the supply chain. Additionally, the utility of these results is dependent on how well the CPC codes define the processes in the supply chain for the particular case.
 
 \begin{figure}[H]
     \centering
@@ -91,7 +78,7 @@ A comparison of the results from T-reX's `Coal (black)' demand method with the L
         \includegraphics[width=\linewidth]{figures/comparison_methods2.png}
         \caption{}\label{fig:comparison_methods_a}
     \end{subfigure}
-    
+
     \begin{subfigure}[b]{0.8\linewidth}
         \includegraphics[width=\linewidth]{figures/comparison_methods1.png}
         \caption{}\label{fig:comparison_methods_b}
@@ -101,22 +88,22 @@ A comparison of the results from T-reX's `Coal (black)' demand method with the L
 
 \subsubsection{Comparison with other studies}\label{sec:results-case_study-comparison}
 
-\cite{laurenti2023wastefootprint} used an alternative method for calculating the waste footprint of ~1400 activities in the ecoinvent database version 3.5, which contains only a generic `market for battery, Li-ion, rechargeable, prismatic'. The inventory of this battery most closely resembles that of the NMC 111 battery in this case study. \autoref{tab:results-case_study-comparison} presents a comparison of the results from the two studies, where possible. For liquid, solid, and recycled waste, the results were closely aligned, however for hazardous waste fraction, Laurenti et al. reported 95\%, whereas T-reX reported only 3\%. The reason for this discrepancy is explained by the fact that in the method of Laurenti et al., a ``waste flow was regarded as hazardous when the hazardousness
-was clearly stated in its subsequent waste treatment activity''. The authors continue: ``It should be noted that the high hazardousness ratios for many products might indicate a weakness in the validity of this measure''. In T-reX , the source database is deconstructed into a list of separate exchanges, and only those explicitly defined as hazardous are marked as such.
+\cite{laurenti2023wastefootprint} used an alternative method for calculating the waste footprint of ~1400 activities in the \texttt{ecoinvent} database version 3.5, which contains only a generic `market for battery, Li-ion, rechargeable, prismatic'. The inventory of this battery most closely resembles that of the NMC 111 battery in this case study. \autoref{tab:results-case_study-comparison} presents a comparison of the results from the two studies, where possible. For liquid, solid, and recycled waste, the results were closely aligned, however, for the hazardous waste fraction, Laurenti et al. reported 95\%, whereas T-reX reported only 3\%. The reason for this discrepancy is explained by the fact that in the method of Laurenti et al., a ``waste flow was regarded as hazardous when the hazardousness
+was clearly stated in its subsequent waste treatment activity''. The authors continue: ``It should be noted that the high hazardousness ratios for many products might indicate a weakness in the validity of this measure''. In T-reX, the source database is deconstructed into a list of separate exchanges, and only those explicitly defined as hazardous are marked as such.
 
 \begin{table}[H]
-\centering
-\caption{Comparison of the results from the T-reX battery case study (database: ecoinvent 3.9.1 REMIND SSP2 Base 2020, activity: Li-ion NMC 111) with those from \cite{laurenti2023wastefootprint} (database: ecoinvent 3.5, activity:`Li-ion').}
-\label{tab:results-case_study-comparison}
-\begin{tabular}{lll}
-\toprule
-\textbf{Indicator} & \textbf{T-reX} & \textbf{Laurenti et al.} \\
-\midrule
-Total solid waste (kg/kg)& 50.9 & 62.5 \\
-Total liquid waste (kg/kg) & 3.53 & 3.63 \\
-Hazardous waste (kg/kg) & 1.47 & 62.6 \\
-Recycled waste (kg/kg) & 1.59 & 1.98 \\
-\bottomrule
-\end{tabular}
+    \centering
+    \caption{Comparison of the results from the T-reX battery case study (database: \texttt{ecoinvent} 3.9.1 REMIND SSP2 Base 2020, activity: Li-ion NMC 111) with those from \cite{laurenti2023wastefootprint} (database: \texttt{ecoinvent} 3.5, activity:`Li-ion').}
+    \label{tab:results-case_study-comparison}
+    \begin{tabular}{lll}
+        \toprule
+        \textbf{Indicator}         & \textbf{T-reX} & \textbf{Laurenti et al.} \\
+        \midrule
+        Total solid waste (kg/kg)  & 50.9           & 62.5                     \\
+        Total liquid waste (kg/kg) & 3.53           & 3.63                     \\
+        Hazardous waste (kg/kg)    & 1.47           & 62.6                     \\
+        Recycled waste (kg/kg)     & 1.59           & 1.98                     \\
+        \bottomrule
+    \end{tabular}
 \end{table}
 

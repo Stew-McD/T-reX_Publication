@@ -1,0 +1,20 @@
+\babel@toc {british}{}\relax 
+\contentsline {section}{\numberline {1}Metadata of T-reX}{2}{section.1}%
+\contentsline {section}{\numberline {2}List of modules in the T-reX Python package}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Functional modules}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Configuration modules}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Description of the computational workflow}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Generation of prospective LCA databases}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Database expansion}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Waste and material flow identification and categorisation}{3}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Waste exchanges}{3}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Material exchanges}{3}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Creation of custom `pseudo-biosphere' databases}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}LCIA method management}{6}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Exchange editing}{6}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Database Verification}{6}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Modular flowchart of T-reX}{6}{section.4}%
+\contentsline {section}{\numberline {5}Example terminal output of T-reX}{8}{section.5}%
+\contentsline {section}{\numberline {6}Python scripts used in the case study}{9}{section.6}%
+\contentsline {section}{\numberline {7}Complete tabulated results of the case study}{10}{section.7}%
+\contentsline {section}{\numberline {8}Complete visualisations from the case study}{11}{section.8}%
