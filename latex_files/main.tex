@@ -110,13 +110,13 @@
         country={The Netherlands}}
 
     \begin{abstract}
-        % \cbox{Abstract word count: 155, Limit: 150}
-        The quintessential principle of the `circular economy' is to minimise material consumption and waste generation.
-        Thus, identifying and quantifying waste and material flows are of fundamental importance. Life Cycle Assessment (LCA) is a powerful method for this, given its capacity to pinpoint hotspots of environmental impact throughout the life cycle of activities, where the implementation of circular principles could be most effective.
+        % \cbox{Abstract word count: 150, Limit: 150}
+        A fundamental principle of ‘circular economy’ is to minimise material consumption and waste generation. Thus, identifying and quantifying waste and material flows is critical. Life Cycle Assessment (LCA) is a powerful method for this, given its capacity to pinpoint hotspots of environmental impact throughout an activity’s life cycle, where the implementation of circular principles could be most effective.
 
-        Introducing T-reX, a Python tool extending the brightway ecosystem, allowing facile quantification of user-defined supply chain demands in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
+        We introduce T-reX, a Python tool extending the brightway ecosystem, to allow facile quantification of user-defined supply chain demands in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
 
-        A case study of five lithium-ion batteries demonstrates T-reX's utility, quantifying categorised waste and material inventory footprints, and thus, their potential environmental burdens. T-reX can aid sustainable decision-making and contribute to the development of the `circular economy' by facilitating analysis of material consumption and waste generation in LCA.
+        A case study of five lithium-ion batteries demonstrates T-reX's utility, quantifying categorised waste and material inventory footprints and their potential environmental burdens. T-reX can aid sustainable decision-making and contribute to the development of `circular economy' by facilitating analysis of material consumption and waste generation in LCA.
+
 
     \end{abstract}
 
@@ -176,27 +176,27 @@
 
 %% main text
 \section{Introduction}\label{sec:introduction}
-%\cbox{Section word count: 2000}
+%\cbox{Section word count: 2000 ; current: 1990}
 \input{introduction.tex}
 
 \section{Methodology}\label{sec:methodology}
-%\cbox{Section word count: 1600}
+%\cbox{Section word count: 1600 ; current: 1593}
 \input{methodology.tex}
 
 \section{Results}\label{sec:results}
-% \cbox{Section word count: 1200}
+% \cbox{Section word count: 1200 ; current: 1151}
 \input{results.tex}
 
 \section{Discussion}\label{sec:discussion}
-% \cbox{Section word count: 500}
+% \cbox{Section word count: 500 ; current: 471}
 \input{discussion.tex}
 
 \section{Conclusions}\label{sec:conclusions}
-% \cbox{Section word count: 150}
+% \cbox{Section word count: 150 ; current: 150}
 
-We have created `T-reX', an extension to the open-source \texttt{brightway} ecosystem that enables users to calculate the waste and material footprints of any product or service in an LCA database. It `explodes' and reconstructs the database to identify waste and material exchanges, edits these, and writes matching custom `pseudo' LCIA methods. These exchanges are mirrored in the \texttt{brightway} project as `pseudo-biosphere' flows and thus, the waste and material footprints can be calculated like existing LCIA methods (such as carbon dioxide emissions). T-reX can be easily customised by the user to calculate the footprints of any other supply chain flow of interest, such as water, gas, or critical raw materials (CRMs).
+T-reX is an extension to the open-source \texttt{brightway} ecosystem that enables users to calculate the waste and material footprints of any product or service in an LCA database. It `explodes' and reconstructs the database to identify and edit waste and material exchanges and writes matching custom `pseudo' LCIA methods. These exchanges are mirrored in the \texttt{brightway} project as `pseudo-biosphere' flows and thus, the waste and material footprints of any other supply chain flow of interest, such as water, gas, or critical raw materials, can be calculated similarly to existing LCIA methods.
 
-This work advances the state-of-the-art by introducing an instrument to help elucidate the complex relationships between material demand, waste generation, and environmental impacts. T-reX enables the detailed exploration of `footprints' and life cycle inventories---modelled externalities of human activities---and examines their connections to supply chain risks and potential environmental damage. T-reX hopes to provide a step towards a better understanding of these factors that are so crucial for the attainment of `sustainability' and the aspired `circular economy'.
+T-reX elucidates the complex relationships between material demand, waste generation, and environmental impacts. This instrument enables detailed exploration of `footprints' and life cycle inventories---modelled externalities of human activities---and examines their connections to supply chain risks and potential environmental damage. T-reX is a step towards a better understanding of these interconnections for the practical realization of `sustainability' and the `circular economy'.
 
 % Back matter
 \section*{Data availability}
