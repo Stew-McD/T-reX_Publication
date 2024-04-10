@@ -18,5 +18,7 @@ tmp
 **/*.spl
 **/*.synctex.gz
 **/*.fdb_latexmk
-!.gitignore
+
+
 !**/logs/*.log
+!.gitignore
