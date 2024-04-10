@@ -11,6 +11,9 @@ This repo contains the manuscript and data associated with the T-reX program for
 * Drafted according to the submission guidelines for the journal of Resources Conservation and Recycling [(see summary here)](ResourcesConservationAndRecycling_SubmissionRequirements.pdf)
 
 
+![T-reX logo](logos/T-reX_logo_500.webp)
+
+
 ## Visual overview of T-reX
 
 ### Generalised and computational flowcharts
