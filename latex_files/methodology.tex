@@ -6,7 +6,7 @@ This section is divided into two parts. In \autoref{sec:method-TreX}, we describ
 
 Developed in the Python programming language, T-reX extends the \texttt{brightway LCA framework}, utilising the components \texttt{bw2data}, \texttt{bw2calc}, and \texttt{bw2io}~\citep{mutel2017brightway}. Additionally, the \texttt{wurst} package---which can deconstruct databases into a list of exchanges---is used to facilitate searching and data transformation at the exchange level (the individual supply chain flows)~\citep{mutel2017wurst}. Integration with the \texttt{premise} package~\citep{sacchi2022premise}---which integrates the projections of integrated assessment models (IAMs) into current LCA databases---enables the user to easily create and manipulate prospective LCA databases. T-reX is also compatible with \texttt{ActivityBrowser}~\citep{steubing2020activitybrowser}---an open-source graphical user interface for LCA---and after running T-reX, the manipulated databases and the `pseudo-LCIA' methods created by T-reX can be used in the project in the accustomed way. T-reX is installable via the Python Package Index (PyPI)~\citep{mcdowall2023T-reXpipy} and is fully open-source under the CC-0 licence. The full source code for T-reX is indexed on Zenodo~\citep{mcdowall2023T-reXzenodo} and under further development in the GitHub repository~\citep{mcdowall2024T-reXgithub}. T-reX is designed to be used with \texttt{ecoinvent} databases~\citep{ecoinvent2016version3}, but could be adapted to other databases by changing the search criteria. Currently, it has been tested with all available system models of \texttt{ecoinvent}versions 3.5--3.10.
 
-T-reX can be used directly from the command line, or imported as a Python package where the user can access the individual functions and modules. In the simplest case, the user can run the program with the default settings, which will calculate the waste and material footprint of the \texttt{ecoinvent}database. The user can adapt the settings of T-reX as desired, to calculate alternative or additional waste and material inventory footprints, use a custom database, or a `prospective' database based on future scenarios by implementing the premise \texttt{premise} with one of T-reX's internal modules.
+T-reX can be used directly from the command line, or imported as a Python package with which the user can access the individual functions and modules. In the simplest case, the user can run the program with the default settings, which will calculate the waste and material footprint of the \texttt{ecoinvent}database. The user can adapt the settings of T-reX as desired, to calculate alternative or additional waste and material inventory footprints, use a custom database, or a `prospective' database based on future scenarios by implementing the premise \texttt{premise} with one of T-reX's internal modules.
 
 The supplementary material in \autoref{sec:supplementary} contains metadata of T-reX, along with a list of the constituent modules, a description of their functions, and a detailed computational workflow. Further details can be found in the GitHub repository and package documentation~\citep{mcdowall2024T-reXgithub, mcdowall2023T-reXdocs}.
 
@@ -23,8 +23,6 @@ In the default configuration, there are 10 waste categories which are further di
 In addition to the waste categories, T-reX can incorporate any number of material demand categories, the defaults being based on the EU Critical Raw Materials (CRM) list for 2023~\citep{eu2023crmstudy}, which contains 30 materials considered essential to the EU economy and also at risk of supply disruption. Especially valuable in the case of CRMs is T-reX's ability to uncover and quantify these threads of background consumption, which can be inconspicuously embedded in products or consumed in seemingly distant supply chain activities. The identity of the materials considered and their categorical groupings are easily customisable by the user, and in further materials of interest to the authors were added to the example Li-ion case study, including helium, electricity, petroleum, sand, water, and natural gas. The full list of 59 materials included in the default configuration is provided in the supplementary material in~\autoref{sec:supplementary}.
 
 The logic for the identification of material exchanges with T-reX differs from that used to identify waste exchanges in that the search queries are based on the names of the relevant `market activities' for the material of interest rather than keywords in the exchange's name. A useful feature of T-reX is that, in cases where there are several markets for one material or material group, the program can aggregate these flows. For example, exchanges with markets for the rare-earth-elements (REEs) `market for cerium', `market for dysprosium', `market for erbium', etc.\ can be aggregated into a single indicator category for REEs. Similarly, the total demand for all critical raw materials (CRMs) can be calculated in the same manner.
-
-% As presented in~\autoref{sec:intro-background},~\autoref{sec:intro-waste}, and~\autoref{sec:intro-material} of the introduction, there are some existing material demand methods in the standard LCIA method sets, including the CSI (which provides only an aggregated, abstracted endpoint in units of kg~Si~eq)~\citep{arvidsson2020csi} and the (deprecated) EDIP 2003 material use indicators (which provide endpoints in fundamental units)~\citep{hauschild2003edip}.
 
 In these methods, the material demand is calculated based on the total mass that is extracted from the environment, thus, their focus is essentially solely on the mining-related exchanges that bring these materials from the biosphere into the technosphere.
 
@@ -55,14 +53,14 @@ An overview of the T-reX workflow is presented in \autoref{fig:methods-flowchart
 
 \begin{figure}[H]
     \centering
-    \caption{Workflow of T-reX. Application of T-reX to one or more LCA databases creates a \texttt{brightway} project with customised methods and activities that can be used to calculate waste and material inventory footprints of the activity's supply chain.}
-    \includegraphics[width=14cm]{figures/T-reX_method.pdf}\label{fig:methods-flowchart}
+    \caption{The workflow of T-reX presented in a generalised (a) and computational (b) format. Application of T-reX to one or more LCA databases creates a \texttt{brightway} project with customised methods and activities that can be used to calculate waste and material inventory footprints of the activity's supply chain.}
+    \includegraphics[width=12cm]{figures/T-reX_method.pdf}\label{fig:methods-flowchart}
 \end{figure}
 
 
 \subsection{Case study methodology}\label{sec:method-casestudy}
 
-We investigated five types of Li-ion batteries, each represented by their unamended global market activities:
+We investigated five types of Li-ion batteries in the \texttt{ecoinvent} 3.9.1 `cutoff' LCA database~\citep{ecoinvent2016version3}, each represented by their unamended global market inventories:
 \begin{itemize}[itemsep=0pt]
     \item Li-ion, LFP, rechargeable, prismatic
     \item Li-ion, LiMn\(_2\)O\(_4\), rechargeable, prismatic
@@ -74,13 +72,13 @@ We investigated five types of Li-ion batteries, each represented by their unamen
 In addition to the waste and material inventory footprint methods created by T-reX, the following standard LCIA methods were applied for comparison:
 
 \begin{itemize}[itemsep=0pt]
-    \item ReCiPe 2016 v1.03, midpoint (I)
-    \item EF v3.0 no LT
-    \item EDIP 2003 no LT
-    \item CSI 2020
+    \item ReCiPe 2016 v1.03, midpoint (I)~\citep{huijbregts2016recipe}
+    \item EF v3.0 no LT~\citep{eu2023ef}
+    \item EDIP 2003 no LT~\citep{hauschild2003edip}
+    \item CSI 2020~\citep{arvidsson2020csi}
 \end{itemize}
 
-The source of the life cycle inventory data for this case study was \texttt{ecoinvent}, version 3.9.1, with the `cutoff' attributional system model. Additionally, T-reX was used to create prospective database sets using the functionality of \texttt{premise} with the REMIND model and the baseline scenario SSP2 `middle of the road' with the following Representative Concentration Pathways (RCPs):
+Additional to the present-day databases, T-reX created prospective database sets based on \texttt{ecoinvent} 3.9.1 using the functionality of \texttt{premise} with the REMIND model and the baseline scenario SSP2 `middle of the road' with the following Representative Concentration Pathways (RCPs):
 \begin{itemize}
     \item SSP2-base: representing an approximate 3.5°C increase in global temperatures to 2100
     \item SSP2-PkBudg500: representing the achievement of Paris climate goals, ca. 1.3°C increase to 2100
