@@ -1,4 +1,4 @@
-$pdflatex = 'pdflatex -interaction=batchmode -file-line-error %O %S';
+# $pdflatex = 'pdflatex -interaction=batchmode -file-line-error %O %S';
 # $clean_ext = 'aux bbl blg idx ind lof lot out toc acn acr alg glg glo gls ist';
 
 # # Define target folder
