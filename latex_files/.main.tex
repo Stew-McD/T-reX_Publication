@@ -82,7 +82,7 @@
 \vspace{4em}
 
 \begin{highlights}
-    \item T-reX, a new open-source program for quantifying waste and material flows in Life Cycle Assessment (LCA)
+    \item 'T-reX', a new open-source program for quantifying waste and material flows in Life Cycle Assessment (LCA)
     \item Assesses supply risks by calculating demand inventories for critical materials
     \item Simplifies quantification of user-specified waste and material footprint categories
     \item Rapidly identifies hotspots of waste generation and material demand in supply chains
@@ -111,11 +111,11 @@
 
     \begin{abstract}
         % \cbox{Abstract word count: 150, Limit: 150}
-        The quintessential principle of the `circular economy' is to minimise material consumption and waste generation. Thus, identifying and quantifying waste and material flows is critical. Life Cycle Assessment (LCA) is a powerful method for this, given its capacity to pinpoint hotspots of environmental impact throughout an activity's life cycle, where the implementation of circular principles could be most effective.
+        The quintessential principle of the `circular economy' is to minimise material consumption and waste generation. Thus, identifying and quantifying waste and material flows is critical. Life Cycle Assessment (LCA) is a powerful method, given its capacity to pinpoint hotspots of environmental impact throughout an activity's life cycle. Allowing the implementation of circular principles where could be most effective.
 
-        We introduce T-reX, a Python tool extending the brightway ecosystem, to allow facile quantification of user-defined supply chain demands in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
+        In this spirit, we introduce T-reX, a Python tool extending the brightway ecosystem that allows for facile quantification of user-defined supply chain demands in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
 
-        A case study of five lithium-ion batteries demonstrates T-reX's utility, quantifying categorised waste and material inventory footprints and their potential environmental burdens. T-reX can aid sustainable decision-making and contribute to the development of `circular economy' by facilitating analysis of material consumption and waste generation in LCA.
+        A simple example of five lithium-ion batteries demonstrates T-reX's utility, quantifying categorised waste and material inventory footprints. In a context where the quantification of potential environmental burdens is uncertain and subjective, T-reX can aid sustainable decision-making and contribute to the development of `circular economy' by facilitating the analysis of material consumption and waste generation in LCA.
 
 
     \end{abstract}
@@ -161,7 +161,7 @@
         ReCiPe            & A standard LCIA method set                                          \\
         SDG               & Sustainable Development Goals                                       \\
         SSPs              & Shared Socioeconomic Pathways                                       \\
-        T-reX             & The Tool for analysing re-X in LCA                                  \\
+        T-reX             & Tool for analysing re-X in LCA                                  \\
         UBP               & Umweltbelastungspünkte (Environmental Impact Points)                \\
         UN                & United Nations                                                      \\
         WF                & Waste Footprint                                                     \\
@@ -184,9 +184,9 @@
 
 \section{Conclusions}\label{sec:conclusions}
 
-T-reX is an extension to the open-source \texttt{brightway} ecosystem that enables users to calculate the waste and material footprints of any product or service in an LCA database. It `explodes' and reconstructs the database to identify and edit waste and material exchanges and writes matching custom `pseudo' LCIA methods. These exchanges are mirrored in the \texttt{brightway} project as `pseudo-biosphere' flows and thus, the waste and material footprints of any other supply chain flow of interest, such as water, gas, or critical raw materials, can be calculated similarly to existing LCIA methods.
+T-reX is an extension to the open-source \texttt{brightway} ecosystem that enables users to calculate the waste and material footprints of any product or service in an LCA database. It can take apart and reconstruct databases in order to identify and edit waste and material exchanges and write matching custom `pseudo' LCIA methods. These exchanges are mirrored in the \texttt{brightway} project as `pseudo-biosphere' flows and thus, the waste and material footprints of any other supply chain flow of interest, such as water, gas, or critical raw materials, can be calculated similarly to existing LCIA methods.
 
-T-reX elucidates the complex relationships between material demand, waste generation, and environmental impacts. This instrument enables detailed exploration of `footprints' and life cycle inventories---modelled externalities of human activities---and examines their connections to supply chain risks and potential environmental damage. T-reX is a step towards a better understanding of these interconnections for the practical realisation of `sustainability' and the `circular economy'.
+T-reX elucidates the complex relationships between material demand, waste generation, and environmental impacts. This instrument enables detailed exploration of footprints and life cycle inventories---modelled externalities of human activities---and examines their connections to supply chain risks and potential environmental damage. T-reX is a step towards a better understanding of these interconnections for the practical realisation of sustainability and the circular economy.
 
 % Back matter
 \section*{Data availability}
@@ -232,6 +232,7 @@ The supplementary material supplied with this manuscript contains the following:
     \item Complete tabulated results of the case study
     \item Complete visualisations from the case study
 \end{enumerate}
+Further information and extended data is available in the T-reX package's GitHub repository at \url{https://www.github.com/Stew-McD/T-reX}.
 
 \bibliographystyle{elsarticle-harv}
 \bibliography{references.bib}
