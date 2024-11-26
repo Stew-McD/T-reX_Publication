@@ -24,14 +24,14 @@ _“The system boundary of the case study should be defined more clearly, possib
 **Response 1.1:**
 
 (Methodology section 2.2)
-We have used the most basic system boundary for this case study, since we are mearly trying to show what the programme can do, not really to provide particular results. We have added another sentence to define the system boundaries more clearly. That being only the Li-ion battery markets, as modelled in ecoinvent version 3.9.1.
+We have used the most basic system boundary for this case study, since we are mearly trying to show what the programme can do, not really to provide particular results. We have added another sentence to define the system boundaries more clearly (XXX). That being that it encompasses exclusively the Li-ion battery markets, as modelled in ecoinvent version 3.9.1.
 
 ##### Comment 1.2 – Input-Output Data:
 
 _“No input-output table provided for the case studies. Please provide this inventory data in the manuscript.”_
 
 **Response 1.2:**
-For this example, described in the Methodology section 2.2, the inventory data is taken directly from the relevant activities in the ecoinvent database (version 3.9.1). No adaption was made by the authors to this data. This has been stated more clearly in the text. 
+For this example, described in the Methodology section 2.2, the inventory data is taken directly from the relevant activities in the ecoinvent database (version 3.9.1). No adaption was made by the authors to this data. However, this has been stated more clearly in the text (XXXXXXX).
 
 ##### Comment 1.3 – Material Footprint Data:
 
