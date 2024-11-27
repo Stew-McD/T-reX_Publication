@@ -19,6 +19,7 @@ tmp
 **/*.synctex.gz
 **/*.fdb_latexmk
 .archive
-latex_files/.other
+.trunk/
+latex_files/.other/
 !**/logs/*.log
 !.gitignore
