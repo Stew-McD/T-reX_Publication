@@ -2,7 +2,7 @@ T-reX publication revision
 
 Author: S.C. McDowall
 
-Date: 2024-09-22
+Date: 2024-11-27
 
 Revision requirements checklist
 
@@ -174,6 +174,7 @@ Response: This has been corrected in several places in the revised manuscript.
 
 “Line 128: what do you mean with ”generic waste processing models”? e.g. models that do not take into consideration the type of waste? Usually, databases include different treatment processes for the different types of waste, so please explain what you mean.”
 
+#!
 This sentence has been rephrased in the revised manuscript (line X).
 
 “Line 227:”the waste categories include incineration, recycling”: do you mean “the waste categories include waste sent to incineration, recycling”?“
@@ -196,21 +197,20 @@ There is no reason that gravel could not be included, the user of T-reX can deci
 
 This paragraph has been changed to make a more specific reference to the existing LCA methods (such as the Crustal Scarcity Indicator) that are described initially in the introduction (lines X-Y). The textual connection was lost due to restructuring.
 
-“Lines 251-253: T-reX does not calculate impacts, so what do you mean with”including non-direct impacts on the market such as co-production of other materials”?“
+“Lines 251-253: T-reX does not calculate impacts, so what do you mean with ”including non-direct impacts on the market such as co-production of other materials”?“
 
 The word “impacts” has been replaced with “effects” to avoid confusion (line X).
 
 “Lines 255-257: are you referring to the cases where the mining of one material is done together with the extraction of another material? Please say more explicitly the situations are you referring to.”
 
-As you suggest, this is one example of such a situation. This paragraph has been revised to improve clarity and specificity (lines X-Y).
-
 “Lines 258-260: where exactly can the reader see this aspect in sub-section 3.2?”
 
-XXX - THIS IS BECAUSE WE LEFT OUT THE NICKLE EXAMPLE - XXX ooooops
+This paragraph has been revised to improve clarity and specificity (lines X-Y). As the reviewer suggests, co-production is one example of such a situation. It was previously intended to include a more detailed exploration of this through the example of nickle metal production, however, due to space constraints, this data will not be in the main section of the manuscript, but will be in the supplementary material.  
 
-“Line 260 and line 382:”substitution”: substitution of what?“
 
-The term “substitution” here refers to the subtraction of co-products from the system in question (those which are not the functional unit) using the standard methodology prescribed by ISO XXXXX
+“Line 260 and line 382: ”substitution”: substitution of what?“
+
+This has been clarified in the text to be more explicit. The term “substitution” here refers to the subtraction of co-products from the system in question (those which are not the functional unit) using the standard LCA methodology.
 
 “Lines 289 and 290: LT stays for what?”
 
@@ -222,31 +222,31 @@ Indeed, the reference to the graph traversal algorithm used in brightway was not
 
 “Lines 322 and 332: the title includes both waste and material but then nothing is said about the material inventory footprint in the sub-section.”
 
-Yes, only one example was given to illustrate this type of result as the method and the form is identical for both waste and material inventory footprints. This has been made explicit in the text (lines X-Y).
+Yes, only one example was given to illustrate this type of result as the method and the form is identical for both waste and material inventory footprints. This has been made explicit in the text (lines X-Y). The caption now reads ¨Sankey visualisation of flow inventory footprints"
 
 “Figure 2: if I consider arrows that enter the cobalt production box, I have 12% + 20% that is more than 22% (cobalt box): why?”
 
-The Sankey diagram shown in Figure 2 is a greatly abridged and simplified version of that produced by using T-reX with the ActivityBrowser software. The full Sankey diagram is far too large and complex to print. Examples of these diagrams are included in there full form in the supplementary information (section XX)
+The Sankey diagram shown in Figure 2 is a greatly abridged and simplified version of that produced by using T-reX with the ActivityBrowser software. The full Sankey diagram is far too large and complex to print. Examples of these diagrams are included in theie full form in the supplementary information (section XX)
 
-“Figure 2 caption: here you say that the diagram shows the total solid waste footprint but at the top of the diagram I see the box”treatment of inert waste, landfill”, so I do not understand how to read the diagram.”
+“Figure 2 caption: here you say that the diagram shows the total solid waste footprint but at the top of the diagram I see the box ”treatment of inert waste, landfill”, so I do not understand how to read the diagram.”
 
 Figure 2 and its caption have been amended to portray a clearer depiction of the result that the authors are trying to present here. As in the response to the previous comment, the complexity of these flows make it challenging to contain them in a printable figure.
 
-“Line 343: what do you mean with”carbon dioxide waste”? Is it not better to call it “waste from CCS”?“
+“Line 343: what do you mean with ”carbon dioxide waste”? Is it not better to call it “waste from CCS”?“
 
-As suggested, the text has been revised to replace “carbon dioxide waste” with “waste from CCS” (lines X,Y,Z)
+As suggested, the text has been revised to replace “carbon dioxide waste” with “carbon dioxide waste from CCS” (lines X,Y,Z).
 
 “Figure 3b: CCS instead of CSS?”
 
 Yes, this typographical error has been corrected in the revised manuscript.
 
-“Line 370: I think that”T-reX Coal (black) demand method” should be replaced with “Coal (black) demand of T-reX method”. The same consideration is valid for the EDIP method (EDIP is the method, “coal no LT” is one of the results of the method).”
+“Line 370: I think that ”T-reX Coal (black) demand method” should be replaced with “Coal (black) demand of T-reX method”. The same consideration is valid for the EDIP method (EDIP is the method, “coal no LT” is one of the results of the method).”
 
 This phrasing has been amended as suggested by the reviewer (lines X, Y, Fig X, Y)
 
 “Lines 373 and 374: natural gas is given as example of fossil fuel related methods and zinc for metal demand methods, but natural gas and zinc are just elementary flows and not methods. So please use the correct terminology.”
 
-The terminology has been corrected (lines X, Y, Z)
+The terminology has been corrected (lines X, Y, Z).
 
 “Lines 422-423: how can a waste represent a loss of resources or an environmental risk? Please explain it better, maybe adding some examples.”
 
@@ -256,6 +256,6 @@ The message here about the importance of knowing the specific nature and context
 
 This sentence has been rephrased in the revised manuscript make the database manipulation process more clear to the reader.
 
-“Line 443: it does not seem to me that T-reX”examines their connections so supply chain risks and potential environmental damage”: T-reX gives simply an overview of waste generated and materials consumed.”
+“Line 443: it does not seem to me that T-reX ”examines their connections so supply chain risks and potential environmental damage”: T-reX gives simply an overview of waste generated and materials consumed.”
 
 Agreed. It was intended to convey that T-reX can aid the user in this examination by facilitating the generation of specific inventories. This sentence has been revised to better reflect this (lines X-Y)
