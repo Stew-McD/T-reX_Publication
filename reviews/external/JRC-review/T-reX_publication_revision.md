@@ -16,7 +16,7 @@ We would like to thank you for the time and attention that you have contributed 
 
 *“I think that this manuscript needs to be ameliorated.”*
 
-#### Summary
+### Summary
 
  - More detail for case study requested, also sensitivity/uncertainty analysis
 
@@ -28,39 +28,39 @@ We would like to thank you for the time and attention that you have contributed 
 
         - Comment 4: sensitivity analysis or uncertainty analysis
 
-#### Author responses
+### Author responses
 
 As the reviewer points out, the case study could, indeed, benefit from more detail. Additional explanation has been added to the main text (XX) and further data added to the supplementary information (sections X, Y). Furthermore, the complete datasets are publicly available on Github and Zenodo. It is important to note, however, that the case study was included only to demonstrate some potential use cases of T-reX and not to provide a comprehensive waste and material footprint analysis of the Li-ion battery market. The case study is not intended to be intensive or exhaustive and the results are not intended to be used for decision-making purposes. The authors have updated the text to make this more explicit to the reader (in the methodology, results and discussion sections)
 
-    ### Comment 1.1 - Case study system boundary
+    3### Comment 1.1 - Case study system boundary
 
         “The system boundary of the case study should define, and it can be shown more clearly by adding diagrams.”
 
-    ### Response 1.1 - Case study system boundary
+    #3## Response 1.1 - Case study system boundary
 
         A figure could be added to the supplementary information to illustrate the system boundary of the case study. However, given the limitations on space, the authors believe that it would not add any perteniant information. The system boundary is very simple, as defined in the text (methodology section X.X lines Y-Z) as that of the Li-ion battery markets exactly as modelled in ecoinvent version 3.9.1. Essentially, a single market activity for each battery, to serve as a basic example.
         
-    ### Comment 1.2 - Input-output data
+    #3## Comment 1.2 - Input-output data
 
         *“No input-output table provided for the case studies. Please provide this inventory data in the manuscript.”*
 
-    ### Response 1.2 - Input-output data
+    #### Response 1.2 - Input-output data
 
         As described in the methodology section (line X-Y), the inventory data is taken directly from the respective activities in the ecoinvent database (version 3.9.1). The input-output data used in the case study is as given by the ecoinvent database without amendment. Full details are available in the supplementary information and the Github repository. 
         
-    ### Comment 1.3 - Material footprint data
+    #### Comment 1.3 - Material footprint data
 
         *“Result and Discussion section; this study was present some part of material footprint. I recommend further discussions and interpretation the result. In addition, it is necessary to present the overall material footprint of battery.”*
 
-    ### Response 1.3 - Material footprint data
+    #### Response 1.3 - Material footprint data
 
         The authors have added to the discussion section (line X-Y) to make this context more clear to the reader. As detailled in the lines X-Y and Y-Z of the methodology section, lines X-Y of the results section, and lines X-Y of the discussion section, the material footprint results calculated by T-reX are aggregations of the exchanges in the model system that are targeted by the user’s search criteria (in this case, a default selection of XX materials and their flows as presented by the ecoinvent database). The authors believe that it would be incorrect to present the reader with a ‘total material footprint’ based on the sum of the material footprints of the individual materials, as the LCA models only represent certain aspects of the system. A ‘total material footprint’ without respect for the nature of the material is meaningless, and indeed, one of the strengths of T-reX is to allow the user to pinpoint the materials of interest to them.
 
-    ### Comment 1.4 - Sensitivity analysis and uncertainty analysis
+    #### Comment 1.4 - Sensitivity analysis and uncertainty analysis
 
-    *“Authors should also perform the sensitivity analysis or uncertainty analysis.”*
+        *“Authors should also perform the sensitivity analysis or uncertainty analysis.”*
 
-    ### Response 1.4 - Sensitivity analysis and uncertainty analysis
+    #### Response 1.4 - Sensitivity analysis and uncertainty analysis
 
         Indeed, this is something that could be done, and would be and interesting extension to the study. However, given that the data for the batteries in this case study is taken directly from the ecoinvent activities and offered as a rudimentary example of the programme’s utility, the authors believe that a sensitivity or uncertainty analysis on the case study results is not necessary or relevant. The authors believe that the presentation of this could be distracting from the message of the paper. For clarity, however, the authors have added to the discussion on the limitations of the case study results (line X-Y) to make this more apparent to the reader.
 
@@ -70,14 +70,14 @@ As the reviewer points out, the case study could, indeed, benefit from more deta
 
     *“The manuscript is well-written and presents a clear argument. I had a few minor suggestions.”*
 
-### Summary
+### Reviewer Two - Summary
 
         - Expand comparison with existing methods
         - Simplify some of the language
         - Expand on the future developments and applications of T-reX
         - Resolution of graphical abstract
 
-### Author responses
+### Reviewer Two - Author responses
 
     #### Comment 2.1 - To expand on the comparison with existing methods
 
@@ -151,18 +151,23 @@ As the reviewer points out, the case study could, indeed, benefit from more deta
 
     ### Minor comments
 
-    Comment: “In general, when you refer to the SM section 6, please indicate also the sub-section.”
+    Comment: 
+        “In general, when you refer to the SM section 6, please indicate also the sub-section.”
     
-    Responese: This has been corrected in the revised manuscript (line X).
+    Response: 
+        This has been corrected in the revised manuscript (line X).
     
-    Comment: “In general, try to avoid putting words in ’’ and use this only when it is strictly necessary (e.g. line 433: why did you write ‘circular economy’ and not simply circular economy?)”
+    Comment: 
+        “In general, try to avoid putting words in ’’ and use this only when it is strictly necessary (e.g. line 433: why did you write ‘circular economy’ and not simply circular economy?)”
     
-    Response: This has been corrected in several places in the revised manuscript.
+    Response: 
+        This has been corrected in several places in the revised manuscript.
     
-    “Line 128: what do you mean with ”generic waste processing models”? e.g. models that do not take into consideration the type of waste? Usually, databases include different treatment processes for the different types of waste, so please explain what you mean.”
+    Comment:
+        “Line 128: what do you mean with ”generic waste processing models”? e.g. models that do not take into consideration the type of waste? Usually, databases include different treatment processes for the different types of waste, so please explain what you mean.”
 
-
-    This sentence has been rephrased in the revised manuscript (line X).
+    Response:
+        This sentence has been rephrased in the revised manuscript (line X).
 
     Comment:
         “Line 227:”the waste categories include incineration, recycling”: do you mean “the waste categories include waste sent to incineration, recycling”?“
@@ -174,7 +179,7 @@ As the reviewer points out, the case study could, indeed, benefit from more deta
         “Lines 230-231:”a characterisation factor of -1 is applied to the waste footprint methods”: what do you mean? Usually, a CF is given to a flow.”
 
     Response: 
-This sentence has been removed. Being somewhat technical, it has not a general relevence, and could be confusing, perhaps. The previous phrasing stems from the way that methods are constructed in the brightway code, where the characterisation factor is embedded in the method as a parameter. This is then applied to the relevant flow in the LCIA, as you correctly point out. The -1 corrects the perspective to be that of waste produced and not on the treatment services (as in “Waste is not a service”, Guinee 2021).
+        This sentence has been removed. Being somewhat technical, it has not a general relevence, and could be confusing, perhaps. The previous phrasing stems from the way that methods are constructed in the brightway code, where the characterisation factor is embedded in the method as a parameter. This is then applied to the relevant flow in the LCIA, as you correctly point out. The -1 corrects the perspective to be that of waste produced and not on the treatment services (as in “Waste is not a service”, Guinee 2021).
 
     Comment: 
         “Line 231: please explain the acronym CCS”
@@ -213,7 +218,7 @@ This sentence has been removed. Being somewhat technical, it has not a general r
     Comment:
         “Line 260 and line 382: ”substitution”: substitution of what?“
     
-    Responce:
+    Response:
         This has been clarified in the text to be more explicit. The term “substitution” here refers to the subtraction of co-products from the system in question (those which are not the functional unit) using the standard LCA methodology.
           
     Comment:
@@ -227,14 +232,12 @@ This sentence has been removed. Being somewhat technical, it has not a general r
 
     Response:
         Indeed, the reference to the graph traversal algorithm used in brightway was not clearly explained here. The text has been revised to improve on the description of the calculation methodology (lines X-Y).
-        
-    
+          
     Comment:
         “Lines 322 and 332: the title includes both waste and material but then nothing is said about the material inventory footprint in the sub-section.”
     Response:
         Yes, only one example was given to illustrate this type of result as the method and the form is identical for both waste and material inventory footprints. This has been made explicit in the text (lines X-Y). The caption now reads ¨Sankey visualisation of flow inventory footprints"
         
-
     Comment:
         “Figure 2: if I consider arrows that enter the cobalt production box, I have 12% + 20% that is more than 22% (cobalt box): why?”
     
@@ -264,7 +267,6 @@ This sentence has been removed. Being somewhat technical, it has not a general r
 
     Response:
         This phrasing has been amended as suggested by the reviewer (lines X, Y, Fig X, Y)
-
 
     Comment:
         “Lines 373 and 374: natural gas is given as example of fossil fuel related methods and zinc for metal demand methods, but natural gas and zinc are just elementary flows and not methods. So please use the correct terminology.”
