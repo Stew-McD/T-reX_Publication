@@ -8,11 +8,11 @@ Date: 2024-11-27
 
 Dear reviewers, editor,
 
-We would like to thank you for the time and attention that you have contributed to the review of our T-reX manuscript, and we are especially grateful for the extensive and constructive commentary. We have addressed each of your comments in the following text, and have made the necessary changes to the manuscript. We hope that you find the revised manuscript to be satisfactory.
+We would like to thank you for the time and attention that you have contributed to the review of our T-reX manuscript. We are especially grateful for the extensive and constructive commentary. We have addressed each of your comments in the following text, and have made the necessary changes to the manuscript. We hope that you find the revised manuscript to be satisfactory.
 
 ---
 
-## Reviewer One
+## 1.  Reviewer One
 
 *“I think that this manuscript needs to be ameliorated.”*
 
@@ -20,33 +20,36 @@ We would like to thank you for the time and attention that you have contributed 
 
  - More detail for case study requested, also sensitivity/uncertainty analysis
 
-        - Comment 1: system boundary
+        - Comment 1.1: system boundary
 
-        - Comment 2: input-output data
+        - Comment 1.2: input-output data
 
-        - Comment 3: material footprint data (more discussion, and ‘overall material footprint’)
+        - Comment 1.3: material footprint data (more discussion, and ‘overall material footprint’
 
-        - Comment 4: sensitivity analysis or uncertainty analysis
+        - Comment 1.4: sensitivity analysis or uncertainty analysis
 
 ### Author responses
 
-As the reviewer points out, the case study could, indeed, benefit from more detail. Additional explanation has been added to the main text (XX) and further data added to the supplementary information (sections X, Y). Furthermore, the complete datasets are publicly available on Github and Zenodo. It is important to note, however, that the case study was included only to demonstrate some potential use cases of T-reX and not to provide a comprehensive waste and material footprint analysis of the Li-ion battery market. The case study is not intended to be intensive or exhaustive and the results are not intended to be used for decision-making purposes. The authors have updated the text to make this more explicit to the reader (in the methodology, results and discussion sections)
+#### General response
+As the reviewer points out, the case study could, indeed, benefit from more detail. Additional explanation has been added to the main text (XX) and further data added to the supplementary information (sections X, Y). Furthermore, the complete datasets are publicly available on Github and Zenodo. It is important to note, however, that the case study was included only to demonstrate some potential use cases of T-reX and not to provide a comprehensive waste and material footprint analysis of the Li-ion battery market. The case study is not intended to be intensive or exhaustive and the results are not intended to be used for decision-making purposes. The authors would like the focus of the paper to be on the T-reX program. We have updated the text to make this more explicit to the reader (in the methodology, results and discussion sections).
 
-    3### Comment 1.1 - Case study system boundary
+#### Specific responses
 
-        “The system boundary of the case study should define, and it can be shown more clearly by adding diagrams.”
+##### Reviewer comment 1.1 - Case study system boundary
 
-    #3## Response 1.1 - Case study system boundary
+"*The system boundary of the case study should define, and it can be shown more clearly by adding diagrams.*"
 
-        A figure could be added to the supplementary information to illustrate the system boundary of the case study. However, given the limitations on space, the authors believe that it would not add any perteniant information. The system boundary is very simple, as defined in the text (methodology section X.X lines Y-Z) as that of the Li-ion battery markets exactly as modelled in ecoinvent version 3.9.1. Essentially, a single market activity for each battery, to serve as a basic example.
-        
-    #3## Comment 1.2 - Input-output data
+##### Author response 1.1 - Case study system boundary
 
-        *“No input-output table provided for the case studies. Please provide this inventory data in the manuscript.”*
+A figure could be added to the supplementary information to illustrate the system boundary of the case study. However, given the limitations on space, the authors believe that it would not add any perteniant information. The system boundary is very simple, as defined in the text (methodology section X.X lines Y-Z). That is, exactly the inventory of the Li-ion battery markets as modelled in ecoinvent version 3.9.1. Essentially, a single market activity for each battery, to serve as a basic example.
 
-    #### Response 1.2 - Input-output data
+##### Reviewer comment 1.2 - Input-output data
 
-        As described in the methodology section (line X-Y), the inventory data is taken directly from the respective activities in the ecoinvent database (version 3.9.1). The input-output data used in the case study is as given by the ecoinvent database without amendment. Full details are available in the supplementary information and the Github repository. 
+"*No input-output table provided for the case studies. Please provide this inventory data in the manuscript.”*
+
+##### Author response 1.2 - Input-output data
+
+As described in the methodology section (line X-Y), the inventory data is taken directly from the respective activities in the ecoinvent database (version 3.9.1). The input-output data used in the case study is directly that given by the ecoinvent database, without amendment. Full details are provided in the supplementary information of this manuscript (Appendix XX) and complete data is available in the [Github](https://github.com/Stew-McD/T-reX_Publication) and Zenodo repositories.
         
     #### Comment 1.3 - Material footprint data
 
