@@ -76,9 +76,18 @@
 \end{itemize}
 
 %% GRAPHICAL ABSTRACT
-% \begin{graphicalabstract}
-%     \includegraphics[width=8cm]{graphical-abstract.pdf}
-% \end{graphicalabstract}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{grabs_T-reX_graphical-abstract.pdf}
+	\caption{Graphical abstract of the T-reX program for waste and material footprinting in Life Cycle Assessment}
+	\label{fig:graphical_abstract}
+\end{figure}
+
+% Switch to landscape for the included PDF
+\newgeometry{landscape}
+\includepdf[pages=1, width=\textheight]{grabs_T-reX_graphical-abstract.pdf}
+\restoregeometry % Restore the original geometry
+
 %% RESEARCH HIGHLIGHTS (3-5 bullet points, max 85 characters each)
 
 \vspace{4em}
