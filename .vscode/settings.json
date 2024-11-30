@@ -2,5 +2,8 @@
     "cSpell.words": [
         "RECYCL"
     ],
-    "editor.defaultFormatter": "mathematic.vscode-latex"
+    "editor.defaultFormatter": "mathematic.vscode-latex",
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    }
 }

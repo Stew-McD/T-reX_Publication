@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="602.0255737304688" height="1509.9388427734375"><style>
+
+
+/*to make the svg resizable*/ /*
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    /*padding-bottom: 100%; /* aspect ratio */ /*
+    vertical-align: top;
+    /*overflow: hidden;*/ /*
+}
+
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+} */ /*
+
+svg {
+  border: 1px solid #999;
+  /*overflow: hidden;*/ /*
+} */
+
+.canvas {
+  overflow: visible;
+}
+.canvas .wrapper.outer &gt; .background {
+  fill: #FFFFFF;
+}
+.canvas .wrapper.inner &gt; .background {
+  fill: #FFFFFF;
+  cursor: move;
+}
+.canvas .background {
+  fill: #FFFFFF;
+  stroke: #333333;
+  cursor: move;
+}
+.canvas .panCanvas {
+  cursor: click;
+}
+
+.canvas .minimap {
+  stroke: #000000; /* #111111 */
+  stroke-width: 1px;
+}
+
+.canvas .minimap .frame {
+  pointer-events: all;
+}
+
+.canvas .minimap .container {
+  stroke: #000000; /* #111111 */
+  /*stroke-width: 1px;*/
+  /*border: 1px solid #999;*/
+}
+
+.canvas .minimap .frame .background {
+  stroke: #FF0000; /* #111111 */
+  stroke-width: 10px;
+  fill-opacity: 0.1;   /*grey shade of mini-map*/
+  fill: #FFFFFF; /* #FF0000 */
+  /*fill: url(#minimapGradient_qwpyza); */
+  filter: url(#minimapDropShadow_qwpyza);
+  cursor: move;
+  border: 1px solid #999;
+}
+
+/*
+.cluster rect {
+  stroke: #333;
+  fill: #000;
+  fill-opacity: 0.1;
+  stroke-width: 1.5px;
+}*/
+
+h1, h2 {
+  color: #333;
+}
+
+/*textarea {
+  width: 800px;
+}*/
+
+text {
+  font-family: sans-serif;
+  font-size: 14px;
+  /* no effect:
+  text-align: center;
+  word-wrap: break-word;
+  width: 50px;
+  max-width: 60px;
+  */
+}
+
+.activityNameText {
+    color:black;
+    text-align: center;
+}
+.locationText {
+    color: grey;
+    text-align: center;
+    /*font-weight:bold;*/
+}
+.edgeText {
+    color:darkblue;
+    text-align: center;
+}
+
+.node {
+    fill: black;  /* text color of nodes*/
+    /* no effect:
+    white-space: nowrap;
+    */
+}
+
+.node rect {
+  stroke: #333;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.demand {
+  /*stroke: #333;  */
+  font-weight: bold
+}
+
+.node.demand rect {
+  stroke: darkblue;
+  fill: #fff;
+  stroke-width: 4px;
+}
+
+.node.market rect {
+  stroke: #ed9736;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.marketgroup rect {
+  stroke: #ffc34c;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.treatment rect {
+  stroke: #f4425c;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+/* Edges */
+/*.edgePath path.path {
+  stroke: red;
+  /*fill: darkred; /* Arrow head */
+  /*lineInterpolate: basis;*/
+/*}*/
+
+.edgePath.impact path.path {
+  stroke: red;
+  opacity: 0.7;
+}
+
+.edgePath.benefit path.path {
+  stroke: green;
+  opacity: 0.7;
+}
+
+/* Arrowhead */
+.edgePath path {
+  stroke: none;
+  /*fill: black;*/
+  opacity: 0.3;
+}
+/*.edgePath marker {
+  fill: darkgrey; /* Arrow head */
+  /*opacity: 1;
+}*/
+
+.edgeLabel {
+    fill: darkblue;  /* text color of edges*/
+}
+
+
+
+
+/*.label {
+   /* text color*/
+  /* no effect:
+  margin-top: 30em;
+fill: red;
+  display: block;
+  text-align: right;
+  font: 20px sans-serif;
+  background: #fffce2;
+  padding: 200px; */
+/*}
+
+.edgeLabel {
+   /* text color*/
+  /* no effect:
+  fill: red;
+  margin-top: 30em;
+  display: block;
+  text-align: right;
+  font: 20px sans-serif;
+  background: #fffce2;
+  padding: 200px; */
+/*}*/
+
+.error {
+  color: red;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #fffce2;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    /*color: red;*/
+}</style><g class="wrapper inner" clip-path="url(#wrapperClipPath_qwpyza)" transform="translate(0,0)"><g class="panCanvas"><g class="output"><g class="clusters"/><g class="edgePaths"><g class="edgePath impact" style="opacity: 1;" stroke-width="5.767080346692222"><path class="path" d="M87.734375,1975L87.734375,1985.0833333333333C87.734375,1995.1666666666667,87.734375,2015.3333333333333,98.25972945601852,2035.5C108.78508391203702,2055.6666666666665,129.83579282407408,2075.8333333333335,140.36114728009258,2085.9166666666665L150.88650173611111,2096" marker-end="url(#arrowhead1095)" style="fill: none;"/><defs><marker id="arrowhead1095" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="33.91565365275631"><path class="path" d="M313.203125,1975L313.203125,1985.0833333333333C313.203125,1995.1666666666667,313.203125,2015.3333333333333,302.67777054398147,2035.5C292.152416087963,2055.6666666666665,271.1017071759259,2075.8333333333335,260.57635271990745,2085.9166666666665L250.05099826388889,2096" marker-end="url(#arrowhead1096)" style="fill: none;"/><defs><marker id="arrowhead1096" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.288491209773889"><path class="path" d="M113.859375,1752L113.859375,1763.25C113.859375,1774.5,113.859375,1797,132.47094425154322,1818.3333333333333C151.0825135030864,1839.6666666666667,188.30565200617283,1859.8333333333333,206.91722125771602,1869.9166666666667L225.52879050925924,1880" marker-end="url(#arrowhead1097)" style="fill: none;"/><defs><marker id="arrowhead1097" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="28.482946365900325"><path class="path" d="M315.6796875,1752L315.6796875,1763.25C315.6796875,1774.5,315.6796875,1797,315.4484652295525,1818.3333333333333C315.2172429591049,1839.6666666666667,314.7547984182099,1859.8333333333333,314.52357614776236,1869.9166666666667L314.29235387731484,1880" marker-end="url(#arrowhead1098)" style="fill: none;"/><defs><marker id="arrowhead1098" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.042484526007698"><path class="path" d="M531.8359375,1759L531.8359375,1769.0833333333333C531.8359375,1779.1666666666667,531.8359375,1799.3333333333333,510.01953125,1820.1935114049193C488.203125,1841.0536894765053,444.5703125,1862.6073789530103,422.75390625,1873.384223691263L400.9375,1884.1610684295158" marker-end="url(#arrowhead1099)" style="fill: none;"/><defs><marker id="arrowhead1099" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="26.05367179413595"><path class="path" d="M315.6796875,1557L315.6796875,1565.9166666666667C315.6796875,1574.8333333333333,315.6796875,1592.6666666666667,315.6796875,1611.6666666666667C315.6796875,1630.6666666666667,315.6796875,1650.8333333333333,315.6796875,1660.9166666666667L315.6796875,1671" marker-end="url(#arrowhead1100)" style="fill: none;"/><defs><marker id="arrowhead1100" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="25.988564935244792"><path class="path" d="M315.6796875,1355L315.6796875,1363.9166666666667C315.6796875,1372.8333333333333,315.6796875,1390.6666666666667,315.6796875,1408.5C315.6796875,1426.3333333333333,315.6796875,1444.1666666666667,315.6796875,1453.0833333333333L315.6796875,1462" marker-end="url(#arrowhead1101)" style="fill: none;"/><defs><marker id="arrowhead1101" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="25.866775507164085"><path class="path" d="M315.6796875,1167L315.6796875,1174.75C315.6796875,1182.5,315.6796875,1198,315.6796875,1213.5C315.6796875,1229,315.6796875,1244.5,315.6796875,1252.25L315.6796875,1260" marker-end="url(#arrowhead1102)" style="fill: none;"/><defs><marker id="arrowhead1102" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="25.822900860858155"><path class="path" d="M315.6796875,993L315.6796875,1000.75C315.6796875,1008.5,315.6796875,1024,315.6796875,1039.5C315.6796875,1055,315.6796875,1070.5,315.6796875,1078.25L315.6796875,1086" marker-end="url(#arrowhead1103)" style="fill: none;"/><defs><marker id="arrowhead1103" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="4.495646675065916"><path class="path" d="M215.82421875,819L215.82421875,826.75C215.82421875,834.5,215.82421875,850,224.71938981681035,865.5C233.6145608836207,881,251.4049030172414,896.5,260.30007408405174,904.25L269.1952451508621,912" marker-end="url(#arrowhead1104)" style="fill: none;"/><defs><marker id="arrowhead1104" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="21.084502083402327"><path class="path" d="M410.58203125,819L410.58203125,826.75C410.58203125,834.5,410.58203125,850,402.12808683548855,865.5C393.67414242097703,881,376.766253591954,896.5,368.31230917744256,904.25L359.85836476293105,912" marker-end="url(#arrowhead1105)" style="fill: none;"/><defs><marker id="arrowhead1105" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="21.042865044016153"><path class="path" d="M410.58203125,645L410.58203125,652.75C410.58203125,660.5,410.58203125,676,410.58203125,691.5C410.58203125,707,410.58203125,722.5,410.58203125,730.25L410.58203125,738" marker-end="url(#arrowhead1106)" style="fill: none;"/><defs><marker id="arrowhead1106" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="7.474393267830176"><path class="path" d="M305.3671875,457L305.3671875,464.75C305.3671875,472.5,305.3671875,488,314.04181557513294,503.5C322.71644365026594,519,340.06569980053195,534.5,348.7403278756649,542.25L357.4149559507979,550" marker-end="url(#arrowhead1107)" style="fill: none;"/><defs><marker id="arrowhead1107" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="13.224848628770944"><path class="path" d="M515.796875,457L515.796875,464.75C515.796875,472.5,515.796875,488,507.12224692486706,503.5C498.44761884973406,519,481.09836269946805,534.5,472.4237346243351,542.25L463.7491065492021,550" marker-end="url(#arrowhead1108)" style="fill: none;"/><defs><marker id="arrowhead1108" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="14.645591038376304"><path class="path" d="M515.796875,283L515.796875,290.75C515.796875,298.5,515.796875,314,515.796875,329.5C515.796875,345,515.796875,360.5,515.796875,368.25L515.796875,376" marker-end="url(#arrowhead1109)" style="fill: none;"/><defs><marker id="arrowhead1109" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.697409026069616"><path class="path" d="M285.375,88L285.375,99.25C285.375,110.5,285.375,133,312.4192708333333,155.282639406885C339.4635416666667,177.56527881377005,393.5520833333333,199.63055762754007,420.5963541666667,210.6631970344251L447.640625,221.6958364413101" marker-end="url(#arrowhead1110)" style="fill: none;"/><defs><marker id="arrowhead1110" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="3.024777268703792"><path class="path" d="M515.796875,95L515.796875,105.08333333333333C515.796875,115.16666666666667,515.796875,135.33333333333334,515.796875,155.5C515.796875,175.66666666666666,515.796875,195.83333333333334,515.796875,205.91666666666666L515.796875,216" marker-end="url(#arrowhead1111)" style="fill: none;"/><defs><marker id="arrowhead1111" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="5.232397616200119"><path class="path" d="M707.9453125,88L707.9453125,99.25C707.9453125,110.5,707.9453125,133,687.2799479166666,154.359602222674C666.6145833333334,175.71920444534797,625.2838541666666,195.93840889069597,604.6184895833334,206.04801111336994L583.953125,216.1576133360439" marker-end="url(#arrowhead1112)" style="fill: none;"/><defs><marker id="arrowhead1112" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="7.467700181797243"><path class="path" d="M305.3671875,283L305.3671875,290.75C305.3671875,298.5,305.3671875,314,305.3671875,329.5C305.3671875,345,305.3671875,360.5,305.3671875,368.25L305.3671875,376" marker-end="url(#arrowhead1113)" style="fill: none;"/><defs><marker id="arrowhead1113" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(169.7890625,2035.5)" style="opacity: 1;"><g transform="translate(-77.0546875,-30.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">battery, Li-ion,</tspan><tspan xml:space="preserve" dy="1em" x="1">NMC811, rechargeable,</tspan><tspan xml:space="preserve" dy="1em" x="1">prismatic</tspan><tspan xml:space="preserve" dy="1em" x="1">(14.4%)</tspan></text></g></g><g class="edgeLabel" transform="translate(395.2578125,2035.5)" style="opacity: 1;"><g transform="translate(-77.0546875,-30.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">battery, Li-ion,</tspan><tspan xml:space="preserve" dy="1em" x="1">NMC811, rechargeable,</tspan><tspan xml:space="preserve" dy="1em" x="1">prismatic</tspan><tspan xml:space="preserve" dy="1em" x="1">(84.8%)</tspan></text></g></g><g class="edgeLabel" transform="translate(191.40625,1819.5)" style="opacity: 1;"><g transform="translate(-72.546875,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">metal working factory</tspan><tspan xml:space="preserve" dy="1em" x="1">(5.72%)</tspan></text></g></g><g class="edgeLabel" transform="translate(380.7890625,1819.5)" style="opacity: 1;"><g transform="translate(-60.109375,-23.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">battery cell, Li-ion,</tspan><tspan xml:space="preserve" dy="1em" x="1">NMC811</tspan><tspan xml:space="preserve" dy="1em" x="1">(71.2%)</tspan></text></g></g><g class="edgeLabel" transform="translate(606.6796875,1819.5)" style="opacity: 1;"><g transform="translate(-69.84375,-30.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">battery management</tspan><tspan xml:space="preserve" dy="1em" x="1">system, for Li-ion</tspan><tspan xml:space="preserve" dy="1em" x="1">battery</tspan><tspan xml:space="preserve" dy="1em" x="1">(5.11%)</tspan></text></g></g><g class="edgeLabel" transform="translate(380.9921875,1610.5)" style="opacity: 1;"><g transform="translate(-60.3125,-23.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">cathode, NMC811,</tspan><tspan xml:space="preserve" dy="1em" x="1">for Li-ion battery</tspan><tspan xml:space="preserve" dy="1em" x="1">(65.1%)</tspan></text></g></g><g class="edgeLabel" transform="translate(380.9921875,1408.5)" style="opacity: 1;"><g transform="translate(-60.3125,-23.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">cathode, NMC811,</tspan><tspan xml:space="preserve" dy="1em" x="1">for Li-ion battery</tspan><tspan xml:space="preserve" dy="1em" x="1">(65.0%)</tspan></text></g></g><g class="edgeLabel" transform="translate(368.515625,1213.5)" style="opacity: 1;"><g transform="translate(-47.8359375,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 oxide</tspan><tspan xml:space="preserve" dy="1em" x="1">(64.7%)</tspan></text></g></g><g class="edgeLabel" transform="translate(368.515625,1039.5)" style="opacity: 1;"><g transform="translate(-47.8359375,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 oxide</tspan><tspan xml:space="preserve" dy="1em" x="1">(64.6%)</tspan></text></g></g><g class="edgeLabel" transform="translate(278.65234375,865.5)" style="opacity: 1;"><g transform="translate(-57.828125,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">lithium hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">(11.2%)</tspan></text></g></g><g class="edgeLabel" transform="translate(478.37109375,865.5)" style="opacity: 1;"><g transform="translate(-62.7890625,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">(52.7%)</tspan></text></g></g><g class="edgeLabel" transform="translate(478.37109375,691.5)" style="opacity: 1;"><g transform="translate(-62.7890625,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">(52.6%)</tspan></text></g></g><g class="edgeLabel" transform="translate(354.6953125,503.5)" style="opacity: 1;"><g transform="translate(-44.328125,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">cobalt sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">(18.7%)</tspan></text></g></g><g class="edgeLabel" transform="translate(563.953125,503.5)" style="opacity: 1;"><g transform="translate(-43.15625,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">nickel sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">(33.1%)</tspan></text></g></g><g class="edgeLabel" transform="translate(563.953125,329.5)" style="opacity: 1;"><g transform="translate(-43.15625,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">nickel sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">(36.6%)</tspan></text></g></g><g class="edgeLabel" transform="translate(327.0078125,155.5)" style="opacity: 1;"><g transform="translate(-36.6328125,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">inert waste</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.24%)</tspan></text></g></g><g class="edgeLabel" transform="translate(583.2421875,155.5)" style="opacity: 1;"><g transform="translate(-62.4453125,-30.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">electricity, medium</tspan><tspan xml:space="preserve" dy="1em" x="1">voltage, cobalt</tspan><tspan xml:space="preserve" dy="1em" x="1">industry</tspan><tspan xml:space="preserve" dy="1em" x="1">(7.56%)</tspan></text></g></g><g class="edgeLabel" transform="translate(749.578125,155.5)" style="opacity: 1;"><g transform="translate(-36.6328125,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">inert waste</tspan><tspan xml:space="preserve" dy="1em" x="1">(13.1%)</tspan></text></g></g><g class="edgeLabel" transform="translate(354.6953125,329.5)" style="opacity: 1;"><g transform="translate(-44.328125,-16.5)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">cobalt sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">(18.7%)</tspan></text></g></g></g><g class="nodes"><g class="node demand" id="a6340d3ae1622f5fea25af16af07bbc0" transform="translate(200.46875,2143.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-93.125" y="-47.5" width="186.25" height="95" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-83.125,-37.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for battery,</tspan><tspan xml:space="preserve" dy="1em" x="1">Li-ion, NMC811,</tspan><tspan xml:space="preserve" dy="1em" x="1">rechargeable, prismatic</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="0f8c132a27a299fb959c5e35254f4861" transform="translate(87.734375,1927.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-87.734375" y="-47.5" width="175.46875" height="95" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-77.734375,-37.5)"><text><tspan xml:space="preserve" dy="1em" x="1">battery production,</tspan><tspan xml:space="preserve" dy="1em" x="1">Li-ion, NMC811,</tspan><tspan xml:space="preserve" dy="1em" x="1">rechargeable, prismatic</tspan><tspan xml:space="preserve" dy="1em" x="1">CN</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="76d5fbeb2a34f162f3d98c6dacab3281" transform="translate(313.203125,1927.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-87.734375" y="-47.5" width="175.46875" height="95" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-77.734375,-37.5)"><text><tspan xml:space="preserve" dy="1em" x="1">battery production,</tspan><tspan xml:space="preserve" dy="1em" x="1">Li-ion, NMC811,</tspan><tspan xml:space="preserve" dy="1em" x="1">rechargeable, prismatic</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="571470e655ae2b37b978020e9c1c28fb" transform="translate(113.859375,1711.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-65.5078125" y="-40.5" width="131.015625" height="81" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-55.5078125,-30.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for metal</tspan><tspan xml:space="preserve" dy="1em" x="1">working factory</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="5e8a6fa4a442463434afa4917aa35412" transform="translate(315.6796875,1711.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-86.3125" y="-40.5" width="172.625" height="81" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-76.3125,-30.5)"><text><tspan xml:space="preserve" dy="1em" x="1">battery cell production,</tspan><tspan xml:space="preserve" dy="1em" x="1">Li-ion, NMC811</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="d299e544e63857535f686957731c89ce" transform="translate(531.8359375,1711.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-79.84375" y="-47.5" width="159.6875" height="95" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-69.84375,-37.5)"><text><tspan xml:space="preserve" dy="1em" x="1">battery management</tspan><tspan xml:space="preserve" dy="1em" x="1">system production,</tspan><tspan xml:space="preserve" dy="1em" x="1">for Li-ion battery</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="80310b5021efcb8abcf6d15a9f5ce58e" transform="translate(315.6796875,1509.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-75.2578125" y="-47.5" width="150.515625" height="95" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-65.2578125,-37.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for cathode,</tspan><tspan xml:space="preserve" dy="1em" x="1">NMC811, for Li-ion</tspan><tspan xml:space="preserve" dy="1em" x="1">battery</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="8ed5dce88d25c5cfd32fbc81684a27ab" transform="translate(315.6796875,1307.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-76.5" y="-47.5" width="153" height="95" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-66.5,-37.5)"><text><tspan xml:space="preserve" dy="1em" x="1">cathode production,</tspan><tspan xml:space="preserve" dy="1em" x="1">NMC811, for Li-ion</tspan><tspan xml:space="preserve" dy="1em" x="1">battery</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="bc62c5330286e6df8bfbcf7d03502b2c" transform="translate(315.6796875,1126.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.859375" y="-40.5" width="149.71875" height="81" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-64.859375,-30.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for NMC811</tspan><tspan xml:space="preserve" dy="1em" x="1">oxide</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="980b17ccb891a38585bf05ad3185e9fa" transform="translate(315.6796875,952.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-97.65625" y="-40.5" width="195.3125" height="81" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-87.65625,-30.5)"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 oxide production,</tspan><tspan xml:space="preserve" dy="1em" x="1">for Li-ion battery</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="464c6360725050e3227a12d9cfb2afeb" transform="translate(215.82421875,778.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-69.8984375" y="-40.5" width="139.796875" height="81" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-59.8984375,-30.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for lithium</tspan><tspan xml:space="preserve" dy="1em" x="1">hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="f81abe2a383b675a23d300859d4ee45e" transform="translate(410.58203125,778.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.859375" y="-40.5" width="149.71875" height="81" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-64.859375,-30.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for NMC811</tspan><tspan xml:space="preserve" dy="1em" x="1">hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="c9393ca3e722e156f115e76d554f70e3" transform="translate(410.58203125,597.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-72.7890625" y="-47.5" width="145.578125" height="95" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-62.7890625,-37.5)"><text><tspan xml:space="preserve" dy="1em" x="1">NMC811 hydroxide</tspan><tspan xml:space="preserve" dy="1em" x="1">production, for</tspan><tspan xml:space="preserve" dy="1em" x="1">Li-ion battery</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="24e26531d5f313f55a4923ddf4ce7f12" transform="translate(305.3671875,416.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-66.9140625" y="-40.5" width="133.828125" height="81" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-56.9140625,-30.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for cobalt</tspan><tspan xml:space="preserve" dy="1em" x="1">sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="d8ba411ea8ac325a4c0b63e1db9b2fed" transform="translate(515.796875,416.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-65.734375" y="-40.5" width="131.46875" height="81" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-55.734375,-30.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for nickel</tspan><tspan xml:space="preserve" dy="1em" x="1">sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="fb7c6fbb8d5d77aa69da03a2b99f3692" transform="translate(515.796875,249.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-68.15625" y="-33.5" width="136.3125" height="67" style="fill: rgb(255, 229, 229);"/><g class="label" transform="translate(0,0)"><g transform="translate(-58.15625,-23.5)"><text><tspan xml:space="preserve" dy="1em" x="1">cobalt production</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(10%)</tspan></text></g></g></g><g class="node market" id="057f040eaa686c55504b89af6ba1794d" transform="translate(285.375,47.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-100.5234375" y="-40.5" width="201.046875" height="81" style="fill: rgb(255, 240, 240);"/><g class="label" transform="translate(0,0)"><g transform="translate(-90.5234375,-30.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for inert</tspan><tspan xml:space="preserve" dy="1em" x="1">waste</tspan><tspan xml:space="preserve" dy="1em" x="1">Europe without Switzerland</tspan><tspan xml:space="preserve" dy="1em" x="1">(6%)</tspan></text></g></g></g><g class="node market" id="3199304ad7cc8cb49c74f63f13799635" transform="translate(515.796875,47.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-79.8984375" y="-47.5" width="159.796875" height="95" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-69.8984375,-37.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for electricity,</tspan><tspan xml:space="preserve" dy="1em" x="1">medium voltage,</tspan><tspan xml:space="preserve" dy="1em" x="1">cobalt industry</tspan><tspan xml:space="preserve" dy="1em" x="1">GLO</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="e3d9118fe4736a9cfa6cdcc5077d6a7e" transform="translate(707.9453125,47.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-62.25" y="-40.5" width="124.5" height="81" style="fill: rgb(255, 209, 209);"/><g class="label" transform="translate(0,0)"><g transform="translate(-52.25,-30.5)"><text><tspan xml:space="preserve" dy="1em" x="1">market for inert</tspan><tspan xml:space="preserve" dy="1em" x="1">waste</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(18%)</tspan></text></g></g></g><g class="node production" id="1e2b693b453b0538710370e428ac4c67" transform="translate(305.3671875,249.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-92.2734375" y="-33.5" width="184.546875" height="67" style="fill: rgb(255, 254, 254);"/><g class="label" transform="translate(0,0)"><g transform="translate(-82.2734375,-23.5)"><text><tspan xml:space="preserve" dy="1em" x="1">cobalt sulfate production</tspan><tspan xml:space="preserve" dy="1em" x="1">RoW</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g></g></g></g></g></svg>

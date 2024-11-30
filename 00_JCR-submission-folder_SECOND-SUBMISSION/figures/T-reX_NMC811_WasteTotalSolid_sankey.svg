@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="370.92294"
+   height="610.63947"
+   version="1.1"
+   id="svg602"
+   sodipodi:docname="T-reX_NMC811_WasteTotalSolid_sankey.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs606" />
+  <sodipodi:namedview
+     id="namedview604"
+     pagecolor="#ebebeb"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.93696815"
+     inkscape:cx="-21.345443"
+     inkscape:cy="413.56795"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g596" />
+  <style
+     id="style2">
+
+
+/*to make the svg resizable*/ /*
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    /*padding-bottom: 100%; /* aspect ratio */ /*
+    vertical-align: top;
+    /*overflow: hidden;*/ /*
+}
+
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+} */ /*
+
+svg {
+  border: 1px solid #999;
+  /*overflow: hidden;*/ /*
+} */
+
+.canvas {
+  overflow: visible;
+}
+.canvas .wrapper.outer &gt; .background {
+  fill: #FFFFFF;
+}
+.canvas .wrapper.inner &gt; .background {
+  fill: #FFFFFF;
+  cursor: move;
+}
+.canvas .background {
+  fill: #FFFFFF;
+  stroke: #333333;
+  cursor: move;
+}
+.canvas .panCanvas {
+  cursor: click;
+}
+
+.canvas .minimap {
+  stroke: #000000; /* #111111 */
+  stroke-width: 1px;
+}
+
+.canvas .minimap .frame {
+  pointer-events: all;
+}
+
+.canvas .minimap .container {
+  stroke: #000000; /* #111111 */
+  /*stroke-width: 1px;*/
+  /*border: 1px solid #999;*/
+}
+
+.canvas .minimap .frame .background {
+  stroke: #FF0000; /* #111111 */
+  stroke-width: 10px;
+  fill-opacity: 0.1;   /*grey shade of mini-map*/
+  fill: #FFFFFF; /* #FF0000 */
+  /*fill: url(#minimapGradient_qwpyza); */
+  filter: url(#minimapDropShadow_qwpyza);
+  cursor: move;
+  border: 1px solid #999;
+}
+
+/*
+.cluster rect {
+  stroke: #333;
+  fill: #000;
+  fill-opacity: 0.1;
+  stroke-width: 1.5px;
+}*/
+
+h1, h2 {
+  color: #333;
+}
+
+/*textarea {
+  width: 800px;
+}*/
+
+text {
+  font-family: sans-serif;
+  font-size: 14px;
+  /* no effect:
+  text-align: center;
+  word-wrap: break-word;
+  width: 50px;
+  max-width: 60px;
+  */
+}
+
+.activityNameText {
+    color:black;
+    text-align: center;
+}
+.locationText {
+    color: grey;
+    text-align: center;
+    /*font-weight:bold;*/
+}
+.edgeText {
+    color:darkblue;
+    text-align: center;
+}
+
+.node {
+    fill: black;  /* text color of nodes*/
+    /* no effect:
+    white-space: nowrap;
+    */
+}
+
+.node rect {
+  stroke: #333;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.demand {
+  /*stroke: #333;  */
+  font-weight: bold
+}
+
+.node.demand rect {
+  stroke: darkblue;
+  fill: #fff;
+  stroke-width: 4px;
+}
+
+.node.market rect {
+  stroke: #ed9736;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.marketgroup rect {
+  stroke: #ffc34c;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.treatment rect {
+  stroke: #f4425c;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+/* Edges */
+/*.edgePath path.path {
+  stroke: red;
+  /*fill: darkred; /* Arrow head */
+  /*lineInterpolate: basis;*/
+/*}*/
+
+.edgePath.impact path.path {
+  stroke: red;
+  opacity: 0.7;
+}
+
+.edgePath.benefit path.path {
+  stroke: green;
+  opacity: 0.7;
+}
+
+/* Arrowhead */
+.edgePath path {
+  stroke: none;
+  /*fill: black;*/
+  opacity: 0.3;
+}
+/*.edgePath marker {
+  fill: darkgrey; /* Arrow head */
+  /*opacity: 1;
+}*/
+
+.edgeLabel {
+    fill: darkblue;  /* text color of edges*/
+}
+
+
+
+
+/*.label {
+   /* text color*/
+  /* no effect:
+  margin-top: 30em;
+fill: red;
+  display: block;
+  text-align: right;
+  font: 20px sans-serif;
+  background: #fffce2;
+  padding: 200px; */
+/*}
+
+.edgeLabel {
+   /* text color*/
+  /* no effect:
+  fill: red;
+  margin-top: 30em;
+  display: block;
+  text-align: right;
+  font: 20px sans-serif;
+  background: #fffce2;
+  padding: 200px; */
+/*}*/
+
+.error {
+  color: red;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #fffce2;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    /*color: red;*/
+}</style>
+  <g
+     class="wrapper inner"
+     clip-path="url(#wrapperClipPath_qwpyza)"
+     transform="matrix(0.36298974,0,0,0.36298974,0.54448479,0.54448461)"
+     id="g600"
+     inkscape:export-filename="T-reX_NMC811_WasteTotalSolid.pdf"
+     inkscape:export-xdpi="600"
+     inkscape:export-ydpi="600">
+    <g
+       class="panCanvas"
+       id="g598">
+      <g
+         class="output"
+         id="g596">
+        <g
+           class="clusters"
+           id="g4" />
+        <g
+           class="edgePath impact"
+           stroke-width="5.7522"
+           id="g13">
+          <path
+             class="path"
+             d="m 87.507812,1463.25 v 10.0625 c 0,10.0625 0,30.1875 21.971358,50.7711 21.97135,20.5836 65.91406,41.6258 87.88541,52.1469 l 21.97136,10.5211"
+             marker-end="url(#arrowhead1486)"
+             style="fill:none"
+             id="path6" />
+          <defs
+             id="defs11">
+            <marker
+               id="arrowhead1486"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path8" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="33.9242"
+           id="g22">
+          <path
+             class="path"
+             d="m 312.52344,1463.25 v 10.0625 c 0,10.0625 0,30.1875 0,50.3125 0,20.125 0,40.25 0,50.3125 V 1584"
+             marker-end="url(#arrowhead1487)"
+             style="fill:none"
+             id="path15" />
+          <defs
+             id="defs20">
+            <marker
+               id="arrowhead1487"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path17" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="2.2902"
+           id="g40">
+          <path
+             class="path"
+             d="m 204.48437,1240.75 v 11.2292 c 0,11.2291 0,33.6875 10.0895,54.9791 10.08949,21.2917 30.26848,41.4167 40.35798,51.4792 l 10.08949,10.0625"
+             marker-end="url(#arrowhead1489)"
+             style="fill:none"
+             id="path33" />
+          <defs
+             id="defs38">
+            <marker
+               id="arrowhead1489"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path35" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="28.4839"
+           id="g49">
+          <path
+             class="path"
+             d="m 406.15625,1240.75 v 11.2292 c 0,11.2291 0,33.6875 -8.74413,54.9791 -8.74413,21.2917 -26.23239,41.4167 -34.97653,51.4792 l -8.74413,10.0625"
+             marker-end="url(#arrowhead1490)"
+             style="fill:none"
+             id="path42" />
+          <defs
+             id="defs47">
+            <marker
+               id="arrowhead1490"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path44" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="2.04579"
+           id="g58">
+          <path
+             class="path"
+             d="m 490.81654,1425.3211 20.44335,-19.1519 c 7.34344,-6.8795 56.39029,-14.2482 -0.0908,10.0871 -56.48112,24.3353 -4.68237,4.1571 -61.16349,18.4299 l -56.48112,14.2728"
+             marker-end="url(#arrowhead1491)"
+             style="fill:none"
+             id="path51"
+             sodipodi:nodetypes="csssc" />
+          <defs
+             id="defs56">
+            <marker
+               id="arrowhead1491"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path53" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="26.054"
+           id="g67">
+          <path
+             class="path"
+             d="m 406.92371,1126.8458 v 8.8958 c 0,8.8959 0,26.6875 0,45.6459 0,18.9583 0,39.0833 0,49.1458 v 10.0625"
+             marker-end="url(#arrowhead1492)"
+             style="fill:none"
+             id="path60" />
+          <defs
+             id="defs65">
+            <marker
+               id="arrowhead1492"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path62" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="25.9877"
+           id="g76">
+          <path
+             class="path"
+             d="m 292.54297,844.75 v 8.89583 c 0,8.89584 0,26.6875 10.03161,44.47917 10.03161,17.79167 30.09483,35.58333 40.12645,44.47917 L 352.73264,951.5"
+             marker-end="url(#arrowhead1493)"
+             style="fill:none"
+             id="path69" />
+          <defs
+             id="defs74">
+            <marker
+               id="arrowhead1493"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path71" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="0.0658787"
+           id="g85">
+          <path
+             class="path"
+             d="m 669.24078,94.75 -4.49586,8.89583 c -4.49586,8.89584 -13.48758,26.6875 -17.98344,51.20834 -4.49586,24.52083 -4.49586,55.77083 -4.49586,87.02083 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,92.58333 0,30.08334 0,59 0,89.08334 0,30.08333 0,61.33333 0,93.75 0,32.41666 0,66 -26.82031,94.23613 -26.82031,28.23614 -80.46093,51.12508 -107.28124,62.56955 l -26.82032,11.44447"
+             marker-end="url(#arrowhead1494)"
+             style="fill:none"
+             id="path78" />
+          <defs
+             id="defs83">
+            <marker
+               id="arrowhead1494"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path80" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="25.8662"
+           id="g94">
+          <path
+             class="path"
+             d="m 292.54297,657.25 v 7.72917 c 0,7.72916 0,23.1875 0,38.64583 0,15.45833 0,30.91667 0,38.64583 V 750"
+             marker-end="url(#arrowhead1495)"
+             style="fill:none"
+             id="path87" />
+          <defs
+             id="defs92">
+            <marker
+               id="arrowhead1495"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path89" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="25.8214"
+           id="g103">
+          <path
+             class="path"
+             d="m 169.61719,469.75 v 8.89583 c 0,8.89584 0,26.6875 11.66429,44.47917 11.66429,17.79167 34.99287,35.58333 46.65716,44.47917 L 239.60293,576.5"
+             marker-end="url(#arrowhead1496)"
+             style="fill:none"
+             id="path96" />
+          <defs
+             id="defs101">
+            <marker
+               id="arrowhead1496"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path98" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="0.0408757"
+           id="g112">
+          <path
+             class="path"
+             d="M 624.66797,83.78641 604.49024,94.509508 C 584.3125,105.23261 543.95703,126.6788 523.7793,153.0269 c -20.17774,26.3481 -20.17774,57.5981 -20.17774,88.8481 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 0,93.75 0,31.25 0,62.5 -22.71159,88.21325 -22.71158,25.71325 -68.13476,45.88974 -90.84635,55.97799 l -22.71159,10.08825"
+             marker-end="url(#arrowhead1497)"
+             style="fill:none"
+             id="path105" />
+          <defs
+             id="defs110">
+            <marker
+               id="arrowhead1497"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path107" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="4.48875"
+           id="g121">
+          <path
+             class="path"
+             d="m 72.308594,282.25 v 8.89583 c 0,8.89584 0,26.6875 9.233504,44.47917 9.233504,17.79167 27.700512,35.58333 36.934022,44.47917 L 127.70962,389"
+             marker-end="url(#arrowhead1498)"
+             style="fill:none"
+             id="path114" />
+          <defs
+             id="defs119">
+            <marker
+               id="arrowhead1498"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path116" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="21.0885"
+           id="g130">
+          <path
+             class="path"
+             d="m 266.92578,282.25 v 8.89583 c 0,8.89584 0,26.6875 -9.2335,44.47917 -9.23351,17.79167 -27.70052,35.58333 -36.93402,44.47917 L 211.52476,389"
+             marker-end="url(#arrowhead1499)"
+             style="fill:none"
+             id="path123" />
+          <defs
+             id="defs128">
+            <marker
+               id="arrowhead1499"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path125" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="21.0459"
+           id="g139">
+          <path
+             class="path"
+             d="m 194.26172,94.75 v 8.89583 c 0,8.89584 0,26.6875 6.89501,44.47917 6.89501,17.79167 20.68504,35.58333 27.58005,44.47917 l 6.89501,8.89583"
+             marker-end="url(#arrowhead1500)"
+             style="fill:none"
+             id="path132" />
+          <defs
+             id="defs137">
+            <marker
+               id="arrowhead1500"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path134" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgePath impact"
+           stroke-width="0.038791"
+           id="g148">
+          <path
+             class="path"
+             d="m 624.66797,68.250772 -43.69206,13.312371 c -43.69205,13.312372 -131.07617,39.937117 -183.83864,62.145317 -52.76247,22.20821 -70.9033,39.99987 -79.97372,48.89571 L 308.09314,201.5"
+             marker-end="url(#arrowhead1501)"
+             style="fill:none"
+             id="path141" />
+          <defs
+             id="defs146">
+            <marker
+               id="arrowhead1501"
+               viewBox="0 0 60 60"
+               refX="9"
+               refY="5"
+               markerUnits="strokeWidth"
+               markerWidth="8"
+               markerHeight="6"
+               orient="auto">
+              <path
+                 d="M 0,0 10,5 0,10 Z"
+                 style="stroke-width:1;stroke-dasharray:1, 0"
+                 id="path143" />
+            </marker>
+          </defs>
+        </g>
+        <g
+           class="edgeLabel"
+           transform="translate(169.47656,1523.625)"
+           id="g164">
+          <g
+             transform="translate(-76.96875,-30.375)"
+             class="label"
+             id="g162" />
+        </g>
+        <g
+           class="edgeLabel"
+           transform="translate(471.39844,1099.625)"
+           id="g238">
+          <g
+             transform="translate(-60.242187,-23.375)"
+             class="label"
+             id="g236" />
+        </g>
+        <g
+           class="edgeLabel"
+           transform="translate(357.78516,898.125)"
+           id="g250">
+          <g
+             transform="translate(-60.242187,-23.375)"
+             class="label"
+             id="g248">
+            <text
+               id="text246"><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan240">cathode, NMC811,</tspan><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan242">for Li-ion battery</tspan><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan244">(65.0%)</tspan></text>
+          </g>
+        </g>
+        <g
+           class="edgeLabel"
+           transform="translate(345.27734,703.625)"
+           id="g272">
+          <g
+             transform="translate(-47.734375,-16.375)"
+             class="label"
+             id="g270">
+            <text
+               id="text268"><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan264">NMC811 oxide</tspan><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan266">(64.7%)</tspan></text>
+          </g>
+        </g>
+        <g
+           class="edgeLabel"
+           transform="translate(222.35156,523.125)"
+           id="g282">
+          <g
+             transform="translate(-47.734375,-16.375)"
+             class="label"
+             id="g280">
+            <text
+               id="text278"><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan274">NMC811 oxide</tspan><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan276">(64.6%)</tspan></text>
+          </g>
+        </g>
+        <g
+           class="edgeLabel"
+           transform="translate(567.02344,335.625)"
+           id="g294">
+          <g
+             transform="translate(-58.421875,-23.375)"
+             class="label"
+             id="g292" />
+        </g>
+        <g
+           class="edgeLabel"
+           transform="translate(135.01953,335.625)"
+           id="g304">
+          <g
+             transform="translate(-57.710937,-16.375)"
+             class="label"
+             id="g302">
+            <text
+               id="text300"><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan296">lithium hydroxide</tspan><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan298">(11.2%)</tspan></text>
+          </g>
+        </g>
+        <g
+           class="edgeLabel"
+           transform="translate(334.58984,335.625)"
+           id="g314">
+          <g
+             transform="translate(-62.664062,-16.375)"
+             class="label"
+             id="g312">
+            <text
+               id="text310"><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan306">NMC811 hydroxide</tspan><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan308">(52.7%)</tspan></text>
+          </g>
+        </g>
+        <g
+           class="edgeLabel"
+           transform="translate(261.92578,148.125)"
+           id="g324">
+          <g
+             transform="translate(-62.664062,-16.375)"
+             class="label"
+             id="g322">
+            <text
+               id="text320"><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan316">NMC811 hydroxide</tspan><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan318">(52.6%)</tspan></text>
+          </g>
+        </g>
+        <g
+           class="edgeLabel"
+           transform="translate(425.9375,148.125)"
+           id="g336">
+          <g
+             transform="translate(-58.421875,-23.375)"
+             class="label"
+             id="g334">
+            <text
+               id="text332"><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan326">transport, freight,</tspan><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan328">lorry</tspan><tspan
+                 xml:space="preserve"
+                 dy="1em"
+                 x="1"
+                 id="tspan330">(0.0970%)</tspan></text>
+          </g>
+        </g>
+        <g
+           class="nodes"
+           id="g594">
+          <g
+             class="node demand"
+             id="a6340d3ae1622f5fea25af16af07bbc0"
+             transform="translate(312.52344,1631.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-93.1875"
+               y="-47.375"
+               width="186.375"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect340" />
+            <g
+               class="label"
+               id="g356"
+               transform="translate(-3.5996381,30.304979)">
+              <g
+                 transform="translate(-83.1875,-37.375)"
+                 id="g354">
+                <text
+                   id="text352"
+                   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.0392px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+                   x="5.8371391"
+                   y="-13.470513"><tspan
+                     sodipodi:role="line"
+                     id="tspan619"
+                     x="5.8371391"
+                     y="-13.470513">market for</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan621"
+                     x="5.8371391"
+                     y="14.078486">battery,</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan623"
+                     x="5.8371391"
+                     y="41.627487">Li-ion, NMC811</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="0f8c132a27a299fb959c5e35254f4861"
+             transform="translate(121.80206,1415.875)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-87.507812"
+               y="-47.375"
+               width="175.01562"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect359" />
+          </g>
+          <g
+             class="node production"
+             id="76d5fbeb2a34f162f3d98c6dacab3281"
+             transform="translate(312.52344,1415.875)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-87.507812"
+               y="-47.375"
+               width="175.01562"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect378" />
+            <g
+               class="label"
+               id="g394"
+               transform="translate(2.3284631,-1.7447857)">
+              <g
+                 transform="translate(-77.507812,-37.375)"
+                 id="g392">
+                <text
+                   id="text390"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0392px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+                   x="4.4809613"
+                   y="16.459799"><tspan
+                     sodipodi:role="line"
+                     id="tspan789"
+                     x="4.4809613"
+                     y="16.459799">battery</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan791"
+                     x="4.4809613"
+                     y="44.008797">production</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan793"
+                     x="4.4809613"
+                     y="71.5578">[GLO] (84.8%)</tspan></text>
+                <text
+                   id="text390-3"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0392px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+                   x="-179.07004"
+                   y="18.204584"><tspan
+                     sodipodi:role="line"
+                     id="tspan840"
+                     x="-179.07004"
+                     y="18.204584">battery</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan842"
+                     x="-179.07004"
+                     y="45.753586">production</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan844"
+                     x="-179.07004"
+                     y="73.302582">[CN] (14.4%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="072851eccc9f466fa5d4c2fea3c43e11"
+             transform="translate(727.65087,862.81702)"
+             style="opacity:1"
+             inkscape:transform-center-x="-0.4090196"
+             inkscape:transform-center-y="-14.204135">
+            <rect
+               rx="0"
+               ry="0"
+               x="-156.93568"
+               y="263.89108"
+               width="137.03125"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect397" />
+            <g
+               class="label"
+               id="g413">
+              <g
+                 transform="translate(-112.8444,-1051.4749)"
+                 id="g411">
+                <text
+                   id="text409"
+                   y="1358.205"
+                   style="font-size:14px;font-family:sans-serif"
+                   x="-25.618658"><tspan
+                     sodipodi:role="line"
+                     id="tspan12234"
+                     x="-25.618658"
+                     y="1358.205">transport, lorry</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan12236"
+                     x="-25.618658"
+                     y="1375.705">(1%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node market"
+             id="571470e655ae2b37b978020e9c1c28fb"
+             transform="translate(204.48437,1200.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-65.445312"
+               y="42.789772"
+               width="130.89062"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect416" />
+            <g
+               class="label"
+               id="g430">
+              <g
+                 transform="translate(-55.445312,-30.375)"
+                 id="g428">
+                <text
+                   id="text426"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6928px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+                   x="8.1492081"
+                   y="99.596306"><tspan
+                     sodipodi:role="line"
+                     id="tspan846"
+                     x="8.1492081"
+                     y="99.596306">metalworking</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan848"
+                     x="8.1492081"
+                     y="117.96231">factory</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan850"
+                     x="8.1492081"
+                     y="136.32831">(5.7%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="5e8a6fa4a442463434afa4917aa35412"
+             transform="translate(406.15625,1200.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-86.226562"
+               y="31.048965"
+               width="172.45312"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect433" />
+            <g
+               class="label"
+               id="g447">
+              <g
+                 transform="translate(-76.226562,-30.375)"
+                 id="g445">
+                <text
+                   id="text443"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.366px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+                   x="12.028214"
+                   y="84.369629"><tspan
+                     sodipodi:role="line"
+                     id="tspan852"
+                     x="12.028214"
+                     y="84.369629">battery cell,</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan854"
+                     x="12.028214"
+                     y="107.32713">Li-ion, NMC811</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan856"
+                     x="12.028214"
+                     y="130.28462">[RoW] (71%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="d299e544e63857535f686957731c89ce"
+             transform="translate(658.21718,1139.9396)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-206.00523"
+               y="218.93515"
+               width="109.49474"
+               height="99.136574"
+               style="fill:#ffffff"
+               id="rect450" />
+            <g
+               class="label"
+               id="g466"
+               transform="translate(-127.39144,267.0526)">
+              <g
+                 transform="translate(-69.765625,-37.375)"
+                 id="g464">
+                <text
+                   id="text462"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6928px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+                   x="1.1718799"
+                   y="15.439313"><tspan
+                     sodipodi:role="line"
+                     id="tspan5143"
+                     x="1.1718799"
+                     y="15.439313">Battery</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan5145"
+                     x="1.1718799"
+                     y="42.988316"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6927936px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">management</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan5147"
+                     x="1.1718799"
+                     y="70.537315">system</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan5149"
+                     x="1.1718799"
+                     y="98.086311">(5.11%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node market"
+             id="80310b5021efcb8abcf6d15a9f5ce58e"
+             transform="translate(406.15625,998.875)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-69.154045"
+               y="110.33288"
+               width="150.375"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect469" />
+            <g
+               class="label"
+               id="g485"
+               transform="translate(18.363406,31.424416)">
+              <g
+                 transform="translate(-65.1875,-37.375)"
+                 id="g483">
+                <text
+                   id="text481"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.366px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+                   x="6.0334554"
+                   y="157.70787"><tspan
+                     sodipodi:role="line"
+                     id="tspan12125"
+                     x="6.0334554"
+                     y="157.70787">NMC oxide</tspan><tspan
+                     sodipodi:role="line"
+                     id="tspan12127"
+                     x="6.0334554"
+                     y="180.66537">(64%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="8ed5dce88d25c5cfd32fbc81684a27ab"
+             transform="translate(292.54297,797.375)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-76.429688"
+               y="-47.375"
+               width="152.85938"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect488" />
+            <g
+               class="label"
+               id="g504">
+              <g
+                 transform="translate(-66.429687,-37.375)"
+                 id="g502">
+                <text
+                   id="text500"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan490">cathode production,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan492">NMC811, for Li-ion</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan494">battery</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan496">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan498">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node market"
+             id="bc62c5330286e6df8bfbcf7d03502b2c"
+             transform="translate(292.54297,616.875)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-74.789062"
+               y="-40.375"
+               width="149.57812"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect507" />
+            <g
+               class="label"
+               id="g521">
+              <g
+                 transform="translate(-64.789062,-30.375)"
+                 id="g519">
+                <text
+                   id="text517"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan509">market for NMC811</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan511">oxide</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan513">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan515">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="980b17ccb891a38585bf05ad3185e9fa"
+             transform="translate(183.03197,436.08526)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-97.5625"
+               y="-40.375"
+               width="195.125"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect524" />
+            <g
+               class="label"
+               id="g538">
+              <g
+                 transform="translate(-87.5625,-30.375)"
+                 id="g536">
+                <text
+                   id="text534"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan526">NMC811 oxide production,</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan528">for Li-ion battery</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan530">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan532">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node market"
+             id="464c6360725050e3227a12d9cfb2afeb"
+             transform="translate(85.723378,248.58526)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-69.828125"
+               y="-40.375"
+               width="139.65625"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect541" />
+            <g
+               class="label"
+               id="g555">
+              <g
+                 transform="translate(-59.828125,-30.375)"
+                 id="g553">
+                <text
+                   id="text551"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan543">market for lithium</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan545">hydroxide</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan547">GLO</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan549">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node market"
+             id="f81abe2a383b675a23d300859d4ee45e"
+             transform="translate(280.34056,248.58526)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-74.789062"
+               y="-40.375"
+               width="149.57812"
+               height="80.75"
+               style="fill:#ffffff"
+               id="rect558" />
+            <g
+               class="label"
+               id="g572">
+              <g
+                 transform="translate(-64.789062,-30.375)"
+                 id="g570">
+                <text
+                   id="text568"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan560">market for NMC811</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan562">hydroxide</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan564">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan566">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g
+             class="node production"
+             id="c9393ca3e722e156f115e76d554f70e3"
+             transform="translate(207.6765,54.085264)"
+             style="opacity:1">
+            <rect
+               rx="0"
+               ry="0"
+               x="-72.664062"
+               y="-47.375"
+               width="145.32812"
+               height="94.75"
+               style="fill:#ffffff"
+               id="rect575" />
+            <g
+               class="label"
+               id="g591">
+              <g
+                 transform="translate(-62.664062,-37.375)"
+                 id="g589">
+                <text
+                   id="text587"><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan577">NMC811 hydroxide</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan579">production, for</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan581">Li-ion battery</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan583">RoW</tspan><tspan
+                     xml:space="preserve"
+                     dy="1em"
+                     x="1"
+                     id="tspan585">(0%)</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <rect
+           rx="0"
+           ry="0"
+           x="548.83319"
+           y="560.06573"
+           width="342.98489"
+           height="261.71539"
+           style="fill:#ffe1e1;stroke:#ed9736;stroke-width:8.2647px"
+           id="rect4473" />
+        <text
+           id="text4485"
+           style="font-size:38.5686px;font-family:sans-serif;stroke-width:2.7549"
+           x="576.3822"
+           y="587.61469"><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="579.13708"
+             id="tspan4475"
+             style="stroke-width:2.7549">market for inert</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="579.13708"
+             id="tspan4477"
+             style="stroke-width:2.7549">waste, for final</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="579.13708"
+             id="tspan4479"
+             style="stroke-width:2.7549">disposal</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="579.13708"
+             id="tspan4481"
+             style="stroke-width:2.7549">RoW</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="579.13708"
+             id="tspan4483"
+             style="stroke-width:2.7549">(12%)</tspan></text>
+        <rect
+           rx="0"
+           ry="0"
+           x="904.11157"
+           y="964.51971"
+           width="385.12625"
+           height="223.1468"
+           style="fill:#ffffff;stroke:#ed9736;stroke-width:8.2647px"
+           id="rect4065" />
+        <text
+           id="text4075"
+           style="font-size:38.5686px;font-family:sans-serif;stroke-width:2.7549"
+           x="931.6604"
+           y="992.06866"><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="934.41528"
+             id="tspan4067"
+             style="stroke-width:2.7549">market for lithium</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="934.41528"
+             id="tspan4069"
+             style="stroke-width:2.7549">carbonate</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="934.41528"
+             id="tspan4071"
+             style="stroke-width:2.7549">GLO</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="934.41528"
+             id="tspan4073"
+             style="stroke-width:2.7549">(0%)</tspan></text>
+        <rect
+           rx="0"
+           ry="0"
+           x="1081.2847"
+           y="622.3963"
+           width="385.16928"
+           height="261.71539"
+           style="fill:#ffffff;stroke:#ed9736;stroke-width:8.2647px"
+           id="rect3702" />
+        <text
+           id="text3714"
+           style="font-size:38.5686px;font-family:sans-serif;stroke-width:2.7549"
+           x="1108.8335"
+           y="649.94525"><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="1111.5884"
+             id="tspan3704"
+             style="stroke-width:2.7549">market for copper</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="1111.5884"
+             id="tspan3706"
+             style="stroke-width:2.7549">collector foil,</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="1111.5884"
+             id="tspan3708"
+             style="stroke-width:2.7549">for Li-ion battery</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="1111.5884"
+             id="tspan3710"
+             style="stroke-width:2.7549">GLO</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="1111.5884"
+             id="tspan3712"
+             style="stroke-width:2.7549">(0%)</tspan></text>
+        <rect
+           rx="0"
+           ry="0"
+           x="-330.39444"
+           y="841.203"
+           width="375.52713"
+           height="184.57822"
+           style="fill:#ffe5e5;stroke:#333333;stroke-width:8.2647px"
+           id="rect3897" />
+        <text
+           id="text3905"
+           style="font-size:38.5686px;font-family:sans-serif;stroke-width:2.7549"
+           x="-304.80911"
+           y="867.96405"><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-302.0542"
+             id="tspan3899"
+             style="stroke-width:2.7549">cobalt production</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-302.0542"
+             id="tspan3901"
+             style="stroke-width:2.7549">GLO</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-302.0542"
+             id="tspan3903"
+             style="stroke-width:2.7549">(10%)</tspan></text>
+        <rect
+           rx="0"
+           ry="0"
+           x="-650.08759"
+           y="466.15128"
+           width="362.18311"
+           height="223.1468"
+           style="fill:#ffffff;stroke:#ed9736;stroke-width:8.2647px"
+           id="rect3865" />
+        <text
+           id="text3875"
+           style="font-size:38.5686px;font-family:sans-serif;stroke-width:2.7549"
+           x="-622.5387"
+           y="493.70026"><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-619.78375"
+             id="tspan3867"
+             style="stroke-width:2.7549">market for nickel</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-619.78375"
+             id="tspan3869"
+             style="stroke-width:2.7549">sulfate</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-619.78375"
+             id="tspan3871"
+             style="stroke-width:2.7549">GLO</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-619.78375"
+             id="tspan3873"
+             style="stroke-width:2.7549">(0%)</tspan></text>
+        <rect
+           rx="0"
+           ry="0"
+           x="-1405.3231"
+           y="2967.6785"
+           width="362.18311"
+           height="223.1468"
+           style="fill:#ffffff;stroke:#ed9736;stroke-width:8.2647px"
+           id="rect3865-4" />
+        <text
+           id="text3875-3"
+           style="font-size:38.5686px;font-family:sans-serif;stroke-width:2.7549"
+           x="-1377.7743"
+           y="2995.2275"><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-1375.0193"
+             id="tspan3867-0"
+             style="stroke-width:2.7549">market for nickel</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-1375.0193"
+             id="tspan3869-7"
+             style="stroke-width:2.7549">sulfate</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-1375.0193"
+             id="tspan3871-8"
+             style="stroke-width:2.7549">GLO</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-1375.0193"
+             id="tspan3873-6"
+             style="stroke-width:2.7549">(0%)</tspan></text>
+        <text
+           id="text3977"
+           style="font-size:38.5686px;font-family:sans-serif;stroke-width:2.7549"
+           x="-419.00467"
+           y="116.35832"><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-416.24979"
+             id="tspan3967"
+             style="stroke-width:2.7549">treatment of inert</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-416.24979"
+             id="tspan3969"
+             style="stroke-width:2.7549">waste, sanitary</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-416.24979"
+             id="tspan3971"
+             style="stroke-width:2.7549">landfill</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-416.24979"
+             id="tspan3973"
+             style="stroke-width:2.7549">RoW</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-416.24979"
+             id="tspan3975"
+             style="stroke-width:2.7549">(4%)</tspan></text>
+        <rect
+           rx="0"
+           ry="0"
+           x="-446.15558"
+           y="-3941.6077"
+           width="418.70157"
+           height="300.28397"
+           style="fill:#fff8f8;stroke:#f4425c;stroke-width:8.2647px"
+           id="rect4433" />
+        <text
+           id="text4447"
+           style="font-size:38.5686px;font-family:sans-serif;stroke-width:2.7549"
+           x="-418.6066"
+           y="-3914.0586"><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-415.85168"
+             id="tspan4435"
+             style="stroke-width:2.7549">treatment of waste</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-415.85168"
+             id="tspan4437"
+             style="stroke-width:2.7549">reinforced concrete,</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-415.85168"
+             id="tspan4439"
+             style="stroke-width:2.7549">collection for final</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-415.85168"
+             id="tspan4441"
+             style="stroke-width:2.7549">disposal</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-415.85168"
+             id="tspan4443"
+             style="stroke-width:2.7549">RoW</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="-415.85168"
+             id="tspan4445"
+             style="stroke-width:2.7549">(3%)</tspan></text>
+        <rect
+           rx="0"
+           ry="0"
+           x="-785.12531"
+           y="45.847076"
+           width="418.70157"
+           height="300.28397"
+           style="fill:#fff8f8;stroke:#f4425c;stroke-width:8.2647px"
+           id="rect4433-8" />
+        <rect
+           rx="0"
+           ry="0"
+           x="483.49469"
+           y="880.72321"
+           width="417.79761"
+           height="223.1468"
+           style="fill:#ffffff;stroke:#ed9736;stroke-width:8.2647px"
+           id="rect3649" />
+        <text
+           id="text3659"
+           style="font-size:38.5686px;font-family:sans-serif;stroke-width:2.7549"
+           x="515.51953"
+           y="848.77618"><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="518.27441"
+             id="tspan3651"
+             style="stroke-width:2.7549">market for chemical</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="518.27441"
+             id="tspan3653"
+             style="stroke-width:2.7549">factory, organics</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="518.27441"
+             id="tspan3655"
+             style="stroke-width:2.7549">GLO</tspan><tspan
+             xml:space="preserve"
+             dy="33.058784"
+             x="518.27441"
+             id="tspan3657"
+             style="stroke-width:2.7549">(0%)</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
