@@ -48,14 +48,14 @@
 \usepackage{listings}
 \usepackage{xcolor}
 \definecolor{blue}{RGB}{33,150,209}
-\definecolor{red}{RGB}{255,0,0}
+\definecolor{red}{RGB}{255,0,0}% \usepackage{listings}
 \usepackage{xurl}
-\usepackage{pdfpages}
+% \usepackage{pdfpages}
 \usepackage{enumitem}
-\usepackage{lineno}
+% \usepackage{lineno}
 \usepackage{float}
-
-\setlength{\linenumbersep}{5pt}
+% 
+% \setlength{\linenumbersep}{5pt}
 % Save the old \texttt command
 \let\oldtexttt\texttt
 % Redefine the \UrlFont to use a smaller typewriter font
@@ -79,31 +79,31 @@
 \shorttitle{T-reX: Quantifying waste and material footprints in LCA}
 
 % Short author
-\shortauthors{S.C. McDowall et~al.}
+\shortauthors{S2. McDowall et~al.}
 
 % Main title of the paper
 \title[mode = title]{T-reX: Quantifying waste and material footprints in current and future Life Cycle Assessment (LCA) databases}
 
 % Authors
-\author[1]{Stewart Charles McDowall}[orcid=0000-0001-0000-0000]
+\author[1]{Stewart Charles McDowall}[orcid=0000-0002-5688-1279]
 \ead{s.c.mcdowall@cml.leidenuniv.nl}
 \cormark[1]
 \cortext[cor1]{Corresponding author:}
-\credit{Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing - original draft, Writing - review \& editing, Visualization.}
+\credit{Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing - original draft, Writing - review \& editing, Visualization}
 
 
 
-\author[1]{Elizabeth Lanphear}
-\credit{Conceptualization, Methodology, Software, Validation, Writing - review \& editing.}
+\author[1]{Elizabeth Lanphear}[orcid=0009-0003-6364-0873]
+\credit{Conceptualization, Methodology, Software, Validation, Writing - review \& editing}
 
 
 
-\author[1]{Stefano Cucurachi}
-\credit{Conceptualization, Writing - review \& editing, Supervision, Project administration, Funding acquisition.}
+\author[1]{Stefano Cucurachi}[orcid=0000-0003-2748-655X]
+\credit{Conceptualization, Writing - review \& editing, Supervision, Project administration, Funding acquisition}
 
 
-\author[1]{Carlos Felipe Blanco}
-\credit{Conceptualization, Writing - review \& editing, Supervision, Project administration, Funding acquisition.}
+\author[1]{Carlos Felipe Blanco}[orcid=0000-0001-8199-8420]
+\credit{Conceptualization, Writing - review \& editing, Supervision, Project administration, Funding acquisition}
 
 
 \affiliation[1]{
@@ -637,11 +637,11 @@ An overview of the T-reX workflow is presented in
 \autoref{fig:methods-flowchart}. The supplementary material in
 \autoref{sec:supplementary} (part 4) contains a more detailed computational flowchart.
 
-\begin{figure}
+\begin{figure*}
 	\centering
 	\caption{The workflow of T-reX presented in a generalised (a) and computational (b) format. Application of T-reX to one or more LCA databases creates a \texttt{brightway} project with customised methods and activities that can be used to calculate waste and material inventory footprints of the activity's supply chain.}
-	\includegraphics[width=0.9\columnwidth]{figures/T-reX_method.pdf}\label{fig:methods-flowchart}
-\end{figure}
+	\includegraphics[width=1.8\columnwidth]{figures/T-reX_method.pdf}\label{fig:methods-flowchart}
+\end{figure*}
 
 \subsection{Case study methodology}\label{sec:method-casestudy}
 
@@ -751,7 +751,7 @@ that is not seen in the baseline scenario. This result highlights the fact that
 the (often) downward trends in global warming impacts calculated with
 prospective databases using standard LCIA methods are dependent on the
 assumptions made about the introduction of CCS technology. The actual
-deployment of these technologies was only around 37~Mt CO$_2$/yr as of
+deployment of these technologies was only around 37~Mt CO\(_2\)/yr as of
 2023~\citep{dziejarski2023ccs}, far short of the levels projected in many of
 the RCP scenarios~\citep{sacchi2023premisedocs}. The authors consider that the
 over-representation of CCS and the under-representation of waste processing
@@ -763,7 +763,7 @@ results are more realistic and useful for decision-making.
 
 \begin{figure*}[]
 	\centering
-	\includegraphics[width=1.8\columnwidth]{figures/T-reX-wastefootprint-totalANDcarbon.pdf}
+	\includegraphics[width=2.1\columnwidth]{figures/T-reX-wastefootprint-totalANDcarbon.pdf}
 	\caption{T-reX calculated supply chain inventories for the five Li-ion batteries in the case study, showing their `footprints' for: (a) total solid waste, and (b) carbon dioxide waste (produced from carbon capture and storage (CCS) only). The footprints were modelled with prospective LCA databases from 2020 to 2100 under the SSP2 scenario using the baseline and PkBudg500 RCPs of the REMIND model.}\label{fig:waste_totalANDcarbon}
 \end{figure*}
 %!!!!
@@ -793,7 +793,7 @@ results are more realistic and useful for decision-making.
 \subsubsection{Comparison with `similar' LCIA methods}\label{sec:results-case_study-methodcomparison}
 
 A comparison of the results for `Coal (black)' demand using the T-reX method
-with the LCIA method `EDIP 2003 - coal no LT' is shown
+with the LCIA method `EDIP 2003 – coal no LT' is shown
 in~\autoref{fig:comparison_methods}. In this case, both the trends and the
 magnitude of the scores were very similar, both demonstrating a general
 decrease in the use of coking coal in the battery's footprints. Such
@@ -819,8 +819,9 @@ are generally embedded in LCA databases.
 
 \begin{figure*}
 	\centering
-	\includegraphics[width=1.8\columnwidth]{figures/T-reX-coalANDedip.pdf}
-	\caption{Comparison of the (a) `T-reX - Coal (black)' demand footprint with the (b) conventional LCIA method `EDIP 2003 - coal no LT'  in the case study from 2020 to 2100 under the SSP2 scenario using the baseline and PkBudg500 RCPs of the REMIND model for all five batteries.}\label{fig:comparison_methods}
+	\includegraphics[width=2.0\columnwidth]{figures/T-reX-coalANDedip.pdf}
+	\caption{Comparison of the (a) `T-reX  	\caption{Comparison of the (a) `T-reX  Coal (black)' demand footprint with the (b) conventional LCIA method `EDIP 2003 - coal no LT'  in the case study from 2020 to 2100 under the SSP2 scenario using the baseline and PkBudg500 RCPs of the REMIND model for all five batteries.}\label{fig:comparison_methods}
+Coal (black)' demand footprint with the (b) conventional LCIA method `EDIP 2003 - coal no LT'  in the case study from 2020 to 2100 under the SSP2 scenario using the baseline and PkBudg500 RCPs of the REMIND model for all five batteries.}\label{fig:comparison_methods}
 \end{figure*}
 
 \subsubsection{Comparison with other studies}\label{sec:results-case_study-comparison}
@@ -845,7 +846,7 @@ exchanges, and only those explicitly defined as hazardous are marked as such.
 
 \begin{table}
 	\centering
-	\caption{Comparison of the results from the T-reX battery case study (database: \texttt{ecoinvent} 3.9.1 REMIND SSP2 Base 2020, activity: Li-ion NMC 111) with those from \cite{laurenti2023wastefootprint} (database: \texttt{ecoinvent} 3.5, activity:`Li-ion').}\label{tab:results-case_study-comparison}
+	\caption{Comparison of the results from the T-reX battery case study (database: \texttt{ecoinvent} 3.9.1 REMIND SSP2 Base 2020, activity: Li-ion NMC 111) with those from \cite{laurenti2023wastefootprint} (database: \texttt{ecoinvent} 3.5, activity:`Li-ion')}\label{tab:results-case_study-comparison}
 	\begin{tabular}{lll}
 		\toprule
 		\textbf{Indicator}         & \textbf{T-reX} & \textbf{Laurenti et al.} \\
