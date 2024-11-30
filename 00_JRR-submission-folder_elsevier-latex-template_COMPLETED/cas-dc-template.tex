@@ -10,6 +10,18 @@
 %%    http://www.latex-project.org/lppl.txt
 %% and version 1.3c or later is part of all distributions of LaTeX
 %% version 1999/12/01 or later.
+%%%
+%
+% T-reX manuscript using the elsevier template for JRC
+%
+% Repository for the T-reX manuscript at https://github.com/Stew-McD/T-reX_Publication
+% Repository for the T-reX python program at https://github.com/Stew-McD/T-reX
+%
+% S.C.McDowall - github/Stew-McD
+%
+%%%%
+
+
 %% 
 %% The list of all files belonging to the 'CAS Bundle' is
 %% given in the file `manifest.txt'.
@@ -17,16 +29,16 @@
 %% Template article for cas-dc documentclass for 
 %% double column output.
 
-\documentclass[a4paper,fleqn]{cas-dc}
+%\documentclass[a4paper,fleqn]{cas-dc}
 
 % If the frontmatter runs over more than one page
 % use the longmktitle option.
 
-%\documentclass[a4paper,fleqn,longmktitle]{cas-dc}
+\documentclass[a4paper,fleqn,longmktitle]{cas-dc}
 
-%\usepackage[numbers]{natbib}
+\usepackage[numbers]{natbib}
 %\usepackage[authoryear]{natbib}
-\usepackage[authoryear,longnamesfirst]{natbib}
+%\usepackage[authoryear,longnamesfirst]{natbib}
 
 %%%Author macros
 \def\tsc#1{\csdef{#1}{\textsc{\lowercase{#1}}\xspace}}
@@ -35,13 +47,6 @@
 \tsc{SC}
 \tsc{CFB}
 %%%
-
-% Uncomment and use as if needed
-%\newtheorem{theorem}{Theorem}
-%\newtheorem{lemma}[theorem]{Lemma}
-%\newdefinition{rmk}{Remark}
-%\newproof{pf}{Proof}
-%\newproof{pot}{Proof of Theorem \ref{thm}}
 
 \begin{document}
 \let\WriteBookmarks\relax
@@ -78,33 +83,34 @@
     country={The Netherlands}}
 
 
-% Abstract
+% Abstract\\
 \begin{abstract}
+	
+The quintessential principle of the circular economy is to minimise material consumption and waste generation. Thus, identifying and quantifying waste and material flows is critical. Life Cycle Assessment (LCA) is a powerful quantitative method for this, especially given its capacity to expose the details of an activity's entire life cycle, often guiding the implementation of circular principles to where they could be most effective.
 
-%? reviewer 2 - comment 2 - simplify language
-The quintessential principle of the circular economy is to minimise material consumption and waste generation. Thus, identifying and quantifying waste and material flows is critical. Life Cycle Assessment (LCA) is a powerful method, given its capacity to pinpoint hotspots of environmental impact throughout an activity's life cycle, where the implementation of circular principles could be most effective.
+Pursuant to these goals the authors have developed 'T-reX', an analytical tool for LCA, written in Python. T-reX extends on the existing computational ecosystem centered on Brightway and Premise and can facilitate the quantification of user-defined supply chain demands for activities in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners, integrating methods to aggregate and analyse demand inventories that could expose hotspots of hidden risk.
 
-We introduce T-reX, a Python tool extending the Brightway computational ecosystem to allow facile quantification of user-defined supply chain demands in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
-
-A case study of five lithium-ion batteries demonstrates T-reX's utility, quantifying categorised waste and material inventory footprints and their potential environmental burdens. T-reX can aid sustainable decision-making and contribute to the development of a `circular economy' by facilitating analysis of material consumption and waste generation in LCA.
+With a simple case study using Lithium-ion batteries, we demonstrate some of T-reX's potential by detailling and exploring aspects of their waste and material footprints. Since such footprints are often linked to negative externalities, T-reX could support sustainable decision-making and contribute to the development of the circular economy by promoting the understanding of our material consumption and waste generation.
 
 \end{abstract}
 
 % Keywords
-\verb+\begin{keyword}+ \verb+circular economy+ \verb+waste+ \verb+material+ \verb+life cycle assessment+ \verb+critical raw material+ \verb+supply chain+ \end{keyword}
+\begin{keywords} 
+circular economy \sep waste \sep material \sep life cycle assessment \sep critical raw material \sep supply chain
+\end{keywords}
 
 % Graphical abstract
 \begin{graphicalabstract}
-  \includegraphics{figs/cas-grabs-TREX.pdf}
+  \includegraphics{figs/T-reX_graphical-abstract.png}
 \end{graphicalabstract}
 
 \clearpage
 
-%% GRAPHICAL ABSTRACT
+%% GRAPHICAL ABSTRACT FULL SIZE
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=\textwidth]{figs/grabs_T-reX_graphical-abstract.pdf}
-	\caption{Graphical abstract of the T-reX program for waste and material footprinting in Life Cycle Assessment}
+	\includegraphics[width=\textwidth]{figs/T-reX_graphical-abstract.png}
+	\caption{The graphical abstract of the T-reX program developed for waste and material footprinting in Life Cycle Assessment}
 	\label{fig:graphical_abstract}
 \end{figure}
 
@@ -112,7 +118,7 @@ A case study of five lithium-ion batteries demonstrates T-reX's utility, quantif
 
 % Switch to landscape for the included PDF
 \newgeometry{landscape}
-\includepdf[pages=1, width=\textheight]{figs/grabs_T-reX_graphical-abstract.pdf}
+\includepdf[pages=1, width=\textheight]{figs/T-reX_graphical-abstract.pdf}
 \restoregeometry % Restore the original geometry
 
 
@@ -126,15 +132,10 @@ A case study of five lithium-ion batteries demonstrates T-reX's utility, quantif
     \item Presents a case study of five lithium-ion batteries to demonstrate T-reX's utility
 \end{highlights}
 
-% Keywords
-\begin{keyword}
-  circular economy \sep{}waste \sep{}material \sep{}life cycle assessment \sep{}critical raw material \sep{}supply chain
-\end{keyword}
 
 %\nocite{*}
 
 \maketitle
-
 
 % list of abbreviations
 \begin{table}[H]
@@ -187,8 +188,7 @@ A case study of five lithium-ion batteries demonstrates T-reX's utility, quantif
 \section{Introduction}\label{sec:introduction}
 \subsection{Introduction to T-reX}\label{sec:intro-trex}
 
-%? reviewer 2 - comment 2 - simplify language
-Development of a circular economy has become a central focus in the pursuit of sustainability objectives toward curtailment of our environmental footprint within planetary boundaries~\citep{eu2019greendeal, eu2020circ,nl2023ceplan,nl2016ceplan,pardo2018ce,ellenmacarthur2015ce}. Fundamental to this development is a decrease in primary material consumption and a reduction of life cycle waste through the implementation of `re-X' strategies (e.g., refuse, rethink, design for---and implementation of---repair, remanufacturing and recycling)~\citep{reike2018rex, eu2022ecodesign, eu2022repair, eu2015reman}. In addition to circular economy goals, contemporary geopolitical tensions in an ever more globalised economy have highlighted the vulnerability of many advanced economies to intentional supply disruptions---wrought as an act of competition or even outright hostility~\citep{jrc2023supplychain,hartley2024cepolitics,berry2023crm}.
+The development of a circular economy has become a central focus in the pursuit of sustainability objectives toward curtailment of our environmental footprint within planetary boundaries~\citep{eu2019greendeal, eu2020circ,nl2023ceplan,nl2016ceplan,pardo2018ce,ellenmacarthur2015ce}. Fundamental to this development is a decrease in primary material consumption and a reduction of life cycle waste through the implementation of `re-X' strategies (e.g., refuse, rethink, design for---and implementation of---repair, remanufacturing and recycling)~\citep{reike2018rex, eu2022ecodesign, eu2022repair, eu2015reman}. In addition to circular economy goals, contemporary geopolitical tensions in an ever more globalised world have highlighted the vulnerability of many advanced economies to intentional supply disruptions---wrought as an act of competition or even outright hostility~\citep{jrc2023supplychain,hartley2024cepolitics,berry2023crm}.
 
 The concept of the `footprint' as an environmental sustainability indicator began with the Ecological Footprint (EF)~\citep{wackernagel1994ecologicalfootprint} and after being popularised by the Carbon Footprint (CF)~\citep{cucek2015environmentalfootprints} the `footprint family' has adopted many additional metrics---albeit without yet coalescing into a coherent or consistent framework~\citep{giampietro2014footprintstonowhere, vanham2019footprints,ridoutt2013footprints}. More recently, the footprint collection has been extended to include the Material Footprint (MF)~\citep{weidmann2013materialfootprint}, which is often encountered in the `macro methods' of Industrial Ecology (IE), such as environmentally Extended Input-Output Analysis (EEIOA)~\citep{lenzen2022materialfootprint} and Material Flow Analysis (MFA)~\citep{schaffartzik2013mfafootprint}. Whether at the level of products, entire industries, nations, or even continents, the material footprint aims to quantify the total material consumed in supply chains. It has been shown that the MF can be `highly representative of damage to human health and biodiversity'~\citep{steinmann2017resourcefootprints} and indeed, this metric was recently beatified by the United Nations (UN), becoming the `core official indicator' for targets 8.4 and 12.2 of the Sustainable Development Goals (SDGs)~\citep{lenzen2022materialfootprint}.
 
@@ -196,8 +196,6 @@ Though steadily emerging~\citep{laurenti2016wastefootprint,demirer2019wastefootp
 
 WF and MF, the two metrics of focus in the study, can provide a comprehensive assessment of potential environmental impacts across the supply chain, encapsulating both resource use and pollution/waste generation, while offering insights at diverse scales, from individual activities to global systems, facilitating communication with a diverse range of stakeholders. Thus, to reduce the negative externalities of human consumption and improve supply chain resilience, it is essential to uncover, disaggregate, and quantify the material and waste footprints of human activities in as much detail as possible~\citep{bisinella2024wastelca, towa2020wastefootprint,berger2020mineralsinlca,sonderegger2020mineralsinlca}.
 
-%? reviewer 2 - comment 1 - COMPARISON OF T-REX TO OTHER TOOLS
-%! fix
 Life Cycle Assessment (LCA) is a useful method for the holistic estimation of the environmental impacts of products and processes. LCA can comprehensively evaluate impacts across the entire life cycle---from `cradle to grave'--- often identifying critical hotspots and guiding prioritisation of action~\citep{guinee2011lca}. The standard approach is to apply Life Cycle Impact Assessment (LCIA) methods (such as ReCiPe~\citep{huijbregts2016recipe} and CML~\citep{guinee2002cml}), which convert the inventory data into a set of impact scores based on the sum of the elementary flows (those between the technosphere and biosphere). These scores can then be aggregated into one metric for each impact category that can be compared across products and processes. Extending on standard LCA is \textit{ex-ante} LCA, which employs future scenarios to construct `prospective background databases' to predict the impacts of supply chains that have not yet been (and may never be) realised~\citep{cucurachi2018exante,blanco2020exante}.
 
 Several LCIA methods include, to some extent, waste generation (Swiss Eco-Factors, EDIP and EN15804)~\citep{foen2021ecofactors,hauschild2003edip,cen2019en15804} and material consumption (Crustal Scarcity Indicator (CSI) and Swiss Eco-Factors~\citep{arvidsson2020csi,foen2021ecofactors}). These methods, however, are generally limited in their scope (especially for waste), do not allow for flexible quantification of specific waste and material types, and often provide results in characterised units that are abstract or difficult to interpret (e.g., \textit{Ümweltbelastungspunkte} (UBP) [English: environmental impact points] in the case of the Swiss Eco-Factors)~\citep{su2020sustainableproddev}.
@@ -264,7 +262,7 @@ In the default configuration of T-reX, there are 10 waste categories which are t
 
 In addition to these waste categories, T-reX can incorporate any number of material demand categories, the defaults being based on the EU Critical Raw Materials (CRM) list for 2023~\citep{eu2023crmstudy}, which contains 30 materials considered essential to the EU economy and also at risk of supply disruption. Especially valuable in the case of CRMs is T-reX's ability to uncover and quantify these threads of background consumption, which can be inconspicuously embedded in products or consumed in seemingly distant supply chain activities. The identity of the materials considered, and their categorical groupings, are easily customisable by the user. The full list of 59 materials included in the default configuration is provided in the supplementary material in~\autoref{sec:supplementary}.
 
-Following the logic of the standard LCA models \cite{ecoinvent2016version3, guinee2004economicallocation}, the logic for the identification of material exchanges with T-reX differs from that used to identify waste exchanges in that the search queries are based on the names of the relevant `market activities' for the material of interest rather than keywords in the exchange's name. A useful feature of T-reX is that, in cases where there are several markets for one material or material group, the program can aggregate these flows. For example, exchanges with markets for the rare-earth-elements (REEs) `market for cerium', `market for dysprosium', `market for erbium', etc.\ can be aggregated into a single indicator category for REEs. Similarly, the total demand for all critical raw materials (CRMs) can be calculated in the same manner.
+Following the logic of the standard LCA models \cite{ecoinvent2016version3, guinee2004economicallocation}, the identification of material exchanges with T-reX differs from that used to identify waste exchanges. That is, the search queries are based on the names of the relevant `market activities' for the material of interest rather than keywords in the exchange's name. A useful feature of T-reX is that, in cases where there are several markets for one material or material grouping, the program can aggregate these flows. For example, exchanges with markets for the rare-earth-elements (REEs) `market for cerium', `market for dysprosium', `market for erbium', etc.\ can be aggregated into a single indicator category for REEs. Similarly, the total demand for all critical raw materials (CRMs) can be calculated in the same manner.
 
 In these methods, the material demand is calculated based on the total mass that is extracted from the environment, thus, their focus is essentially solely on the mining-related exchanges that bring these materials from the biosphere into the technosphere.
 
@@ -325,7 +323,7 @@ Additional to the present-day databases, T-reX created prospective database sets
 For each pathway, databases (at five-year time intervals) were created with \texttt{premise}~\citep{sacchi2022premise} and processed with T-reX for the period between 2020 and 2100.
 
 \subsubsection{LCA calculations}
-For each combination of activity, method, and database, a total summation was calculated along with details of the top contributing processes. Additionally, for the T-reX methods, a contribution analysis was performed with the \texttt{bwa.compare\_activities\_by\_grouped\_leaves} function from the \texttt{brightway2\_analyzer} package~\citep{mutel2016brightway2analyzer}, a component of the \texttt{brightway} ecosystem. This function performs one subjective method of graph traversal on the impact matrix of the LCA object to a specified cutoff. The groups of the resulting leaves are collected by their Cooperative Patent Classification (CPC) codes [giving a representation of industry sector involvement]. T-reX provides, essentially, a tabulation of internal exchanges and an insight into the products and sectors in the supply chain of the activity that carry the most substantial responsibility for the final waste generation or material demand footprints.
+For each combination of activity, method, and database, a total summation was calculated along with details of the top contributing processes. Additionally, for the T-reX methods, a contribution analysis was performed with the \texttt{bwa.compare\_activities\_by\_grouped\_leaves} function from the \texttt{brightway2\_analyzer} package~\citep{mutel2016brightway2analyzer}, a component of the \texttt{brightway} ecosystem. This function performs one subjective method of graph traversal on the impact matrix of the LCA object to a specified cutoff. The groups of the resulting 'leaves' are collected by their Cooperative Patent Classification (CPC) codes [giving a representation of industry sector involvement]. T-reX provides, essentially, a tabulation of internal exchanges and an insight into the products and sectors in the supply chain of the activity that carry the most substantial responsibility for the final waste generation or material demand footprints.
 
 \subsection{T-reX tool}\label{sec:results-T-reX}
 
@@ -435,7 +433,7 @@ T-reX elucidates the complex relationships between material demand, waste genera
 
 % Back matter
 \section*{Data availability}
-All data used is publically available online under the noted sources. T-reX is fully open source and dedicated to the public domain under the CC-0 licence. It is installable via the Python Package Index (PyPI) under the name `T\_reX\_LCA' \url{https://pypi.org/project/T_reX_LCA}.
+All data used is publicly available online under the noted sources. T-reX is fully open source and dedicated to the public domain under the CC-1.0 licence. It is installable via the Python Package Index (PyPI) under the name `T\_reX\_LCA' \url{https://pypi.org/project/T_reX_LCA}.
 The full source code for T-reX is archived by Zenodo at \url{https://zenodo.org/records/10925359} and the development server is hosted by Github at \url{https://www.github.com/Stew-McD/T-reX}. A user guide with comprehensive documentation are presented at \url{https://T-reX.readthedocs.io}.
 
 % \section*{CRediT authorship contribution statement} % STANDARD TEXTUAL VERSION
@@ -444,7 +442,7 @@ The full source code for T-reX is archived by Zenodo at \url{https://zenodo.org/
 % \textbf{Stefano Cucurachi:} Conceptualization, Writing - review \& editing, Supervision, Project administration, Funding acquisition.
 % \textbf{Carlos Felipe Blanco:} Conceptualization, Writing - review \& editing, Supervision, Project administration, Funding acquisition.
 
-\section*{CRediT authorship contribution statement} % VISUAL VERSION
+\section*{CRediT authorship contribution visualisation} % IMPROVED VISUAL VERSION
 
 \begin{itemize}[noitemsep]
     \item \textbf{SCM}: Stewart Charles McDowall

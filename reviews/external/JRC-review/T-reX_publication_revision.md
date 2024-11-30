@@ -16,22 +16,19 @@ We would like to thank you for the time and attention that you have contributed 
 
 *“I think that this manuscript needs to be ameliorated.”*
 
-### Summary
+### Summary of review
 
  - More detail for case study requested, also sensitivity/uncertainty analysis
 
         - Comment 1.1: system boundary
-
         - Comment 1.2: input-output data
-
-        - Comment 1.3: material footprint data (more discussion, and ‘overall material footprint’
-
+        - Comment 1.3: material footprint data (more discussion, and ‘overall material footprint’)
         - Comment 1.4: sensitivity analysis or uncertainty analysis
 
 ### Author responses
 
 #### General response
-As the reviewer points out, the case study could, indeed, benefit from more detail. Additional explanation has been added to the main text (XX) and further data added to the supplementary information (sections X, Y). Furthermore, the complete datasets are publicly available on Github and Zenodo. It is important to note, however, that the case study was included only to demonstrate some potential use cases of T-reX and not to provide a comprehensive waste and material footprint analysis of the Li-ion battery market. The case study is not intended to be intensive or exhaustive and the results are not intended to be used for decision-making purposes. The authors would like the focus of the paper to be on the T-reX program. We have updated the text to make this more explicit to the reader (in the methodology, results and discussion sections).
+As the reviewer points out, the case study could, indeed, benefit from more detail. Additional explanation has been added to the main text and there is detailled discussion in the supplementary information (especially appendices 3 and 4). Furthermore, the complete datasets are publicly available on Github and Zenodo. The case study was included only to demonstrate some potential use cases of T-reX and not to provide a comprehensive waste and material footprint analysis of the Li-ion battery market. This is detailled in the abstract, as well as subsection 2.2 of the methods and 3.2 of the results. The case study is not intended to be intensive or exhaustive and the results are not intended to be used for decision-making purposes. The authors intent is for the focus of the paper to be on the T-reX program itself.
 
 #### Specific responses
 
@@ -41,7 +38,7 @@ As the reviewer points out, the case study could, indeed, benefit from more deta
 
 ##### Author response 1.1 - Case study system boundary
 
-A figure could be added to the supplementary information to illustrate the system boundary of the case study. However, given the limitations on space, the authors believe that it would not add any perteniant information. The system boundary is very simple, as defined in the text (methodology section X.X lines Y-Z). That is, exactly the inventory of the Li-ion battery markets as modelled in ecoinvent version 3.9.1. Essentially, a single market activity for each battery, to serve as a basic example.
+A figure could be added to the supplementary information to illustrate the system boundary of the case study. However, given the limitations on space, and that the authors feel it would not add any perteniant information. The system boundary is very simple, as defined in the text (methodology section 2.2). That is, exactly the inventory of the Li-ion battery markets as modelled in ecoinvent version 3.9.1. Essentially, a single market activity for each battery, to serve as a basic example.
 
 ##### Reviewer comment 1.2 - Input-output data
 
@@ -49,75 +46,80 @@ A figure could be added to the supplementary information to illustrate the syste
 
 ##### Author response 1.2 - Input-output data
 
-As described in the methodology section (line X-Y), the inventory data is taken directly from the respective activities in the ecoinvent database (version 3.9.1). The input-output data used in the case study is directly that given by the ecoinvent database, without amendment. Full details are provided in the supplementary information of this manuscript (Appendix XX) and complete data is available in the [Github](https://github.com/Stew-McD/T-reX_Publication) and Zenodo repositories.
-        
-    #### Comment 1.3 - Material footprint data
+As described in the methodology section (subsection 2.2), the inventory data is taken directly from the respective activities in the ecoinvent database (version 3.9.1). The input-output data used in the case study is directly that given by the ecoinvent database, without amendment. Full details are provided in the supplementary information of this manuscript (appendix 3 and 6) and complete data is available in the [Github](https://github.com/Stew-McD/T-reX_Publication) and [Zenodo](https://zenodo.org/records/10925359) repositories.
 
-        *“Result and Discussion section; this study was present some part of material footprint. I recommend further discussions and interpretation the result. In addition, it is necessary to present the overall material footprint of battery.”*
+##### Reviewer comment 1.3 - Material footprint data
 
-    #### Response 1.3 - Material footprint data
+*“Result and Discussion section; this study was present some part of material footprint. I recommend further discussions and interpretation the result. In addition, it is necessary to present the overall material footprint of battery.”*
 
-        The authors have added to the discussion section (line X-Y) to make this context more clear to the reader. As detailled in the lines X-Y and Y-Z of the methodology section, lines X-Y of the results section, and lines X-Y of the discussion section, the material footprint results calculated by T-reX are aggregations of the exchanges in the model system that are targeted by the user’s search criteria (in this case, a default selection of XX materials and their flows as presented by the ecoinvent database). The authors believe that it would be incorrect to present the reader with a ‘total material footprint’ based on the sum of the material footprints of the individual materials, as the LCA models only represent certain aspects of the system. A ‘total material footprint’ without respect for the nature of the material is meaningless, and indeed, one of the strengths of T-reX is to allow the user to pinpoint the materials of interest to them.
+##### Author Response 1.3 - Material footprint data
 
-    #### Comment 1.4 - Sensitivity analysis and uncertainty analysis
+As is mentioned throughout the manuscript, the material footprint results calculated by T-reX are aggregations of the exchanges in the model system that are targeted by the user’s search criteria (in this case, a default selection of 59 materials and their flows as presented by the ecoinvent database and listed in appendix 3, sub section 2 and 3). The authors believe that it would be misleading to present the reader with a ‘total material footprint’ based on the sum of the material footprints of the individual materials, as the LCA models only represent certain aspects of the system. A ‘total material footprint’ without respect for the nature of the material is meaningless, and indeed, one of the strengths of T-reX is to allow the user to pinpoint the materials of interest to them.
 
-        *“Authors should also perform the sensitivity analysis or uncertainty analysis.”*
+##### Reviewer comment 1.4 - Sensitivity analysis and uncertainty analysis
 
-    #### Response 1.4 - Sensitivity analysis and uncertainty analysis
+*“Authors should also perform the sensitivity analysis or uncertainty analysis.”*
 
-        Indeed, this is something that could be done, and would be and interesting extension to the study. However, given that the data for the batteries in this case study is taken directly from the ecoinvent activities and offered as a rudimentary example of the programme’s utility, the authors believe that a sensitivity or uncertainty analysis on the case study results is not necessary or relevant. The authors believe that the presentation of this could be distracting from the message of the paper. For clarity, however, the authors have added to the discussion on the limitations of the case study results (line X-Y) to make this more apparent to the reader.
+#### Author response 1.4 - Sensitivity analysis and uncertainty analysis
+
+Indeed, this is something that also could be done, and may yet make and interesting extension for the next study. However, given that the data for the batteries in this case study is taken directly from the ecoinvent activities and offered as a rudimentary example of the programme’s utility, the authors believe that a sensitivity or uncertainty analysis on the case study results is not called for. The authors believe that the presentation of this could be distracting from the message of the paper. For clarity, however, the authors have added further to the discussion on the limitations of the case study results (paragraphs 4-6 and subsection 4) to make this more apparent to the reader.
 
 -------
 
 ## Reviewer Two
 
-    *“The manuscript is well-written and presents a clear argument. I had a few minor suggestions.”*
+*“The manuscript is well-written and presents a clear argument. I had a few minor suggestions.”*
 
-### Reviewer Two - Summary
+### 2. Reviewer Two
+
+#### Summary of this review
 
         - Expand comparison with existing methods
         - Simplify some of the language
         - Expand on the future developments and applications of T-reX
-        - Resolution of graphical abstract
+        - Include higher resolution version of graphical abstract
 
-### Reviewer Two - Author responses
+#### Specific responses
 
-    #### Comment 2.1 - To expand on the comparison with existing methods
+##### Reviewer comment 2.1 - To expand on the comparison with existing methods
 
-            *“To clearly communicate the novelty of this work, the author may consider emphasizing explicit Comparison with Existing Methods. Although section 3 has comparisons, it’s hard to tell the differences between T-rex with the existing LCIA methods (i.e CO2 emissions/waste). Providing a detailed comparison of T-reX with existing LCA and LCIA methods will be helpful to justify the novelty.”*
-        
-    #### Response 2.1 - To expand on the comparison with existing methods
+*“To clearly communicate the novelty of this work, the author may consider emphasizing explicit Comparison with Existing Methods. Although section 3 has comparisons, it’s hard to tell the differences between T-rex with the existing LCIA methods (i.e CO2 emissions/waste). Providing a detailed comparison of T-reX with existing LCA and LCIA methods will be helpful to justify the novelty.”*
 
-            As the reviewer correctly points out, there are many simalarities between the footprints calculated by T-reX, and that of some exiting LCIA methods. Indeed, the choice of the term 'pseudo-LCIA' is derived from this. The main difference lies in directness of T-reX aggregations, with comparison to the abstracted methods such as Crustal Scarcity Potential, for example. The authors have expanded the comparison with existing methods by adding more specific details in the relevant sections. In the introduction, this is subsection 1.1 (starting at line 73 on to 1.1.1 and 1.1.2). In the methodology, this is 2.1.2, starting at line 244). In the results section, this is subsection 3.2.5 and 3.2.6. In the discussion, this is first two paragraphs (lines 389 - 411)
+##### Author response 2.1 - To expand on the comparison with existing methods
 
-    #### Comment 2.2 - To simplify some of the language
+As the reviewer correctly points out, there are many simalarities between the inventory footprints calculated by T-reX, and that of some exiting LCIA methods. Indeed, the choice of the term 'pseudo-LCIA' is derived from this, because the calculation strategy is very similar to LCIA methods in general. Apart from the added functionality of T-reX, one main difference lies in directness of T-reX aggregations, with comparison to the abstracted methods such as Crustal Scarcity Potential, for example. The authors have expanded the comparison with existing methods by adding more specific details in the relevant sections. In the introduction, this is subsection 1.1 (paragraphs 3-5) and 1.2.1 (paragraph 3). In the methodology, this is 2.1.2, paragraphs 6-7 and section 3.3.2 paragraph 3). In the results section, this is subsection 3.2.5 and 3.2.6. In the discussion, this is first two paragraphs (lines 389 - 411). Additionally, appendix 3, section 3.3.2, paragraph 3 and 4 cover this in more detail and some of this material has been brought forward to the methods section for more prominance (subsection 2.1.2 paragraph 7-8).
 
-            *"There are sections where the language can be simplified for better clarity without losing technical precision. For example, the abstract succinctly summarizes the study. However, consider adding a sentence on the main findings from the case study to give a complete overview. The phrase ”frantic pursuit of sustainability objectives” in the introduction could be toned down to “dedicated pursuit of sustainability objectives” for a more neutral tone”*
+##### Reviewer comment 2.2 - To simplify some of the language
 
-    ####  Response 2.2 - To simplify some of the language
+*"There are sections where the language can be simplified for better clarity without losing technical precision. For example, the abstract succinctly summarizes the study. However, consider adding a sentence on the main findings from the case study to give a complete overview. The phrase ”frantic pursuit of sustainability objectives” in the introduction could be toned down to “dedicated pursuit of sustainability objectives” for a more neutral tone”*
 
-            The authors have restructured the abstract to include reference to the case study results (line X). Additionally, the language in the text has been amended to improve clarity and purvey a more neutral tone, particularly the first sentence of the abstract and the first paragraph of the introduction.
+#####  Author response 2.2 - To simplify some of the language
 
-    #### Comment 2.3 - To expand on the future developments and applications of T-reX
+The authors have restructured the abstract to include more reference to the case study (paragraph 3). Additionally, the language in the text has been amended to improve clarity and purvey a more neutral tone, particularly the first sentence of the abstract and the first paragraph of the introduction.
 
-        ”A discussion on potential future developments and applications of T-reX will be helpful”
+##### Reviewer comment 2.3 - To expand on the future developments and applications of T-reX
 
-    #### Response 2.3 - To expand on the future developments and applications of T-reX. 
-    
-        The authors have expanded the discussion on potential future developments and applications of T-reX in the discussion section (lines X-Y [second paragraph]). The authors hope that this will provide the reader with a better understanding of the potential of T-reX, as well as its limitations and their relation to some of the challenges in our field, most notably, the need for more comprehensive and reliable data on which to build our models.
+*”A discussion on potential future developments and applications of T-reX will be helpful”*
 
-         The publication portal rendered the resolution of the graphical abstract in this way. It was an oversight from the authors not to correct this. The graphical abstract in is available in its full glory and in various formats on the T-reX documentation website and in the Github repositories. The authors will ensure that the graphical abstract is presented in the final publication as a vector graphic, or in a high resolution raster format.
+##### Author response 2.3 - To expand on the future developments and applications of T-reX. 
+
+The authors have expanded the discussion on potential future developments and applications of T-reX in the discussion section paragraphs 4 and 5). The authors hope that this will provide the reader with a better understanding of the potential of T-reX, as well as its limitations and their relation to some of the challenges in our field, most notably, the need for more comprehensive and reliable data on which to build our models.
+
+
+##### Reviewer comment 2.4 -  The graphical of abstract (low resolution figure) is hard to read
+
+##### Author response 2.4 -  The graphical of abstract (low resolution figure) is hard to read
+
+The publication portal rendered the resolution of the graphical abstract in this way. It was an unfortunate oversight from the authors not to correct this in the initial submission. The graphical abstract in is now also available in various formats and resolutions in the portal submission as well in the online material that is available with the software.
 
 ## Reviewer Three
-        
+
         “I think that the paper presents an interesting and novel method to assess waste generation and consumption of material in systems, but some aspects need a more extensive explanation.”
 
 3.0 Summary
 
     * Clarification on the difference between T-reX and LCI
-                                                            
     * Clarification on the terminology ‘pseudo-LCIA’
-    
     * Clarification on the single score calculation of T-reX
 
 ### Major comments
@@ -128,12 +130,6 @@ As described in the methodology section (line X-Y), the inventory data is taken 
 
     #### Response 3.1.1 - Clarification on the difference between T-reX and LCI
 
-    #### Comment 2.4 - Resolution of graphical abstract
-
-            “the graphical of abstract (low resolution figure) is hard to read.”
-
-    #### Response 2.4 - Resolution of graphical abstract
-        
             One significant difference, and a highlight of the method of the T-reX program is how it makes it easy to identify "hotspots" and perform contribution analysis. Furthermore, the strength of T-reX is to make these calculations simple and easily repeatable (in the way that the databases are manipulated, and the footprints calculated as if they were LCIA methods). The relevant sections have been refined with the aim of more clearly communicating these differences.
 
     #### Comment 3.1.2 - Clarification/replacement of the terminology ‘pseudo-LCIA’
@@ -142,7 +138,7 @@ As described in the methodology section (line X-Y), the inventory data is taken 
 
     #### Response 3.1.2 - Clarification/replacement of the terminology ‘pseudo-LCIA’
 
-            Following from the response to the previous comment, the authors agree that the distinction between LCI and LCIA is critical and the text has been refined so as to make this more explicit (lines X,Y in the methodology, and lines X-Y in the discussion). The choice of the term ‘pseudo-LCIA method’ derives from the fact that the T-reX methods are integrated into the code in the same way as LCIA methods. This structure allows for a more user-friendly calculation of these LCI results, being customisable and easy to implement in existing frameworks. The authors have rephrased the relevant sections of the text to make this distinction more clear to the reader (lines X-Y, X-Y).
+            Following from the response to the previous comment, the authors agree that the distinction between LCI and LCIA is critical and the text has been refined so as to make this more explicit. The choice of the term ‘pseudo-LCIA method’ derives from the fact that the T-reX methods are integrated into the code in the same way as LCIA methods. This structure allows for a more user-friendly calculation of these LCI results, being customisable and easy to implement in existing frameworks. The authors have rephrased the relevant sections of the text to make this distinction more clear to the reader.
 
     #### Comment 3.1.3 - Clarification on the single score calculation of T-reX
 
@@ -158,8 +154,7 @@ As described in the methodology section (line X-Y), the inventory data is taken 
         “In general, when you refer to the SM section 6, please indicate also the sub-section.”
     
     Response: 
-        This has been corrected in the revised manuscript (line X).
-    
+        This has been corrected in the revised manuscript 
     Comment: 
         “In general, try to avoid putting words in ’’ and use this only when it is strictly necessary (e.g. line 433: why did you write ‘circular economy’ and not simply circular economy?)”
     
