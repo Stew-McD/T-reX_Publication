@@ -1,0 +1,244 @@
+%% Use the option review to obtain double line spacing
+%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,authoryear]{elsarticle}
+\documentclass[review,3p,authoryear]{elsarticle}
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls. If you prefer to use the old commands
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+\usepackage{booktabs}
+% ---------------------------------------------------------------------
+%             FOR DRAFTING / REVIEW (DELETE BEFORE SUBMISSION)
+% ---------------------------------------------------------------------
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[T1]{fontenc}
+\usepackage[british]{babel}
+\usepackage{microtype}
+\usepackage[tt=false]{libertine}
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{33,150,209}
+\definecolor{red}{RGB}{255,0,0}
+\usepackage{xurl}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{lineno}
+\usepackage{float}
+\setlength{\linenumbersep}{5pt}
+% Save the old \texttt command
+\let\oldtexttt\texttt
+% Redefine the \UrlFont to use a smaller typewriter font
+\renewcommand{\UrlFont}{\ttfamily\small}
+% Redefine the \texttt command to use a smaller font size and allow line breaks
+\renewcommand{\texttt}[1]{{\ttfamily\small\nolinkurl{#1}}}
+
+\usepackage{tcolorbox}
+\newcommand{\cbox}[1]{
+    \begin{tcolorbox}[hbox, colback=red!5!white, colframe=red!65!black, boxrule=0.25pt, boxsep=2pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+        \small\sffamily #1
+    \end{tcolorbox}
+    }
+    
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+    % ------------------------------------------------------
+    
+    \journal{Resources, Conservation and Recycling}
+    
+\begin{document}
+\vspace{20em}
+\includegraphics[width=10cm]{graphical-abstract.pdf}
+
+\clearpage
+% \newpage
+\linenumbers{}
+
+% SPOTLIGHTS (5 bullet points, max 120 characters each)
+
+{\Large Spotlights}
+\vspace{1em}
+\begin{itemize}
+    % Bullet 1: Critical context and background information on the problem addressed
+    \item Tracking waste and material flows is essential for developing supply chain resilience and the circular economy
+          % Bullet 2: A brief overview of the key finding of the study (or findings if necessary)
+    \item T-reX was developed to quantify waste and material footprints of activities in life cycle assessment (LCA) databases
+          % Bullet 3: The most radical, creative, disruptive or innovative aspect of the manuscript
+    \item T-reX is an adaptable and extensible open-source Python tool complementing the \texttt{brightway} LCA framework and \texttt{ActivityBrowser},
+          % Bullet 4: The significance of the results to the environment, economics, or society
+    \item T-reX can be used to identify pre-consumer waste generation and material demand hotspots often hidden in supply chains
+          % Bullet 5: Future vision or the most important implications for continued research
+    \item Improved data availability and quality would enable more detailed and accurate waste and material footprinting
+\end{itemize}
+
+%% GRAPHICAL ABSTRACT
+% \begin{graphicalabstract}
+%     \includegraphics[width=8cm]{graphical-abstract.pdf}
+% \end{graphicalabstract}
+%% RESEARCH HIGHLIGHTS (3-5 bullet points, max 85 characters each)
+
+\vspace{4em}
+
+\begin{highlights}
+    \item T-reX, a new open-source program for quantifying waste and material flows in Life Cycle Assessment (LCA)
+    \item Assesses supply risks by calculating demand inventories for critical materials
+    \item Simplifies quantification of user-specified waste and material footprint categories
+    \item Rapidly identifies hotspots of waste generation and material demand in supply chains
+    \item Presents a case study of five lithium-ion batteries to demonstrate T-reX's utility
+\end{highlights}
+
+
+\begin{frontmatter}
+
+    \title{T-reX: Quantifying waste and material footprints in current and future Life Cycle Assessment (LCA) databases}
+    \author[1]{Stewart Charles McDowall\corref{cor1}}
+    \ead{s.c.mcdowall@cml.leidenuniv.nl}
+    \author[1]{Elizabeth Lanphear}
+    \author[1]{Stefano Cucurachi}
+    \author[1]{Carlos Felipe Blanco}
+
+    \cortext[cor1]{Corresponding author:}
+
+    \affiliation[1]{
+        organization={Institute of Environmental Sciences (CML), Leiden University},
+        addressline={P.O. Box 9518},
+        city={Leiden},
+        postcode={2300 RA},
+        state={South Holland},
+        country={The Netherlands}}
+
+    \begin{abstract}
+        % \cbox{Abstract word count: 150, Limit: 150}
+        The quintessential principle of the `circular economy' is to minimise material consumption and waste generation. Thus, identifying and quantifying waste and material flows is critical. Life Cycle Assessment (LCA) is a powerful method for this, given its capacity to pinpoint hotspots of environmental impact throughout an activity's life cycle, where the implementation of circular principles could be most effective.
+
+        We introduce T-reX, a Python tool extending the brightway ecosystem, to allow facile quantification of user-defined supply chain demands in current and prospective scenarios. T-reX streamlines database manipulation for LCA practitioners and integrates methods to aggregate and analyse waste and material flows, facilitating rapid hotspot identification.
+
+        A case study of five lithium-ion batteries demonstrates T-reX's utility, quantifying categorised waste and material inventory footprints and their potential environmental burdens. T-reX can aid sustainable decision-making and contribute to the development of `circular economy' by facilitating analysis of material consumption and waste generation in LCA.
+
+
+    \end{abstract}
+
+    % KEYWORDS (max 6)
+    \begin{keyword}
+        circular economy \sep{}waste \sep{}material \sep{}life cycle assessment \sep{}critical raw material \sep{}supply chain
+    \end{keyword}
+
+\end{frontmatter}
+
+% list of abbreviations
+\begin{table}[H]
+    \centering
+    \caption*{List of abbreviations and terminology}\label{tab:abbreviations}
+    \begin{tabular}{ll}
+        \toprule
+        CF                & Carbon Footprint                                                    \\
+        EF                & Ecological Footprint                                                \\
+        CML               & Centrum voor Milieuwetenschappen (Centre for Environmental Science) \\
+        CRM               & Critical Raw Material                                               \\
+        CPC               & Cooperative Patent Classification                                   \\
+        CSI               & Crustal Scarcity Indicator                                          \\
+        CSP               & Crustal Scarcity Potential                                          \\
+        EDIP              & Environmental Design of Industrial Products                         \\
+        EEIOA             & Environmentally Extended Input-Output Analysis                      \\
+        EOL               & End-of-Life                                                         \\
+        FOEN              & Swiss Federal Office for the Environment                            \\
+        IAM               & Integrated Assessment Model                                         \\
+        IE                & Industrial Ecology                                                  \\
+        LCA               & Life Cycle Assessment                                               \\
+        LCI               & Life Cycle Inventory                                                \\
+        LCIA              & Life Cycle Impact Assessment                                        \\
+        LFP               & Lithium Iron Phosphate                                              \\
+        Li-ion            & Lithium-ion                                                         \\
+        LiMn\(_2\)O\(_4\) & Lithium Manganese Oxide                                             \\
+        MF                & Material Footprint                                                  \\
+        MFA               & Material Flow Analysis                                              \\
+        NCA               & Nickel Cobalt Aluminum                                              \\
+        NMC               & Nickel Manganese Cobalt                                             \\
+        PWF               & Product Waste Footprint                                             \\
+        RCP               & Representative Concentration Pathway                                \\
+        ReCiPe            & A standard LCIA method set                                          \\
+        SDG               & Sustainable Development Goals                                       \\
+        SSPs              & Shared Socioeconomic Pathways                                       \\
+        T-reX             & The Tool for analysing re-X in LCA                                  \\
+        UBP               & Umweltbelastungspünkte (Environmental Impact Points)                \\
+        UN                & United Nations                                                      \\
+        WF                & Waste Footprint                                                     \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+%% main text
+\section{Introduction}\label{sec:introduction}
+\input{introduction.tex}
+
+\section{Methodology}\label{sec:methodology}
+\input{methodology.tex}
+
+\section{Results}\label{sec:results}
+\input{results.tex}
+
+\section{Discussion}\label{sec:discussion}
+\input{discussion.tex}
+
+\section{Conclusions}\label{sec:conclusions}
+
+T-reX is an extension to the open-source \texttt{brightway} ecosystem that enables users to calculate the waste and material footprints of any product or service in an LCA database. It `explodes' and reconstructs the database to identify and edit waste and material exchanges and writes matching custom `pseudo' LCIA methods. These exchanges are mirrored in the \texttt{brightway} project as `pseudo-biosphere' flows and thus, the waste and material footprints of any other supply chain flow of interest, such as water, gas, or critical raw materials, can be calculated similarly to existing LCIA methods.
+
+T-reX elucidates the complex relationships between material demand, waste generation, and environmental impacts. This instrument enables detailed exploration of `footprints' and life cycle inventories---modelled externalities of human activities---and examines their connections to supply chain risks and potential environmental damage. T-reX is a step towards a better understanding of these interconnections for the practical realisation of `sustainability' and the `circular economy'.
+
+% Back matter
+\section*{Data availability}
+All data used is publically available online under the noted sources. T-reX is fully open source and dedicated to the public domain under the CC-0 licence. It installable via the Python Package Index (PyPI) under the name `T\_reX\_LCA' \url{https://pypi.org/project/T_reX_LCA}.
+The full source code for T-reX is archived by Zenodo at \url{https://zenodo.org/records/10925359} and the development server is hosted by Github at \url{https://www.github.com/Stew-McD/T-reX}. A user guide with comprehensive documentation are presented at \url{https://T-reX.readthedocs.io}.
+
+% \section*{CRediT authorship contribution statement}
+% \cbox{Co-authors, please check this and change as necessary.}
+% \textbf{Stewart Charles McDowall:} Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing - original draft, Writing - review \& editing, Visualization.
+% \textbf{Elizabeth Lanphear:} Conceptualization, Methodology, Software, Validation, Writing - review \& editing.
+% \textbf{Stefano Cucurachi:} Conceptualization, Writing - review \& editing, Supervision, Project administration, Funding acquisition.
+% \textbf{Carlos Felipe Blanco:} Conceptualization, Writing - review \& editing, Supervision, Project administration, Funding acquisition.
+
+% \subsection*{Alternative CRediT statement}
+\section*{CRediT authorship contribution statement}
+
+\begin{itemize}[noitemsep]
+    \item \textbf{SCM}: Stewart Charles McDowall
+    \item \textbf{EL}: Elizabeth Lanphear
+    \item \textbf{SC}: Stefano Cucurachi
+    \item \textbf{CFB}: Carlos Felipe Blanco
+\end{itemize}
+
+\includegraphics[width=\columnwidth, height=7cm, keepaspectratio]{credit.pdf}
+
+\section*{Declaration of competing interest}
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+\section*{Acknowledgements}
+Part of this research project was financially supported by the European Union's Horizon 2020 research and innovation programme under the grant agreement No. 101058522 (project FutuRaM --- futuram.eu). The authors would like to thank the reviewers for their valuable comments and suggestions.
+
+The authors would like to acknowledge those who were part of the futures thinking small group session at the FutuRaM consortium meeting in Berlin in June 2023 in which the term `T-reX/T(ool)-reX' was coined to name the vision presented by Stewart Charles McDowall of a comprehensive open-source software framework for the study and development of secondary raw material systems. The authors hope to continue the development of T-reX in the service of our shared ideals.
+
+\section{Supplementary material}\label{sec:supplementary}
+The supplementary material supplied with this manuscript contains the following:
+\begin{enumerate}
+    \item Metadata of the T-reX Python package
+    \item Details of the modules and user configuration
+    \item Description of the computational workflow
+    \item Modular flowchart of T-reX
+    \item Example of the terminal output of T-reX
+    \item Example of the terminal output of the case study
+    \item Complete tabulated results of the case study
+    \item Complete visualisations from the case study
+\end{enumerate}
+
+\bibliographystyle{elsarticle-harv}
+\bibliography{references.bib}
+
+% \appendix
+% \section{Example output}
+% \label{app:example_output}
+
+\end{document}
