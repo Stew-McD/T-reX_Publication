@@ -1,18 +1,27 @@
-# T-reX for LCA: Publication repository
+# T-reX for LCA: Publication Repository
 
-This repo contains the manuscript and data associated with the [T-reX](https://github.com/Stew-McD/T-reX) python program developed by the authors for waste and material footprinting in Life Cycle Assessment studies (currently under peer review).
+This repository contains the manuscript and data associated with the [T-reX](https://github.com/Stew-McD/T-reX) Python program, developed by the authors for waste and material footprinting in Life Cycle Assessment (LCA) studies. The manuscript is in the pre-print stage (at 2024-12-01), submitted and reviewed by the journal *Resources, Conservation & Recycling* - [(web link)](https://www.sciencedirect.com/journal/resources-conservation-and-recycling).
 
-<img src="T-reX_logo-300.png" alt="T-reX logo" width="300">
+<div style="text-align: center;">
+    <img src="T-reX_logo-300_noBG.png" alt="T-reX logo" width="300">
+</div>
 
-- See the preprint version of the manuscript [here](https://github.com/Stew-McD/T-reX_Publication/blob/main/home/00_JRR-submission-folder_elsevier-latex-template_COMPLETED/cas-dc-template.pdf)
-- Commented draft versions from are in the [reviews](https://github.com/Stew-McD/T-reX_Publication/blob/main/reviews) directory.
-- Comments and insults are most welcome. If they are short, use the 'issues' tab or email me, otherwise, please annotate the pdf and send it back to me.
-- Drafted according to the submission guidelines for the journal of Resources Conservation and Recycling [(see summary here)](ResourcesConservationAndRecycling_SubmissionRequirements.pdf)
+## Contents
+- See the preprint version of the manuscript [here](https://github.com/Stew-McD/T-reX_Publication/blob/main/home/20241201_T-reX_preprint-main.pdf).
+- The peer review process is documented in the [reviews directory](https://github.com/Stew-McD/T-reX_Publication/blob/main/04_T-reX_manuscript-review-documents).
+- Feedback is welcome!  
+  - For brief comments, use the 'Issues' tab or email me.  
+  - For detailed feedback, annotate the PDF and send it back to me.  
+- Drafted according to the submission guidelines for the journal *Resources, Conservation & Recycling* - [(web link)](https://www.sciencedirect.com/journal/resources-conservation-and-recycling/publish/guide-for-authors).
 
-## Graphical abstract
+## Graphical Abstract
 
-<img src="T-reX_graphical-abstract.png" alt="T-reX graphical abstract" width="800">
+<div style="text-align: center;">
+    <img src="T-reX_graphical-abstract.png" alt="T-reX graphical abstract" width="800">
+</div>
 
-## T-reX method flowcharts
+## T-reX Method Flowcharts
 
-<img src="T-reX_method-flowcharts.png" alt="T-reX method flowcharts" width="500">
+<div style="text-align: center;">
+    <img src="T-reX_method-flowcharts.png" alt="T-reX method flowcharts" width="500">
+</div>
