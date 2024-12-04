@@ -24,3 +24,5 @@ tmp
 latex_files/.other/
 !**/logs/*.log
 **/*.zip
+.vscode
+.trunk
